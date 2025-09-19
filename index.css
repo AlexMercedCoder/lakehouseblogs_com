@@ -1,0 +1,438 @@
+/* ===============================
+   LakehouseBlogs.com — index.css
+   One-page link aggregator
+   Author: Alex Merced
+   =============================== */
+
+/* -------- CSS Reset (modern, minimal) -------- */
+*,
+*::before,
+*::after { box-sizing: border-box; }
+html:focus-within { scroll-behavior: smooth; }
+html, body { height: 100%; }
+body, h1, h2, h3, h4, h5, h6, p, figure, blockquote { margin: 0; }
+img, picture, video, canvas, svg { display: block; max-width: 100%; }
+input, button, textarea, select { font: inherit; }
+a { color: inherit; text-decoration: none; }
+button { border: none; background: none; padding: 0; cursor: pointer; }
+
+/* -------- Design Tokens -------- */
+:root {
+  /* Typography */
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+  /* Spacing scale (4px baseline) */
+  --space-0: 0;
+  --space-1: .25rem;
+  --space-2: .5rem;
+  --space-3: .75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+
+  /* Radii & shadows */
+  --radius-sm: .375rem;
+  --radius-md: .75rem;
+  --radius-lg: 1rem;
+  --shadow-sm: 0 1px 2px rgba(0,0,0,.06);
+  --shadow-md: 0 4px 12px rgba(0,0,0,.08);
+  --shadow-lg: 0 8px 24px rgba(0,0,0,.12);
+
+  /* Light theme colors */
+  --bg: #0b0c10;
+  --card: #ffffff;
+  --surface: #f6f7f9;
+  --text: #0f172a;
+  --text-muted: #475569;
+  --brand: #2f7cf6;      /* Link/brand */
+  --accent: #10b981;     /* Success/active */
+  --warn: #f59e0b;       /* Warn tag */
+
+  /* Borders */
+  --line: #e5e7eb;
+
+  /* Interactive */
+  --focus: 2px solid rgba(47, 124, 246, .5);
+  --chip-bg: #eef2ff;
+  --chip-text: #334155;
+
+  /* Gradients */
+  --hero-grad: radial-gradient(1200px 600px at 90% -10%, rgba(47,124,246,.18), transparent 60%),
+               radial-gradient(1000px 600px at 10% -20%, rgba(16,185,129,.12), transparent 60%);
+}
+
+/* Prefer system dark mode; also allow `.theme-dark` on <html> or <body> */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0b1220;
+    --card: #0f172a;
+    --surface: #0b1220;
+    --text: #e6edf7;
+    --text-muted: #94a3b8;
+    --brand: #69a2ff;
+    --accent: #34d399;
+    --warn: #fbbf24;
+    --line: #1f2a44;
+    --chip-bg: #17223b;
+    --chip-text: #c7d2fe;
+    --shadow-sm: 0 1px 2px rgba(0,0,0,.35);
+    --shadow-md: 0 6px 18px rgba(0,0,0,.4);
+    --shadow-lg: 0 12px 32px rgba(0,0,0,.5);
+  }
+}
+.theme-dark {
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* -------- Base -------- */
+body {
+  font-family: var(--font-sans);
+  color: var(--text);
+  background: var(--surface);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  width: min(1120px, 92%);
+  margin-inline: auto;
+}
+
+/* -------- Header / Hero -------- */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  backdrop-filter: saturate(180%) blur(8px);
+  background: color-mix(in srgb, var(--surface) 80%, transparent);
+  border-bottom: 1px solid var(--line);
+}
+
+.header-inner {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: var(--space-4);
+  padding: var(--space-3) 0;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  font-weight: 800;
+  letter-spacing: .2px;
+  font-size: clamp(1.05rem, 2.5vw, 1.25rem);
+}
+
+.brand__dot {
+  inline-size: .85rem;
+  block-size: .85rem;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--brand), var(--accent));
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--brand) 20%, transparent);
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.btn {
+  padding: .55rem .85rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--line);
+  background: var(--card);
+  color: var(--text);
+  box-shadow: var(--shadow-sm);
+  transition: transform .06s ease, box-shadow .15s ease, background .2s ease;
+}
+.btn:hover { transform: translateY(-1px); box-shadow: var(--shadow-md); }
+.btn--brand {
+  background: var(--brand);
+  color: white;
+  border-color: transparent;
+}
+.btn--brand:hover { filter: brightness(1.05); }
+
+.hero {
+  background: var(--hero-grad);
+  border-bottom: 1px solid var(--line);
+}
+.hero-inner {
+  padding: var(--space-8) 0 var(--space-6);
+  display: grid;
+  gap: var(--space-4);
+}
+.hero h1 {
+  font-size: clamp(1.35rem, 3.2vw, 2rem);
+  font-weight: 800;
+  letter-spacing: .2px;
+}
+.hero p {
+  color: var(--text-muted);
+  max-width: 72ch;
+}
+
+/* -------- Search / Filters -------- */
+.toolbar {
+  display: grid;
+  gap: var(--space-3);
+  padding: var(--space-4) 0 var(--space-2);
+}
+
+.searchbar {
+  position: relative;
+}
+.searchbar input[type="search"] {
+  width: 100%;
+  padding: .85rem 1rem .85rem 2.5rem;
+  border: 1px solid var(--line);
+  background: var(--card);
+  color: var(--text);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  outline: none;
+}
+.searchbar input[type="search"]::placeholder { color: var(--text-muted); }
+.searchbar .icon {
+  position: absolute;
+  inset-inline-start: .85rem;
+  inset-block-start: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  opacity: .65;
+}
+
+/* Horizontal scroll chips for projects (Iceberg, Delta Lake, etc.) */
+.filters {
+  display: flex;
+  gap: var(--space-2);
+  overflow-x: auto;
+  padding-bottom: var(--space-2);
+  scrollbar-width: thin;
+}
+.chip {
+  white-space: nowrap;
+  padding: .45rem .7rem;
+  border-radius: 999px;
+  background: var(--chip-bg);
+  color: var(--chip-text);
+  border: 1px solid color-mix(in srgb, var(--line) 70%, transparent);
+  transition: background .2s ease, color .2s ease, box-shadow .2s ease;
+  box-shadow: var(--shadow-sm);
+}
+.chip:hover { box-shadow: var(--shadow-md); }
+.chip.is-active {
+  background: color-mix(in srgb, var(--brand) 14%, var(--chip-bg));
+  color: color-mix(in srgb, var(--brand) 80%, var(--chip-text));
+  outline: 1px dashed color-mix(in srgb, var(--brand) 50%, transparent);
+  outline-offset: 2px;
+}
+
+/* -------- Year Sections -------- */
+.year-section {
+  margin-top: var(--space-6);
+  scroll-margin-top: 6rem; /* anchor offset below sticky header */
+}
+.year-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  margin-bottom: var(--space-3);
+}
+.year-title {
+  font-weight: 800;
+  font-size: clamp(1rem, 2.2vw, 1.35rem);
+}
+.year-count {
+  font-variant-numeric: tabular-nums;
+  color: var(--text-muted);
+  font-size: .95rem;
+}
+
+/* Optional collapsible behavior (JS toggles .is-collapsed) */
+.year-section.is-collapsed .links-grid { display: none; }
+.toggle-year {
+  padding: .35rem .6rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--line);
+  background: var(--card);
+  color: var(--text-muted);
+}
+.toggle-year[aria-expanded="true"] { color: var(--text); }
+
+/* -------- Link Cards -------- */
+.links-grid {
+  display: grid;
+  gap: var(--space-3);
+}
+@media (min-width: 640px) {
+  .links-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (min-width: 1024px) {
+  .links-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  padding: var(--space-4);
+  box-shadow: var(--shadow-sm);
+  display: grid;
+  gap: var(--space-3);
+  transition: transform .12s ease, box-shadow .2s ease, border-color .2s ease;
+}
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+  border-color: color-mix(in srgb, var(--brand) 30%, var(--line));
+}
+
+.card__meta {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  color: var(--text-muted);
+  font-size: .9rem;
+}
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
+  padding: .25rem .5rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--brand) 10%, var(--card));
+  border: 1px solid color-mix(in srgb, var(--brand) 25%, var(--line));
+  color: color-mix(in srgb, var(--brand) 80%, var(--text-muted));
+  font-weight: 600;
+  font-size: .8rem;
+}
+.badge--warn {
+  background: color-mix(in srgb, var(--warn) 10%, var(--card));
+  border-color: color-mix(in srgb, var(--warn) 25%, var(--line));
+  color: color-mix(in srgb, var(--warn) 75%, var(--text-muted));
+}
+
+.card__title {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.35;
+}
+.card__title a {
+  color: var(--brand);
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--brand) 40%, transparent);
+  text-decoration-thickness: .08em;
+  text-underline-offset: 2px;
+}
+.card__title a:hover { text-decoration-thickness: .12em; }
+
+.card__desc {
+  color: var(--text-muted);
+  font-size: .95rem;
+}
+
+/* Simple source row (project tag + external icon) */
+.card__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+}
+.source {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  color: var(--text-muted);
+  font-size: .85rem;
+}
+
+/* -------- Year Nav (optional sticky scroller) -------- */
+.year-nav {
+  position: sticky;
+  top: 4rem;
+  display: none;
+}
+@media (min-width: 1024px) {
+  .layout {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: var(--space-6);
+    align-items: start;
+  }
+  .year-nav { display: block; }
+}
+.year-nav__inner {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  padding: var(--space-3);
+  box-shadow: var(--shadow-sm);
+}
+.year-nav a {
+  display: block;
+  padding: .35rem .5rem;
+  border-radius: .5rem;
+  color: var(--text-muted);
+}
+.year-nav a:hover,
+.year-nav a.is-active {
+  color: var(--text);
+  background: color-mix(in srgb, var(--brand) 10%, transparent);
+}
+
+/* -------- Footer -------- */
+.site-footer {
+  margin-top: var(--space-8);
+  padding: var(--space-6) 0 var(--space-8);
+  color: var(--text-muted);
+  border-top: 1px solid var(--line);
+  text-align: center;
+}
+.repo-link {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  margin-top: var(--space-2);
+  padding: .5rem .75rem;
+  border: 1px dashed var(--line);
+  border-radius: var(--radius-sm);
+}
+
+/* -------- Accessibility & Utilities -------- */
+.sr-only {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px; overflow: hidden;
+  clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
+}
+
+:focus-visible {
+  outline: var(--focus);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+.muted { color: var(--text-muted); }
+.hidden { display: none !important; }
+
+/* Subtle entrance animation for cards/year sections (opt-in) */
+.reveal { opacity: 0; transform: translateY(8px); transition: opacity .4s ease, transform .4s ease; }
+.reveal.is-visible { opacity: 1; transform: translateY(0); }
+
+/* -------- Print Styles (nice to have) -------- */
+@media print {
+  .site-header, .toolbar, .year-nav, .repo-link { display: none !important; }
+  .card { break-inside: avoid; box-shadow: none; border-color: #ccc; }
+  a { text-decoration: underline; }
+}

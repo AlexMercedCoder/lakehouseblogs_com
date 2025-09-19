@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LakehouseBlogs.com – Open Source Lakehouse Blogs</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <span class="brand__dot"></span>
+        LakehouseBlogs
+      </div>
+      <div class="header-actions">
+        <a href="https://github.com/AlexMercedCoder/lakehouseblogs_com" class="btn btn--brand" target="_blank" rel="noopener">Contribute</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <h1>Open Source Lakehouse Blog Aggregator</h1>
+      <p>Discover the latest insights and tutorials about Apache Iceberg, Delta Lake, Apache Hudi, Apache Paimon, Apache Polaris, Apache Gravitino, Project Nessie, and more.</p>
+    </div>
+  </section>
+
+  <!-- Toolbar -->
+  <div class="container toolbar">
+    <div class="searchbar">
+      <input type="search" id="search" placeholder="Search blogs by keyword, author, or project..." autocomplete="off" />
+      <span class="icon" aria-hidden="true">🔍</span>
+    </div>
+    <div class="filters" id="filters">
+      <!-- JS dynamically toggles active and filters cards -->
+      <button class="chip is-active" data-project="all">All</button>
+      <button class="chip" data-project="iceberg">Apache Iceberg</button>
+      <button class="chip" data-project="delta">Delta Lake</button>
+      <button class="chip" data-project="hudi">Apache Hudi</button>
+      <button class="chip" data-project="paimon">Apache Paimon</button>
+      <button class="chip" data-project="polaris">Apache Polaris</button>
+      <button class="chip" data-project="gravitino">Apache Gravitino</button>
+      <button class="chip" data-project="nessie">Project Nessie</button>
+    </div>
+  </div>
+
+  <!-- Main (dynamic) -->
+  <main class="container layout" id="app">
+    <!-- Sticky Year Nav (populated by JS) -->
+    <nav class="year-nav" aria-label="Years">
+      <div class="year-nav__inner" id="yearNav"></div>
+    </nav>
+
+    <!-- Years Root (populated by JS with year banners + cards) -->
+    <div id="yearsRoot" role="region" aria-live="polite">
+      <!-- JS will insert:
+        <section id="YYYY" class="year-section">
+          <div class="year-header">
+            <h2 class="year-title">YYYY</h2>
+            <div class="year-count" aria-live="polite">N posts</div>
+            <button class="toggle-year" aria-expanded="true">Toggle</button>
+          </div>
+          <div class="links-grid"></div>
+        </section>
+      -->
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>LakehouseBlogs.com is an open-source project. Contribute your blog via pull request.</p>
+      <a class="repo-link" href="https://github.com/AlexMercedCoder/lakehouseblogs_com" target="_blank" rel="noopener">GitHub Repository</a>
+
+      <p class="muted" style="margin-top: 1rem;">Explore the projects:</p>
+      <nav aria-label="Open source projects" class="project-links" style="margin-top:.5rem;">
+        <ul style="list-style:none; padding:0; margin:0; display:flex; flex-wrap:wrap; gap:.5rem;">
+          <li><a href="https://iceberg.apache.org/" target="_blank" rel="noopener">Apache Iceberg</a></li>
+          <li><a href="https://delta.io/" target="_blank" rel="noopener">Delta Lake</a></li>
+          <li><a href="https://hudi.apache.org/" target="_blank" rel="noopener">Apache Hudi</a></li>
+          <li><a href="https://paimon.apache.org/" target="_blank" rel="noopener">Apache Paimon</a></li>
+          <li><a href="https://polaris.apache.org/" target="_blank" rel="noopener">Apache Polaris (incubating)</a></li>
+          <li><a href="https://gravitino.apache.org/" target="_blank" rel="noopener">Apache Gravitino</a></li>
+          <li><a href="https://projectnessie.org/" target="_blank" rel="noopener">Project Nessie</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- Templates (optional but handy if you prefer cloning nodes in JS) -->
+  <template id="cardTemplate">
+    <article class="card reveal">
+      <div class="card__meta">
+        <time></time> · <span class="company"></span>
+      </div>
+      <h3 class="card__title">
+        <a class="title" target="_blank" rel="noopener"></a>
+      </h3>
+      <p class="card__desc hidden"></p>
+      <div class="card__footer">
+        <span class="source">By <a class="author" target="_blank" rel="noopener"></a></span>
+        <span class="badges"></span>
+      </div>
+    </article>
+  </template>
+
+  <template id="yearTemplate">
+    <section class="year-section">
+      <div class="year-header">
+        <h2 class="year-title"></h2>
+        <div style="display:flex; align-items:center; gap:.5rem; margin-left:auto;">
+          <div class="year-count"></div>
+          <button class="toggle-year" aria-expanded="true" title="Collapse/Expand">Toggle</button>
+        </div>
+      </div>
+      <div class="links-grid"></div>
+    </section>
+  </template>
+
+  <noscript>
+    <div class="container" style="padding:1rem; color:#b91c1c;">
+      JavaScript is disabled. Enable it to load blog data dynamically.
+    </div>
+  </noscript>
+
+  <script src="index.js" defer></script>
+</body>
+</html>
+
