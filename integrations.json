@@ -1,0 +1,259 @@
+{
+  "data_tools": [
+    {
+      "name": "Amazon Athena",
+      "website": "https://aws.amazon.com/athena/",
+      "integrations": ["iceberg"]
+    },
+    {
+      "name": "Amazon Redshift", 
+      "website": "https://aws.amazon.com/redshift/",
+      "integrations": ["iceberg"]
+    },
+    {
+      "name": "Amazon EMR",
+      "website": "https://aws.amazon.com/emr/",
+      "integrations": ["iceberg"]
+    },
+    {
+      "name": "AWS Glue",
+      "website": "https://aws.amazon.com/glue/",
+      "integrations": ["arrow", "iceberg"]
+    },
+    {
+      "name": "Amazon Data Firehose",
+      "website": "https://aws.amazon.com/firehose/",
+      "integrations": ["iceberg"]
+    },
+    {
+      "name": "BigQuery",
+      "website": "https://cloud.google.com/bigquery/",
+      "integrations": ["arrow", "iceberg"]
+    },
+    {
+      "name": "Google Cloud Dataproc",
+      "website": "https://cloud.google.com/dataproc/",
+      "integrations": ["iceberg"]
+    },
+    {
+      "name": "Google Cloud Dataflow",
+      "website": "https://cloud.google.com/dataflow/",
+      "integrations": ["iceberg"]
+    },
+    {
+      "name": "Azure Synapse Analytics",
+      "website": "https://azure.microsoft.com/en-us/products/synapse-analytics/",
+      "integrations": ["iceberg"]
+    },
+    {
+      "name": "Azure Databricks",
+      "website": "https://azure.microsoft.com/en-us/products/databricks/",
+      "integrations": ["iceberg"]
+    },
+    {
+      "name": "Azure Data Factory",
+      "website": "https://azure.microsoft.com/en-us/products/data-factory/",
+      "integrations": ["iceberg"]
+    },
+    {
+      "name": "Snowflake",
+      "website": "https://www.snowflake.com/",
+      "integrations": ["arrow", "iceberg", "polaris"]
+    },
+    {
+      "name": "Databricks",
+      "website": "https://www.databricks.com/",
+      "integrations": ["arrow", "iceberg", "polaris"]
+    },
+    {
+      "name": "Palantir Foundry",
+      "website": "https://www.palantir.com/",
+      "integrations": ["arrow", "iceberg"]
+    },
+    {
+      "name": "Dremio",
+      "website": "https://www.dremio.com/",
+      "integrations": ["arrow", "iceberg", "polaris"]
+    },
+    {
+      "name": "Trino",
+      "website": "https://trino.io/",
+      "integrations": ["arrow", "iceberg", "polaris"]
+    },
+    {
+      "name": "Apache Spark",
+      "website": "https://spark.apache.org/",
+      "integrations": ["arrow", "iceberg", "polaris"]
+    },
+    {
+      "name": "Apache DataFusion",
+      "website": "https://datafusion.apache.org/",
+      "integrations": ["arrow"]
+    },
+    {
+      "name": "Apache Drill",
+      "website": "https://drill.apache.org/",
+      "integrations": ["iceberg"]
+    },
+    {
+      "name": "Apache Impala",
+      "website": "https://impala.apache.org/",
+      "integrations": ["arrow"]
+    },
+    {
+      "name": "ClickHouse",
+      "website": "https://clickhouse.com/",
+      "integrations": ["arrow", "iceberg"]
+    },
+    {
+      "name": "Apache Druid",
+      "website": "https://druid.apache.org/",
+      "integrations": ["iceberg"]
+    },
+    {
+      "name": "InfluxDB",
+      "website": "https://www.influxdata.com/",
+      "integrations": ["arrow"]
+    },
+    {
+      "name": "DuckDB",
+      "website": "https://duckdb.org/",
+      "integrations": ["arrow", "iceberg"]
+    },
+    {
+      "name": "Apache Flink",
+      "website": "https://flink.apache.org/",
+      "integrations": ["arrow", "iceberg"]
+    },
+    {
+      "name": "Apache Airflow",
+      "website": "https://airflow.apache.org/",
+      "integrations": ["iceberg"]
+    },
+    {
+      "name": "Dagster",
+      "website": "https://dagster.io/",
+      "integrations": ["arrow", "iceberg"]
+    },
+    {
+      "name": "Apache Kafka",
+      "website": "https://kafka.apache.org/",
+      "integrations": ["iceberg"]
+    },
+    {
+      "name": "Apache Pulsar",
+      "website": "https://pulsar.apache.org/",
+      "integrations": ["iceberg"]
+    },
+    {
+      "name": "Airbyte",
+      "website": "https://airbyte.com/",
+      "integrations": ["iceberg"]
+    },
+    {
+      "name": "Apache NiFi",
+      "website": "https://nifi.apache.org/",
+      "integrations": ["iceberg"]
+    },
+    {
+      "name": "Apache Polaris",
+      "website": "https://polaris.apache.org/",
+      "integrations": ["iceberg"]
+    },
+    {
+      "name": "Tableau",
+      "website": "https://www.tableau.com/",
+      "integrations": ["iceberg"]
+    },
+    {
+      "name": "Microsoft Power BI",
+      "website": "https://powerbi.microsoft.com/",
+      "integrations": ["arrow"]
+    },
+    {
+      "name": "Apache Superset",
+      "website": "https://superset.apache.org/",
+      "integrations": ["arrow", "iceberg"]
+    },
+    {
+      "name": "Grafana",
+      "website": "https://grafana.com/",
+      "integrations": ["arrow"]
+    },
+    {
+      "name": "Plotly Dash",
+      "website": "https://plotly.com/dash/",
+      "integrations": ["arrow", "iceberg"]
+    },
+    {
+      "name": "Jupyter Notebooks",
+      "website": "https://jupyter.org/",
+      "integrations": ["arrow", "iceberg"]
+    },
+    {
+      "name": "Apache Zeppelin",
+      "website": "https://zeppelin.apache.org/",
+      "integrations": ["arrow", "iceberg"]
+    },
+    {
+      "name": "Observable",
+      "website": "https://observablehq.com/",
+      "integrations": ["arrow"]
+    },
+    {
+      "name": "ThoughtSpot",
+      "website": "https://www.thoughtspot.com/",
+      "integrations": ["iceberg"]
+    },
+    {
+      "name": "Domo",
+      "website": "https://www.domo.com/",
+      "integrations": ["polaris"]
+    },
+    {
+      "name": "Apache Atlas",
+      "website": "https://atlas.apache.org/",
+      "integrations": ["iceberg"]
+    },
+    {
+      "name": "DataHub",
+      "website": "https://datahubproject.io/",
+      "integrations": ["iceberg"]
+    },
+    {
+      "name": "Collibra",
+      "website": "https://www.collibra.com/",
+      "integrations": ["iceberg"]
+    },
+    {
+      "name": "Confluent",
+      "website": "https://www.confluent.io/",
+      "integrations": ["arrow", "iceberg"]
+    },
+    {
+      "name": "OpenLineage",
+      "website": "https://openlineage.io/",
+      "integrations": ["arrow", "iceberg"]
+    },
+    {
+      "name": "Spline",
+      "website": "https://absaoss.github.io/spline/",
+      "integrations": ["iceberg"]
+    },
+    {
+      "name": "Great Expectations",
+      "website": "https://greatexpectations.io/",
+      "integrations": ["arrow"]
+    },
+    {
+      "name": "dbt",
+      "website": "https://www.getdbt.com/",
+      "integrations": ["iceberg"]
+    },
+    {
+      "name": "Monte Carlo",
+      "website": "https://www.montecarlodata.com/",
+      "integrations": ["iceberg"]
+    }
+  ]
+}

@@ -31,6 +31,16 @@
       "tags": ["Apache Iceberg"]
     },
     {
+      "title": "Unlocking the Power of Agentic AI with Apache Iceberg and Dremio",
+      "date": "2025-09-05",
+      "url": "https://iceberglakehouse.com/posts/2025-09-agentic-ai-dremio-apache-iceberg/",
+      "company": "Dremio",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": ["iceberg"],
+      "tags": ["Apache Iceberg"]
+    },
+    {
       "title": "Kafka to Iceberg - Exploring the Options",
       "date": "2025-08-18",
       "url": "https://rmoff.net/2025/08/18/kafka-to-iceberg-exploring-the-options/",
@@ -251,6 +261,36 @@
       "tags": ["Apache Iceberg"]
     },
     {
+      "title": "The Future of Apache Polaris (Incubating)",
+      "date": "2025-02-21",
+      "url": "https://www.dremio.com/blog/apache-polaris-roadmap-2025/",
+      "company": "Dremio",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": ["iceberg"],
+      "tags": ["Apache Iceberg"]
+    },
+    {
+      "title": "Building AI Agents with LangChain using Dremio, Iceberg, and Unified Data",
+      "date": "2025-02-01",
+      "url": "https://www.dremio.com/blog/ai-agents-with-dremio/",
+      "company": "Dremio",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": ["iceberg"],
+      "tags": ["Apache Iceberg"]
+    },
+    {
+      "title": "3 Reasons Why Dremio Is the Best SQL Query Engine for Apache Iceberg",
+      "date": "2024-11-27",
+      "url": "https://www.dremio.com/blog/dremio-best-sql-engine-for-apache-iceberg/",
+      "company": "Dremio",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": ["iceberg"],
+      "tags": ["Apache Iceberg"]
+    },
+    {
       "title": "Building a Data Lake with Debezium and Apache Iceberg",
       "date": "2024-11-15",
       "url": "https://medium.com/@ismail-simsek/building-a-data-lake-with-debezium-and-apache-iceberg-part-1-25124daf2a95",
@@ -259,6 +299,26 @@
       "author_url": "https://www.linkedin.com/in/ismailsimsek/",
       "project_slugs": ["iceberg"],
       "tags": ["Apache Iceberg"]
+    },
+    {
+      "title": "Adopting Apache Iceberg? How Dremio can enhance your Iceberg Journey",
+      "date": "2024-11-11",
+      "url": "https://www.dremio.com/blog/why-dremio-and-apache-iceberg/",
+      "company": "Dremio",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": ["iceberg"],
+      "tags": ["Apache Iceberg"]
+    },
+    {
+      "title": "Breaking Down the Benefits of Lakehouses, Apache Iceberg and Dremio",
+      "date": "2024-10-25",
+      "url": "https://www.dremio.com/blog/benefits-of-an-iceberg-lakehouse-with-dremio/",
+      "company": "Dremio",
+      "author": "Alex Merced",
+      "author_url": "https://www.linkedin.com/in/alexmerced/",
+      "project_slugs": ["iceberg", "nessie"],
+      "tags": ["Apache Iceberg", "Project Nessie"]
     },
     {
       "title": "Hands-on with Apache Iceberg Tables using PyIceberg using Nessie and Minio",
