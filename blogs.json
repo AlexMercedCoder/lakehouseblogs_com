@@ -1,7 +1,17 @@
 {
   "blogs": [
     {
-      "title": "What’s New in Apache Iceberg 1.10.0, and what comes next!",
+      "title": "Comparison of Delete Strategies in Apache Iceberg and Delta Lake",
+      "date": "2025-09-04",
+      "url": "https://olake.io/blog/iceberg-delta-lake-delete-methods-comparison",
+      "company": "OLake",
+      "author": "OLake Team",
+      "author_url": "https://olake.io",
+      "project_slugs": ["iceberg", "delta"],
+      "tags": ["Apache Iceberg", "Delta Lake"]
+    },
+    {
+      "title": "What's New in Apache Iceberg 1.10.0, and what comes next!",
       "date": "2025-09-12",
       "url": "https://www.dremio.com/blog/whats-new-in-apache-iceberg-1-10-0-and-what-comes-next/",
       "company": "Dremio",
