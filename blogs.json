@@ -1539,7 +1539,217 @@
       "author_url": "https://www.linkedin.com/in/tianlong-chen-39189b7a/",
       "project_slugs": ["iceberg"],
       "tags": ["Apache Iceberg"]
-    }
+    },
+    {
+    "title": "The Origins of Apache Arrow & Its Fit in Today’s Data Landscape",
+    "date": "2022-07-07",
+    "url": "https://www.dremio.com/blog/the-origins-of-apache-arrow-its-fit-in-todays-data-landscape/",
+    "company": "Dremio",
+    "author": "Dipankar Mazumdar",
+    "author_url": "https://www.dremio.com/authors/dipankar-mazumdar/",
+    "project_slugs": ["arrow"],
+    "tags": ["Apache Arrow"]
+  },
+  {
+    "title": "Apache Arrow’s Rapid Growth Over the Years",
+    "date": "2022-11-14",
+    "url": "https://www.dremio.com/blog/apache-arrows-rapid-growth-over-the-years/",
+    "company": "Dremio",
+    "author": "Dipankar Mazumdar",
+    "author_url": "https://www.dremio.com/authors/dipankar-mazumdar/",
+    "project_slugs": ["arrow"],
+    "tags": ["Apache Arrow"]
+  },
+  {
+    "title": "An Introduction to Apache Arrow Flight SQL",
+    "date": "2022-01-18",
+    "url": "https://www.dremio.com/blog/an-introduction-to-apache-arrow-flight-sql/",
+    "company": "Dremio",
+    "author": "Alex Merced",
+    "author_url": "https://www.dremio.com/authors/alex-merced/",
+    "project_slugs": ["arrow"],
+    "tags": ["Apache Arrow"]
+  },
+  {
+    "title": "Connecting to Dremio Using Apache Arrow Flight in Python",
+    "date": "2024-01-18",
+    "url": "https://www.dremio.com/blog/connecting-to-dremio-using-apache-arrow-flight-in-python/",
+    "company": "Dremio",
+    "author": "Alex Merced",
+    "author_url": "https://www.dremio.com/authors/alex-merced/",
+    "project_slugs": ["arrow"],
+    "tags": ["Apache Arrow"]
+  },
+  {
+    "title": "How Dremio delivers fast queries on object storage: Apache Arrow, Reflections, and the Columnar Cloud Cache",
+    "date": "2024-02-01",
+    "url": "https://www.dremio.com/blog/how-dremio-delivers-fast-queries-on-object-storage-apache-arrow-reflections-and-the-columnar-cloud-cache/",
+    "company": "Dremio",
+    "author": "Alex Merced",
+    "author_url": "https://www.dremio.com/authors/alex-merced/",
+    "project_slugs": ["arrow"],
+    "tags": ["Apache Arrow"]
+  },
+  {
+    "title": "Open Source and the Data Lakehouse: Apache Arrow, Apache Iceberg, Nessie and Dremio",
+    "date": "2024-02-01",
+    "url": "https://www.dremio.com/blog/open-source-and-the-data-lakehouse-apache-arrow-apache-iceberg-nessie-and-dremio/",
+    "company": "Dremio",
+    "author": "Alex Merced",
+    "author_url": "https://www.dremio.com/authors/alex-merced/",
+    "project_slugs": ["arrow", "iceberg", "nessie"],
+    "tags": ["Apache Arrow", "Apache Iceberg", "Project Nessie"]
+  },
+  {
+    "title": "Use Apache Arrow and Go for Your Data Workflows",
+    "date": "2023-03-27",
+    "url": "https://voltrondata.com/blog/use-apache-arrow-and-go-for-your-data-workflows",
+    "company": "Voltron Data",
+    "author": "Matt Topol",
+    "author_url": "",
+    "project_slugs": ["arrow"],
+    "tags": ["Apache Arrow"]
+  },
+  {
+    "title": "Apache Arrow: Driving Columnar Analytics Performance and Connectivity",
+    "date": "2022-02-03",
+    "url": "https://voltrondata.com/blog/arrow-columnar-analytics",
+    "company": "Voltron Data",
+    "author": "Wes McKinney",
+    "author_url": "",
+    "project_slugs": ["arrow"],
+    "tags": ["Apache Arrow"]
+  },
+  {
+    "title": "Arrow Database Connectivity",
+    "date": "2023-01-19",
+    "url": "https://voltrondata.com/blog/arrow-database-connectivity-apache-arrow-for-every-database-user",
+    "company": "Voltron Data",
+    "author": "David Li",
+    "author_url": "",
+    "project_slugs": ["arrow", "adbc"],
+    "tags": ["Apache Arrow"]
+  },
+  {
+    "title": "Apache Arrow New Contributor’s Guide",
+    "date": "2022-04-07",
+    "url": "https://voltrondata.com/blog/apache-arrow-new-contributors-guide",
+    "company": "Voltron Data",
+    "author": "Alenka Frim",
+    "author_url": "",
+    "project_slugs": ["arrow"],
+    "tags": ["Apache Arrow"]
+  },
+  {
+    "title": "Zero-Copy Sharing using Apache Arrow and Golang",
+    "date": "2023-07-20",
+    "url": "https://voltrondata.com/blog/zero-copy-sharing-using-apache-arrow-and-golang",
+    "company": "Voltron Data",
+    "author": "Matt Topol",
+    "author_url": "",
+    "project_slugs": ["arrow"],
+    "tags": ["Apache Arrow"]
+  },
+  {
+    "title": "How To: Understand Apache Arrow",
+    "date": "2023-06-04",
+    "url": "https://medium.com/@diehardankush/understanding-apache-arrow-8afc9e9cd7ed",
+    "company": "Medium",
+    "author": "Ankush Singh",
+    "author_url": "https://medium.com/@diehardankush",
+    "project_slugs": ["arrow"],
+    "tags": ["Apache Arrow"]
+  },
+  {
+    "title": "Unlocking High-Speed Data Analytics with Apache Arrow: A Beginner’s Guide",
+    "date": "2024-02-14",
+    "url": "https://aravindkolli.medium.com/unlocking-high-speed-data-analytics-with-apache-arrow-a-beginners-guide-c5f1cda0927d",
+    "company": "Medium",
+    "author": "Aravind Kolli",
+    "author_url": "https://aravindkolli.medium.com/",
+    "project_slugs": ["arrow"],
+    "tags": ["Apache Arrow"]
+  },
+  {
+    "title": "Microsoft Fabric: An introduction to Apache Arrow as the cornerstone of Python data engineering",
+    "date": "2025-07-30",
+    "url": "https://christianhenrikreich.medium.com/microsoft-fabric-an-introduction-to-apache-arrow-as-the-cornerstone-of-python-data-engineering-f35d009dfc69",
+    "company": "Medium",
+    "author": "Christian Henrik Reich",
+    "author_url": "https://christianhenrikreich.medium.com/",
+    "project_slugs": ["arrow"],
+    "tags": ["Apache Arrow"]
+  },
+  {
+    "title": "Apache Arrow, making Spark even faster",
+    "date": "2024-03-29",
+    "url": "https://amanjaiswalofficial.medium.com/apache-arrow-making-spark-even-faster-3ae-8ca8e1a67dc7",
+    "company": "Medium",
+    "author": "Aman Jaiswal",
+    "author_url": "https://amanjaiswalofficial.medium.com/",
+    "project_slugs": ["arrow", "spark"],
+    "tags": ["Apache Arrow"]
+  },
+  {
+    "title": "What is Apache Arrow Flight, Flight SQL & ADBC",
+    "date": "2025-03-18",
+    "url": "https://dipankar-tnt.medium.com/what-is-apache-arrow-flight-flight-sql-adbc-a076511122ac",
+    "company": "Medium",
+    "author": "Dipankar Mazumdar",
+    "author_url": "https://dipankar-tnt.medium.com/",
+    "project_slugs": ["arrow", "flight", "adbc"],
+    "tags": ["Apache Arrow"]
+  },
+  {
+    "title": "The Hidden Power of Apache Arrow in Python ETL",
+    "date": "2025-08-07",
+    "url": "https://medium.com/@bhagyarana80/the-hidden-power-of-apache-arrow-in-python-etl-19ad052819f1",
+    "company": "Medium",
+    "author": "Bhagya Rana",
+    "author_url": "https://medium.com/@bhagyarana80",
+    "project_slugs": ["arrow"],
+    "tags": ["Apache Arrow"]
+  },
+  {
+    "title": "Redefining Data Engineering with Go and Apache Arrow",
+    "date": "2025-02-04",
+    "url": "https://medium.com/@tfmv/redefining-data-engineering-with-go-and-apache-arrow-df9059ddf55c",
+    "company": "Medium",
+    "author": "Thomas F McGeehan V",
+    "author_url": "https://medium.com/@tfmv",
+    "project_slugs": ["arrow", "go"],
+    "tags": ["Apache Arrow"]
+  },
+  {
+    "title": "Aligning Velox and Apache Arrow: Towards composable data management",
+    "date": "2024-02-20",
+    "url": "https://engineering.fb.com/2024/02/20/developer-tools/velox-apache-arrow-15-composable-data-management/",
+    "company": "Meta",
+    "author": "Pedro Pedreira",
+    "author_url": "https://engineering.fb.com/author/pedro-pedreira/",
+    "project_slugs": ["arrow", "velox"],
+    "tags": ["Apache Arrow", "Velox"]
+  },
+  {
+    "title": "Expanding Arrow’s Reach with a JDBC Driver for Arrow Flight SQL",
+    "date": "2022-11-01",
+    "url": "https://arrow.apache.org/blog/2022/11/01/arrow-flight-sql-jdbc/",
+    "company": "Apache Arrow",
+    "author": "Apache Arrow PMC",
+    "author_url": "",
+    "project_slugs": ["arrow", "flight-sql"],
+    "tags": ["Apache Arrow"]
+  },
+  {
+    "title": "How the Apache Arrow Format Accelerates Query Result Transfer",
+    "date": "2025-01-10",
+    "url": "https://arrow.apache.org/blog/2025/01/10/arrow-result-transfer/",
+    "company": "Apache Arrow",
+    "author": "Ian Cook et al.",
+    "author_url": "",
+    "project_slugs": ["arrow"],
+    "tags": ["Apache Arrow"]
+  }
   ]
 }
 
