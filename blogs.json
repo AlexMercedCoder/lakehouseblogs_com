@@ -17,8 +17,8 @@
       "company": "Dremio",
       "author": "Alex Merced",
       "author_url": "https://www.alexmerced.com/data",
-      "project_slugs": ["iceberg", "delta", "hudi"],
-      "tags": ["Apache Iceberg", "Delta Lake", "Apache Hudi"]
+      "project_slugs": ["iceberg", "delta", "hudi", "paimon", "polaris"],
+      "tags": ["Apache Iceberg", "Delta Lake", "Apache Hudi", "Apache Paimon", "Apache Polaris"]
     },
     {
       "title": "What's New in Apache Iceberg 1.10.0, and what comes next!",
