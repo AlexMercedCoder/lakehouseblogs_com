@@ -11,6 +11,16 @@
       "tags": ["Apache Iceberg", "Delta Lake"]
     },
     {
+      "title": "The Ultimate Guide to Open Table Formats - Iceberg, Delta Lake, Hudi, Paimon, and DuckLake",
+      "date": "2025-09-24",
+      "url": "https://datalakehousehub.com/blog/2025-09-ultimate-guide-to-open-table-formats/",
+      "company": "Dremio",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": ["iceberg", "delta", "paimon", "hudi"],
+      "tags": ["Apache Iceberg", "Delta Lake", "Apache Paimon", "Apache Hudi", "DuckLake"]
+    },
+    {
       "title": "The 2025 & 2026 Ultimate Guide to the Data Lakehouse and the Data Lakehouse Ecosystem",
       "date": "2025-09-23",
       "url": "https://datalakehousehub.com/blog/2025-09-2026-guide-to-data-lakehouses/",
