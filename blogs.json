@@ -1,6 +1,26 @@
 {
   "blogs": [
     {
+      "title": "Iceberg Partitioning vs. Hive Partitioning",
+      "date": "2025-05-13",
+      "url": "https://olake.io/iceberg/hive-partitioning-vs-iceberg-partitioning",
+      "company": "OLake",
+      "author": "Sandeep Devarapalli",
+      "author_url": "https://olake.io",
+      "project_slugs": ["iceberg", "hive"],
+      "tags": ["Apache Iceberg", "Hive", "Partitioning", "OLake"]
+    },
+    {
+      "title": "Apache Hive vs Apache Iceberg: Choosing the Right Data Lakehouse Technology",
+      "date": "2025-09-15",
+      "url": "https://olake.io/blog/apache-iceberg-hive-comparison",
+      "company": "OLake",
+      "author": "Akshay Kumar Sharma",
+      "author_url": "https://olake.io",
+      "project_slugs": ["iceberg", "hive"],
+      "tags": ["Apache Iceberg", "Apache Hive", "Data Lakehouse"]
+    },
+    {
       "title": "Comparison of Delete Strategies in Apache Iceberg and Delta Lake",
       "date": "2025-09-04",
       "url": "https://olake.io/blog/iceberg-delta-lake-delete-methods-comparison",
