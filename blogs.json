@@ -1,6 +1,16 @@
 {
   "blogs": [
     {
+      "title": "Iceberg Partitioning vs. Hive Partitioning",
+      "date": "2025-05-13",
+      "url": "https://olake.io/iceberg/hive-partitioning-vs-iceberg-partitioning",
+      "company": "OLake",
+      "author": "Sandeep Devarapalli",
+      "author_url": "https://olake.io",
+      "project_slugs": ["iceberg", "hive"],
+      "tags": ["Apache Iceberg", "Hive", "Partitioning", "OLake"]
+    },
+    {
       "title": "Apache Hive vs Apache Iceberg: Choosing the Right Data Lakehouse Technology",
       "date": "2025-09-15",
       "url": "https://olake.io/blog/apache-iceberg-hive-comparison",
