@@ -1,0 +1,362 @@
+[
+  {
+    "title": "Supporting S3 Tables in Daft",
+    "date": "2025-02-27",
+    "speakers": ["R. Conner Howell"],
+    "event": "",
+    "url": "https://www.youtube.com/watch?v=WHFlHmFqDsI",
+    "tags": []
+  },
+  {
+    "title": "Iceberg Catalogs",
+    "date": "2025-02-27",
+    "speakers": ["Arsham Eslami"],
+    "event": "",
+    "url": "https://www.youtube.com/watch?v=P57XWsoL_Bg",
+    "tags": []
+  },
+  {
+    "title": "Security for an Apache Iceberg Lakehouse",
+    "date": "2025-02-27",
+    "speakers": ["Emre Saglam"],
+    "event": "",
+    "url": "https://www.youtube.com/watch?v=wfiNR_JI-dU",
+    "tags": []
+  },
+  {
+    "title": "The Invisible Ink of Iceberg Deletions",
+    "date": "2025-02-27",
+    "speakers": ["Aniruth Narayanan"],
+    "event": "",
+    "url": "https://www.youtube.com/watch?v=gA6jG7gv10A",
+    "tags": []
+  },
+  {
+    "title": "Iceberg table format version - Iceberg v3 spec",
+    "date": "2025-02-21",
+    "speakers": ["Tomohiro Tanaka"],
+    "event": "",
+    "url": "https://www.youtube.com/watch?v=z_qRWeBnaxE",
+    "tags": []
+  },
+  {
+    "title": "Apache Iceberg Case Study in LY Corporation",
+    "date": "2025-02-21",
+    "speakers": ["Tasuku Okuda"],
+    "event": "",
+    "url": "https://www.youtube.com/watch?v=BZvSlIHihvw",
+    "tags": []
+  },
+  {
+    "title": "Conflict resolution mechanism in Iceberg",
+    "date": "2025-02-21",
+    "speakers": ["Sotaro Hikita"],
+    "event": "",
+    "url": "",
+    "tags": []
+  },
+  {
+    "title": "Getting Started with Iceberg on Snowflake",
+    "date": "2025-02-21",
+    "speakers": ["Akira Sakatoku"],
+    "event": "",
+    "url": "",
+    "tags": []
+  },
+  {
+    "title": "Databricks Frozen Over - Bringing the best of data catalogs and Iceberg together",
+    "date": "2025-02-21",
+    "speakers": ["Victoria Bukta"],
+    "event": "",
+    "url": "",
+    "tags": []
+  },
+  {
+    "title": "Optimizing Query Performance for Apache Iceberg at Scale",
+    "date": "2025-01-30",
+    "speakers": ["Yan (Ryan) Zhang"],
+    "event": "",
+    "url": "",
+    "tags": []
+  },
+  {
+    "title": "Streaming data to Apache Iceberg with Redpanda",
+    "date": "2025-01-30",
+    "speakers": ["Andrew Wong"],
+    "event": "",
+    "url": "",
+    "tags": []
+  },
+  {
+    "title": "Automated ERD construction on Iceberg data lakes with Kurve",
+    "date": "2025-01-30",
+    "speakers": ["Wes Madrigal"],
+    "event": "",
+    "url": "",
+    "tags": []
+  },
+  {
+    "title": "From Logs to Insights",
+    "date": "2025-01-30",
+    "speakers": ["Danfeng Xu"],
+    "event": "",
+    "url": "",
+    "tags": []
+  },
+  {
+    "title": "From Passive to Powerful, How Storage-Acceleration can Supercharge Iceberg Query Performance",
+    "date": "2025-01-30",
+    "speakers": ["Kartik Kulkarni"],
+    "event": "",
+    "url": "",
+    "tags": []
+  },
+  {
+    "title": "Iceberg Metadata for Variant Support",
+    "date": "2025-01-30",
+    "speakers": ["Aihua Xu"],
+    "event": "",
+    "url": "https://www.youtube.com/watch?v=MKqllL_D-fs&feature=youtu.be",
+    "tags": []
+  },
+  {
+    "title": "Fireside Chat with Denny Lee & Jason Reid",
+    "date": "2025-01-30",
+    "speakers": ["Denny Lee", "Jason Reid"],
+    "event": "",
+    "url": "",
+    "tags": []
+  },
+  {
+    "title": "Optimizing Iceberg Query Performance by Automatically generating NDVs",
+    "date": "2025-01-30",
+    "speakers": ["Sandeep Adwankar"],
+    "event": "",
+    "url": "",
+    "tags": []
+  },
+  {
+    "title": "Towards Actionable Metadata",
+    "date": "2025-01-30",
+    "speakers": ["Viktor Kessler"],
+    "event": "",
+    "url": "",
+    "tags": []
+  },
+  {
+    "title": "Apache Iceberg V3 and Beyond",
+    "date": "2025-01-30",
+    "speakers": ["Daniel Weeks"],
+    "event": "",
+    "url": "",
+    "tags": []
+  },
+  {
+    "title": "Evolution of Position Deletes",
+    "date": "2025-01-30",
+    "speakers": ["Anton Okolnychyi"],
+    "event": "",
+    "url": "",
+    "tags": []
+  },
+  {
+    "title": "Data-Centric AI with Iceberg Data Products",
+    "date": "2025-01-30",
+    "speakers": ["Andrew C. Madson"],
+    "event": "",
+    "url": "",
+    "tags": []
+  },
+  {
+    "title": "Ursa Augmenting Iceberg with Kafka-Compatible Data Streaming Capabilities",
+    "date": "2025-01-30",
+    "speakers": ["Sijie Guo"],
+    "event": "",
+    "url": "",
+    "tags": []
+  },
+  {
+    "title": "Navigating Iceberg Adoption and Impact at Pinterest",
+    "date": "2025-01-30",
+    "speakers": ["Ashish Singh", "Chunyan Wang"],
+    "event": "",
+    "url": "",
+    "tags": []
+  },
+  {
+    "title": "Bridging Python and Apache Iceberg The Power of PyIceberg",
+    "date": "2025-01-30",
+    "speakers": ["Rushan (Jonas) Jiang"],
+    "event": "",
+    "url": "",
+    "tags": []
+  },
+  {
+    "title": "Lakekeeper: Rust based Iceberg Catalog",
+    "date": "2024-11-04",
+    "speakers": ["Christian Thiel"],
+    "event": "",
+    "url": "",
+    "tags": []
+  },
+  {
+    "title": "Iceberg at Netflix",
+    "date": "2024-11-04",
+    "speakers": ["Snehal Chennuru"],
+    "event": "",
+    "url": "",
+    "tags": []
+  },
+  {
+    "title": "How We Implemented the Iceberg Connector in Rust!",
+    "date": "2024-11-04",
+    "speakers": ["Yingjun Wu"],
+    "event": "",
+    "url": "",
+    "tags": []
+  },
+  {
+    "title": "Accelerate your Iceberg workloads on S3",
+    "date": "2024-11-04",
+    "speakers": ["Jack Ye"],
+    "event": "",
+    "url": "",
+    "tags": []
+  },
+  {
+    "title": "Lessons From Building Iceberg Capabilities In Daft, A Distributed Query Engine",
+    "date": "2024-11-04",
+    "speakers": ["Kevin Wang"],
+    "event": "",
+    "url": "",
+    "tags": []
+  },
+  {
+    "title": "Eliminating Shuffles in DELETE, UPDATE, MERGE",
+    "date": "2023-07-27",
+    "speakers": ["Anton Okolnychyi", "Chao Sun"],
+    "event": "",
+    "url": "",
+    "tags": []
+  },
+  {
+    "title": "Write Distribution Modes in Apache Iceberg",
+    "date": "2023-03-15",
+    "speakers": ["Russell Spitzer"],
+    "event": "",
+    "url": "",
+    "tags": []
+  },
+  {
+    "title": "Technical Evolution of Apache Iceberg",
+    "date": "2023-03-15",
+    "speakers": ["Anton Okolnychyi"],
+    "event": "",
+    "url": "",
+    "tags": []
+  },
+  {
+    "title": "Iceberg's Best Secret Exploring Metadata Tables",
+    "date": "2023-01-12",
+    "speakers": ["Szehon Ho"],
+    "event": "",
+    "url": "",
+    "tags": []
+  },
+  {
+    "title": "Data architecture in 2022",
+    "date": "2022-05-05",
+    "speakers": ["Ryan Blue"],
+    "event": "",
+    "url": "",
+    "tags": []
+  },
+  {
+    "title": "Why You Shouldn't Care About Iceberg | Tabular",
+    "date": "2022-03-24",
+    "speakers": ["Ryan Blue"],
+    "event": "",
+    "url": "",
+    "tags": []
+  },
+  {
+    "title": "Managing Data Files in Apache Iceberg",
+    "date": "2022-03-02",
+    "speakers": ["Russell Spitzer"],
+    "event": "",
+    "url": "",
+    "tags": []
+  },
+  {
+    "title": "Tuning Row-Level Operations in Apache Iceberg",
+    "date": "2022-03-02",
+    "speakers": ["Anton Okolnychyi"],
+    "event": "",
+    "url": "",
+    "tags": []
+  },
+  {
+    "title": "Multi Dimensional Clustering with Z Ordering",
+    "date": "2021-12-06",
+    "speakers": ["Russell Spitzer"],
+    "event": "",
+    "url": "",
+    "tags": []
+  },
+  {
+    "title": "Expert Roundtable: The Future of Metadata After Hive Metastore",
+    "date": "2021-11-15",
+    "speakers": ["Lior Ebel", "Seshu Adunuthula", "Ryan Blue", "Oz Katz"],
+    "event": "",
+    "url": "",
+    "tags": []
+  },
+  {
+    "title": "Presto and Apache Iceberg: Building out Modern Open Data Lakes",
+    "date": "2021-11-10",
+    "speakers": ["Daniel Weeks", "Chunxu Tang"],
+    "event": "",
+    "url": "",
+    "tags": []
+  },
+  {
+    "title": "Iceberg Case Studies",
+    "date": "2021-09-29",
+    "speakers": ["Ryan Blue"],
+    "event": "",
+    "url": "",
+    "tags": []
+  },
+  {
+    "title": "Deep Dive into Iceberg SQL Extensions",
+    "date": "2021-07-13",
+    "speakers": ["Anton Okolnychyi"],
+    "event": "",
+    "url": "",
+    "tags": []
+  },
+  {
+    "title": "Building efficient and reliable data lakes with Apache Iceberg",
+    "date": "2020-10-21",
+    "speakers": ["Anton Okolnychyi", "Vishwa Lakkundi"],
+    "event": "",
+    "url": "",
+    "tags": []
+  },
+  {
+    "title": "Spark and Iceberg at Apple's Scale - Leveraging differential files for efficient upserts and deletes",
+    "date": "2020-10-21",
+    "speakers": ["Anton Okolnychyi", "Vishwa Lakkundi"],
+    "event": "",
+    "url": "",
+    "tags": []
+  },
+  {
+    "title": "Apache Iceberg - A Table Format for Huge Analytic Datasets",
+    "date": "2020-10-21",
+    "speakers": ["Ryan Blue"],
+    "event": "",
+    "url": "",
+    "tags": []
+  }
+]
