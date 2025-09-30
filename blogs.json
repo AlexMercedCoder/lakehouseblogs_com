@@ -1,6 +1,26 @@
 {
   "blogs": [
     {
+      "title": "How Apache Iceberg Branching transforms Data Management",
+      "date": "2025-09-09",
+      "url": "https://www.starburst.io/blog/iceberg-branching-data-management/",
+      "company": "Starburst",
+      "author": "Starburst",
+      "author_url": "https://starburst.io",
+      "project_slugs": ["iceberg"],
+      "tags": ["Apache Iceberg"]
+    },
+    {
+      "title": "Iceberg v3 + Starburst",
+      "date": "2025-09-04",
+      "url": "https://www.starburst.io/blog/iceberg-v3/",
+      "company": "Starburst",
+      "author": "Starburst",
+      "author_url": "https://starburst.io",
+      "project_slugs": ["iceberg"],
+      "tags": ["Apache Iceberg"]
+    },
+    {
       "title": "Iceberg Partitioning vs. Hive Partitioning",
       "date": "2025-05-13",
       "url": "https://olake.io/iceberg/hive-partitioning-vs-iceberg-partitioning",
