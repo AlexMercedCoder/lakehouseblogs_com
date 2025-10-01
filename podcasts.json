@@ -1,0 +1,116 @@
+[
+  {
+    "episode_title": "The View Below The Waterline Of Apache Iceberg And How It Fits In Your Data Lakehouse",
+    "podcast_title": "Data Engineering Podcast",
+    "publication_date": "2023-02-19",
+    "url": "https://www.dataengineeringpodcast.com/episodepage/the-view-below-the-waterline-of-apache-iceberg-and-how-it-fits-in-your-data-lakehouse"
+  },
+  {
+    "episode_title": "Apache Iceberg, Dremio and PuppyGraph",
+    "podcast_title": "Datanation",
+    "publication_date": "2024-03-28",
+    "url": "https://host.alexmercedpodcast.com/podcast/52-apache-iceberg-dremio-and-puppygraph/"
+  },
+  {
+    "episode_title": "What is Apache Iceberg?",
+    "podcast_title": "Datanation",
+    "publication_date": "2024-04-03",
+    "url": "https://host.alexmercedpodcast.com/podcast/3-what-is-apache-iceberg/"
+  },
+  {
+    "episode_title": "Deep Dive into Apache Iceberg Catalogs (Nessie, Hive, REST Catalog, Hadoop)",
+    "podcast_title": "Datanation",
+    "publication_date": "2024-04-05",
+    "url": "https://host.alexmercedpodcast.com/podcast/4-deep-dive-into-apache-iceberg-catalogs-nessie-hive-rest-catalog-hadoop/"
+  },
+  {
+    "episode_title": "Apache Iceberg Metadata.json files",
+    "podcast_title": "Datanation",
+    "publication_date": "2024-04-09",
+    "url": "https://host.alexmercedpodcast.com/podcast/5-apache-iceberg-metadata-json-files/"
+  },
+  {
+    "episode_title": "Apache Iceberg Manifest Lists",
+    "podcast_title": "Datanation",
+    "publication_date": "2024-04-11",
+    "url": "https://host.alexmercedpodcast.com/podcast/6-apache-iceberg-manifest-lists/"
+  },
+  {
+    "episode_title": "Apache Iceberg’s Hidden Partitioning",
+    "podcast_title": "Datanation",
+    "publication_date": "2024-05-16",
+    "url": "https://host.alexmercedpodcast.com/podcast/8-apache-icebergs-hidden-partitioning/"
+  },
+  {
+    "episode_title": "Discussing the Apache Iceberg Kafka Connect Connector",
+    "podcast_title": "Datanation",
+    "publication_date": "2024-05-16",
+    "url": "https://host.alexmercedpodcast.com/podcast/55-discussing-the-apache-iceberg-kafka-connect-connector/"
+  },
+  {
+    "episode_title": "Open Source Apache Iceberg Catalogs (Nessie, Polaris, Gravitino)",
+    "podcast_title": "Datanation",
+    "publication_date": "2024-06-04",
+    "url": "https://host.alexmercedpodcast.com/podcast/56-open-source-apache-iceberg-catalogs-nessie-polaris-gravitino/"
+  },
+  {
+    "episode_title": "Being Data Driven At Stripe With Trino And Iceberg",
+    "podcast_title": "Data Engineering Podcast",
+    "publication_date": "2024-06-16",
+    "url": "https://www.dataengineeringpodcast.com/stripe-trino-iceberg-lakehouse-episode-430"
+  },
+  {
+    "episode_title": "Apache Iceberg Table Maintenance",
+    "podcast_title": "Datanation",
+    "publication_date": "2024-07-26",
+    "url": "https://host.alexmercedpodcast.com/podcast/10-apache-iceberg-table-maintenance/"
+  },
+  {
+    "episode_title": "Iceberg: The Open Table Format for Petabyte Scale Analytics - with Ryan Blue",
+    "podcast_title": "Engineers of Scale",
+    "publication_date": "2024-08-01",
+    "url": "https://podcasts.apple.com/gb/podcast/iceberg-the-open-table-format-for-petabyte-scale/id1718844686?i=1000663982052"
+  },
+  {
+    "episode_title": "Charting the Course: The Evolution and Future of Apache Iceberg and Polaris",
+    "podcast_title": "Gnarly Data Waves",
+    "publication_date": "2024-10-22",
+    "url": "https://www.dremio.com/gnarly-data-waves/charting-the-course-the-evolution-and-future-of-apache-iceberg-and-polaris/"
+  },
+  {
+    "episode_title": "An Apache Iceberg Lakehouse Crash Course – Ingesting Data into Apache Iceberg with Dremio",
+    "podcast_title": "Gnarly Data Waves",
+    "publication_date": "2024-10-29",
+    "url": "https://www.dremio.com/gnarly-data-waves/an-apache-iceberg-lakehouse-crash-course-ingesting-data-into-apache-iceberg-with-dremio/"
+  },
+    {
+    "episode_title": "Reinvent, AWS S3 Table Buckets and Apache Iceberg",
+    "podcast_title": "Datanation",
+    "publication_date": "2024-12-05",
+    "url": "https://host.alexmercedpodcast.com/podcast/63-reinvent-aws-s3-table-buckets-and-apache-iceberg/"
+  },
+  {
+    "episode_title": "Will Apache Iceberg and Delta Lake Merge?",
+    "podcast_title": "Datanation",
+    "publication_date": "2025-02-21",
+    "url": "https://host.alexmercedpodcast.com/podcast/will-apache-iceberg-and-delta-lake-merge/"
+  },
+  {
+    "episode_title": "Is Apache Iceberg the New Hadoop? Navigating the Complexities of Modern Data Lakehouses",
+    "podcast_title": "Data Engineering Weekly",
+    "publication_date": "2025-03-06",
+    "url": "https://www.dataengineeringweekly.com/p/is-apache-iceberg-the-new-hadoop"
+  },
+  {
+    "episode_title": "Advanced Lakehouse Management With The LakeKeeper Iceberg REST Catalog",
+    "podcast_title": "Data Engineering Podcast",
+    "publication_date": "2025-04-21",
+    "url": "https://www.dataengineeringpodcast.com/episodepage/advanced-lakehouse-management-with-the-lakekeeper-iceberg-rest-catalog"
+  },
+  {
+    "episode_title": "Under the hood of Apache Iceberg (w/ Christian Thiel)",
+    "podcast_title": "The Analytics Engineering Podcast",
+    "publication_date": "2025-08-24",
+    "url": "https://roundup.getdbt.com/p/under-the-hood-of-apache-iceberg"
+  }
+]

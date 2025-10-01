@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Apache Iceberg Podcasts</title>
+  <link rel="stylesheet" href="podcasts.css" />
+  <script src="podcasts.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <h1>Apache Iceberg Podcasts</h1>
+    <p class="subtitle">Episodes focused on Apache Iceberg (last 4 years)</p>
+    <div class="controls">
+      <input type="search" id="search" placeholder="Search by episode, podcast, etc." autocomplete="off" />
+      <select id="yearFilter" aria-label="Filter by year">
+        <option value="">All Years</option>
+      </select>
+    </div>
+  </header>
+
+  <main id="podcasts-root" class="container" role="region" aria-live="polite">
+    <!-- JS will inject sections grouped by year -->
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <a href="index.html" class="back-link">← Back to LakehouseBlogs</a>
+    </div>
+  </footer>
+</body>
+</html>

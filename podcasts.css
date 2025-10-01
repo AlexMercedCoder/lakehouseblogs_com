@@ -1,0 +1,86 @@
+:root{
+  --bg:#f6fafb;
+  --text:#243036;
+  --muted:#6b7a86;
+  --brand:#2e86de;
+  --card:#ffffff;
+  --border:#e6eef2;
+}
+
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Inter, Arial, sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.5;
+}
+
+.container{max-width:1100px;margin:0 auto;padding:1rem}
+
+.site-header{
+  background:#1f2a33;
+  color:#eef5f8;
+  padding:1.5rem 1rem;
+  text-align:center;
+}
+.site-header h1{margin:.25rem 0 0 0;font-size:1.75rem}
+.site-header .subtitle{margin:.25rem 0 0 0;color:#cfe0e8}
+
+.controls{
+  margin:1rem auto 0;
+  display:flex;gap:.5rem;justify-content:center;flex-wrap:wrap;
+}
+.controls input[type="search"], .controls select{
+  padding:.6rem .75rem;border:1px solid #33424d;background:#22303a;color:#eef5f8;
+  border-radius:.6rem;min-width:240px;
+}
+.controls input::placeholder{color:#a9bbc7}
+.controls select{min-width:160px}
+
+.year-section{margin:1.5rem 0}
+.year-header{
+  display:flex;align-items:baseline;gap:1rem;border-bottom:1px solid var(--border);padding-bottom:.5rem;margin-bottom:1rem;
+}
+.year-title{font-size:1.25rem;margin:0}
+.year-count{color:var(--muted);font-size:.95rem}
+
+.cards{
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: .9rem;
+}
+
+.card{
+  background:var(--card);
+  border:1px solid var(--border);
+  border-radius:12px;
+  padding:1rem;
+  box-shadow:0 1px 2px rgba(0,0,0,.03);
+}
+.card .meta{
+  color:var(--muted);
+  font-size:.92rem;
+  display:flex;align-items:center;gap:.5rem;
+}
+.card .meta .sep{opacity:.5}
+.card-title{margin:.5rem 0 0 0;font-size:1.05rem;line-height:1.4}
+.card-title a{color:var(--brand);text-decoration:none}
+.card-title a:hover{text-decoration:underline}
+
+.empty,.error{
+  background:#fff;border:1px solid var(--border);border-radius:12px;padding:1rem;text-align:center;color:var(--muted);
+}
+
+.site-footer{
+  border-top:1px solid var(--border);margin-top:2rem;
+  padding:1rem 0;background:#f0f6f9;
+}
+.back-link{
+  color:#1f5eaa;text-decoration:none;font-weight:600;
+}
+.back-link:hover{text-decoration:underline}
+
+@media (max-width:600px){
+  .controls input[type="search"], .controls select{min-width:unset;width:100%}
+}
