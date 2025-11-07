@@ -433,7 +433,7 @@ body {
 /* -------- Other -------- */
 
 .hero a {
-   color: white;
+   color: white !important;
 }
 
 /* -------- Print Styles (nice to have) -------- */
