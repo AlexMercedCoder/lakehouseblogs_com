@@ -430,6 +430,12 @@ body {
 .reveal { opacity: 0; transform: translateY(8px); transition: opacity .4s ease, transform .4s ease; }
 .reveal.is-visible { opacity: 1; transform: translateY(0); }
 
+/* -------- Other -------- */
+
+.hero a {
+   color: white;
+}
+
 /* -------- Print Styles (nice to have) -------- */
 @media print {
   .site-header, .toolbar, .year-nav, .repo-link { display: none !important; }
