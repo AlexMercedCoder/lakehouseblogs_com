@@ -1800,6 +1800,16 @@
     "project_slugs": ["arrow", "flight-sql"],
     "tags": ["Apache Arrow"]
   },
+    {
+    "title": "Hands-on Introduction to Dremio Cloud Agentic Lakehouse (Self-Guided Workshop)",
+    "date": "2022-11-13",
+    "url": "https://www.dremio.com/blog/hands-on-introduction-to-dremio-cloud-next-gen-self-guided-workshop/",
+    "company": "Dremio",
+    "author": "Alex Merced",
+    "author_url": "https://www.alexmerced.com/data",
+    "project_slugs": ["iceberg","polaris","arrow"],
+    "tags": ["Apache Iceberg", "Apache Polaris", "Apache Arrow"]
+  },
   {
     "title": "How the Apache Arrow Format Accelerates Query Result Transfer",
     "date": "2025-01-10",
