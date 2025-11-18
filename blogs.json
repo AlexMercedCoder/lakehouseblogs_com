@@ -41,6 +41,16 @@
       "tags": ["Apache Iceberg", "Apache Hive", "Data Lakehouse"]
     },
     {
+      "title": "TPC-H Databricks vs Apache Iceberg - (OLake + AWS Glue + EMR)",
+      "date": "2025-10-28",
+      "url": "https://olake.io/iceberg/databricks-vs-iceberg/",
+      "company": "OLake",
+      "author": "Nayan Joshi",
+      "author_url": "https://olake.io",
+      "project_slugs": ["iceberg", "hive"],
+      "tags": ["Apache Iceberg", "Apache Hive", "Data Lakehouse"]
+    },
+    {
       "title": "Comparison of Delete Strategies in Apache Iceberg and Delta Lake",
       "date": "2025-09-04",
       "url": "https://olake.io/blog/iceberg-delta-lake-delete-methods-comparison",
