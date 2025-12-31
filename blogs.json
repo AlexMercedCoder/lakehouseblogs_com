@@ -1,6 +1,96 @@
 {
   "blogs": [
     {
+      "title": "3 Surprising Truths About the Free Apache Polaris-Based Dremio Open Catalog",
+      "date": "2025-12-22",
+      "url": "https://www.dremio.com/blog/3-surprising-truths-about-the-free-apache-polaris-based-dremio-open-catalog/",
+      "company": "Dremio",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": ["iceberg", "polaris"],
+      "tags": ["Apache Iceberg", "Apache Polaris"]
+    },
+    {
+      "title": "5 Counter-Intuitive Dremio Performance Tips for Lightning-Fast Iceberg Queries",
+      "date": "2025-12-22",
+      "url": "https://www.dremio.com/blog/5-counter-intuitive-dremio-performance-tips-for-lightning-fast-iceberg-queries/",
+      "company": "Dremio",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": ["iceberg", "polaris"],
+      "tags": ["Apache Iceberg", "Apache Polaris"]
+    },
+    {
+      "title": "Data Ingestion Patterns Using Dremio: From Raw Data to Apache Iceberg",
+      "date": "2025-12-19",
+      "url": "https://www.dremio.com/blog/data-ingestion-patterns-using-dremio-from-raw-data-to-apache-iceberg/",
+      "company": "Dremio",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": ["iceberg", "polaris"],
+      "tags": ["Apache Iceberg", "Apache Polaris"]
+    },
+    {
+      "title": "5 Steps to Supercharge Your Analytics with Dremio’s AI Agent and Apache Iceberg",
+      "date": "2025-12-18",
+      "url": "https://www.dremio.com/blog/5-steps-to-supercharge-your-analytics-with-dremios-ai-agent-and-apache-iceberg/",
+      "company": "Dremio",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": ["iceberg", "polaris"],
+      "tags": ["Apache Iceberg", "Apache Polaris"]
+    },
+    {
+      "title": "5 Dremio Features That Will Change How You Think About The Apache Iceberg Lakehouse",
+      "date": "2025-12-10",
+      "url": "https://www.dremio.com/blog/5-dremio-features-that-will-change-how-you-think-about-the-apache-iceberg-lakehouse/",
+      "company": "Dremio",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": ["iceberg", "polaris"],
+      "tags": ["Apache Iceberg", "Apache Polaris"]
+    },
+    {
+      "title": "Ingesting Data into Apache Iceberg Using Python Tools with Dremio Catalog",
+      "date": "2025-11-24",
+      "url": "https://www.dremio.com/blog/ingesting-data-into-apache-iceberg-using-python-tools-with-a-dremio-catalog/",
+      "company": "Dremio",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": ["iceberg", "polaris"],
+      "tags": ["Apache Iceberg", "Apache Polaris"]
+    },
+    {
+      "title": "Try Apache Polaris (incubating) on Your Laptop with Minio",
+      "date": "2025-10-14",
+      "url": "https://www.dremio.com/blog/try-apache-polaris-incubating-on-your-laptop-with-minio/",
+      "company": "Dremio",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": ["iceberg", "polaris"],
+      "tags": ["Apache Iceberg", "Apache Polaris"]
+    },
+    {
+      "title": "Apache Iceberg Table Performance Management with Dremio’s OPTIMIZE",
+      "date": "2025-10-02",
+      "url": "https://www.dremio.com/blog/apache-iceberg-table-performance-management-with-dremios-optimize/",
+      "company": "Dremio",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": ["iceberg", "polaris"],
+      "tags": ["Apache Iceberg", "Apache Polaris"]
+    },
+    {
+      "title": "Apache Iceberg Table Storage Management with Dremio’s VACUUM TABLE",
+      "date": "2025-10-02",
+      "url": "https://www.dremio.com/blog/apache-iceberg-table-storage-management-with-dremios-vacuum-table/",
+      "company": "Dremio",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": ["iceberg", "polaris"],
+      "tags": ["Apache Iceberg", "Apache Polaris"]
+    },
+    {
       "title": "How Apache Iceberg Branching transforms Data Management",
       "date": "2025-09-09",
       "url": "https://www.starburst.io/blog/iceberg-branching-data-management/",
