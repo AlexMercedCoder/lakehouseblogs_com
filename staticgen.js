@@ -15,7 +15,7 @@ const path = require("path");
 
 // ---- Config ----
 const DIST_DIR = path.join(__dirname, "dist");
-const ASSETS_TO_COPY = ["index.css", "robots.txt", "sitemap.xml", "og-image.png", "index.js", "talk.js", "podcasts.js"]; // Add og-image.png if exists, otherwise handled gracefully
+const ASSETS_TO_COPY = ["index.css", "robots.txt", "sitemap.xml", "og-image.png", "index.js", "talk.js", "podcasts.js", "blogs.json", "talks.json", "podcasts.json"]; // Add og-image.png if exists, otherwise handled gracefully
 const FILES = {
   blog: { html: "index.html", json: "blogs.json", out: "index.html", type: "blog" },
   talk: { html: "talk.html", json: "talks.json", out: "talk.html", type: "talk" },
