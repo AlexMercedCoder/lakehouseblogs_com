@@ -15,7 +15,7 @@ const path = require("path");
 
 // ---- Config ----
 const DIST_DIR = path.join(__dirname, "dist");
-const ASSETS_TO_COPY = ["index.css", "robots.txt", "sitemap.xml", "og-image.png"]; // Add og-image.png if exists, otherwise handled gracefully
+const ASSETS_TO_COPY = ["index.css", "robots.txt", "sitemap.xml", "og-image.png", "index.js", "talk.js", "podcasts.js"]; // Add og-image.png if exists, otherwise handled gracefully
 const FILES = {
   blog: { html: "index.html", json: "blogs.json", out: "index.html", type: "blog" },
   talk: { html: "talk.html", json: "talks.json", out: "talk.html", type: "talk" },
@@ -142,7 +142,6 @@ function buildYearSection(year, items) {
       </div>
     </section>`;
 }
-
 function buildPage(config) {
   console.log(`Building ${config.out}...`);
   const htmlRaw = readFile(config.html);
@@ -151,7 +150,6 @@ function buildPage(config) {
   let data;
   try {
      data = JSON.parse(jsonRaw);
-     // Handle structure variations: blogs.json has { blogs: [] }, others might be array directly
      if (data.blogs) data = data.blogs; 
   } catch (e) {
     console.error(`Error parsing ${config.json}:`, e);
@@ -161,7 +159,7 @@ function buildPage(config) {
   // 1. Normalize
   const items = data
     .map((item) => normalizeData(item, config.type))
-    .filter((i) => i.title && i.url) // Basic validation
+    .filter((i) => i.title && i.url) 
     .sort((a, b) => new Date(b.date) - new Date(a.date));
 
   // 2. Group by Year
@@ -179,15 +177,7 @@ function buildPage(config) {
     .join("\n");
 
   // 4. Inject into container
-  // Logic: Locate the container div. 
-  // - index.html uses id="yearsRoot"
-  // - talk.html uses id="talks-root"
-  // - podcasts.html uses id="podcasts-root"
-  // We can just regex replace the inner content of the target div
-  
   let out = htmlRaw;
-  
-  // Generic target replacement: find the specific root or fallback
   const targets = ["yearsRoot", "talks-root", "podcasts-root"];
   let injected = false;
   
@@ -204,8 +194,8 @@ function buildPage(config) {
     console.warn(`Warning: Could not find injection root in ${config.html}`);
   }
 
-  // 5. Cleanup Script Tags (remove client-side JS)
-  out = out.replace(/<script[^>]*src=["'](index|talk|podcasts)\.js["'][^>]*>[\s\S]*?<\/script>/g, "");
+  // 5. Cleanup: DO NOT strip scripts anymore.
+  // out = out.replace(/<script[^>]*src=["'](index|talk|podcasts)\.js["'][^>]*>[\s\S]*?<\/script>/g, "");
   
   // 6. Inject Generator Stamp
   const stamp = `<!-- Static build: ${new Date().toISOString()} -->`;
