@@ -19,21 +19,41 @@
   <meta name="twitter:title" content="Apache Iceberg Talks" />
   <meta name="twitter:description" content="Watch the latest conference talks and presentations about Apache Iceberg." />
   
-  <link rel="stylesheet" href="talks.css" />
-  <script src="talk.js" defer></script>
+  <link rel="stylesheet" href="index.css" />
 </head>
 <body>
-  <header>
-    <h1>Apache Iceberg Talks</h1>
-    <div class="controls">
-      <input type="text" id="search" placeholder="Search talks..." />
-      <select id="yearFilter">
-        <option value="">All Years</option>
-      </select>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <span class="brand__dot"></span>
+        <a href="index.html" style="text-decoration:none;">LakehouseBlogs</a>
+      </div>
+      <div class="header-actions">
+        <a href="index.html" class="btn">Back to Home</a>
+      </div>
     </div>
   </header>
-  <main id="talks-container">
-    <!-- Talk cards will be injected here by talk.js -->
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <h1>Apache Iceberg Talks</h1>
+      <p>Curated collection of conference talks and videos about Apache Iceberg.</p>
+    </div>
+  </section>
+
+  <!-- Main -->
+  <main class="container layout" style="margin-top:2rem;">
+    <!-- We will inject the content here via staticgen.js -->
+    <div id="talks-root"></div>
   </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>LakehouseBlogs.com is an open-source project. Contribute via pull request.</p>
+      <a class="repo-link" href="https://github.com/AlexMercedCoder/lakehouseblogs_com" target="_blank" rel="noopener">GitHub Repository</a>
+    </div>
+  </footer>
 </body>
 </html>

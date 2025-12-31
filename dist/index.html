@@ -1,0 +1,2890 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LakehouseBlogs.com – Open Source Lakehouse Blogs</title>
+  <meta name="description" content="Discover the latest insights, tutorials, and updates about Apache Iceberg, Delta Lake, Apache Hudi, Apache Paimon, and other open source data lakehouse technologies." />
+  <link rel="canonical" href="https://lakehouseblogs.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://lakehouseblogs.com/" />
+  <meta property="og:title" content="LakehouseBlogs.com – Open Source Lakehouse Blogs" />
+  <meta property="og:description" content="A curated aggregator of blogs, tutorials, and news for the open source data lakehouse ecosystem." />
+  <meta property="og:image" content="https://lakehouseblogs.com/og-image.png" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="LakehouseBlogs.com – Open Source Lakehouse Blogs" />
+  <meta name="twitter:description" content="Discover the latest insights about Apache Iceberg, Delta Lake, Hudi, and more." />
+  <meta name="twitter:image" content="https://lakehouseblogs.com/og-image.png" />
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "LakehouseBlogs.com",
+    "url": "https://lakehouseblogs.com/",
+    "description": "Aggregator for Open Source Data Lakehouse content including Apache Iceberg, Delta Lake, and Apache Hudi.",
+    "publisher": {
+      "@type": "Person",
+      "name": "Alex Merced",
+      "url": "https://alexmerced.com"
+    }
+  }
+  </script>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <span class="brand__dot"></span>
+        LakehouseBlogs
+      </div>
+      <div class="header-actions">
+        <a href="https://github.com/AlexMercedCoder/lakehouseblogs_com" class="btn btn--brand" target="_blank" rel="noopener">Contribute</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <h1>Open Source Lakehouse Blog Aggregator</h1>
+      <p>Discover the latest insights and tutorials about Apache Iceberg, Delta Lake, Apache Hudi, Apache Paimon, Apache Polaris, Apache Gravitino, Project Nessie, and more.</p>
+      <p><a href="talk.html"><button>Apache Iceberg Talks</button></a></p>
+      <p><a href="podcasts.html"><button>Apache Iceberg Podcast Episodes</button></a></p>
+                  </div>
+  </section>
+
+  <!-- Toolbar -->
+  <div class="container toolbar">
+    <div class="searchbar">
+      <input type="search" id="search" placeholder="Search blogs by keyword, author, or project..." autocomplete="off" />
+      <span class="icon" aria-hidden="true">🔍</span>
+    </div>
+    <div class="filters" id="filters">
+      <!-- JS dynamically toggles active and filters cards -->
+      <button class="chip is-active" data-project="all">All</button>
+      <button class="chip" data-project="iceberg">Apache Iceberg</button>
+      <button class="chip" data-project="delta">Delta Lake</button>
+      <button class="chip" data-project="hudi">Apache Hudi</button>
+      <button class="chip" data-project="paimon">Apache Paimon</button>
+      <button class="chip" data-project="polaris">Apache Polaris</button>
+      <button class="chip" data-project="gravitino">Apache Gravitino</button>
+      <button class="chip" data-project="nessie">Project Nessie</button>
+      <button class="chip" data-project="arrow">Apache Arrow</button>
+    </div>
+  </div>
+
+  <!-- Main (dynamic) -->
+  <main class="container layout" id="app">
+    <!-- Sticky Year Nav (populated by JS) -->
+    <nav class="year-nav" aria-label="Years">
+      <div class="year-nav__inner" id="yearNav"></div>
+    </nav>
+
+    <!-- Years Root (populated by JS with year banners + cards) -->
+    <div id="yearsRoot" role="region" aria-live="polite">
+    <section id="2025" class="year-section">
+      <div class="year-header">
+        <h2 class="year-title">2025</h2>
+        <div class="year-count">50 posts</div>
+      </div>
+      <div class="links-grid">
+        
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-12-22">December 21, 2025</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/3-surprising-truths-about-the-free-apache-polaris-based-dremio-open-catalog/" target="_blank" rel="noopener">3 Surprising Truths About the Free Apache Polaris-Based Dremio Open Catalog</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span><span class="badge">Apache Polaris</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-12-22">December 21, 2025</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/5-counter-intuitive-dremio-performance-tips-for-lightning-fast-iceberg-queries/" target="_blank" rel="noopener">5 Counter-Intuitive Dremio Performance Tips for Lightning-Fast Iceberg Queries</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span><span class="badge">Apache Polaris</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-12-19">December 18, 2025</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/data-ingestion-patterns-using-dremio-from-raw-data-to-apache-iceberg/" target="_blank" rel="noopener">Data Ingestion Patterns Using Dremio: From Raw Data to Apache Iceberg</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span><span class="badge">Apache Polaris</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-12-18">December 17, 2025</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/5-steps-to-supercharge-your-analytics-with-dremios-ai-agent-and-apache-iceberg/" target="_blank" rel="noopener">5 Steps to Supercharge Your Analytics with Dremio’s AI Agent and Apache Iceberg</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span><span class="badge">Apache Polaris</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-12-10">December 9, 2025</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/5-dremio-features-that-will-change-how-you-think-about-the-apache-iceberg-lakehouse/" target="_blank" rel="noopener">5 Dremio Features That Will Change How You Think About The Apache Iceberg Lakehouse</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span><span class="badge">Apache Polaris</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-11-24">November 23, 2025</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/ingesting-data-into-apache-iceberg-using-python-tools-with-a-dremio-catalog/" target="_blank" rel="noopener">Ingesting Data into Apache Iceberg Using Python Tools with Dremio Catalog</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span><span class="badge">Apache Polaris</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-10-28">October 27, 2025</time>
+        · <span>OLake</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://olake.io/iceberg/databricks-vs-iceberg/" target="_blank" rel="noopener">TPC-H Databricks vs Apache Iceberg - (OLake + AWS Glue + EMR)</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Nayan Joshi</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span><span class="badge">Apache Hive</span><span class="badge">Data Lakehouse</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-10-14">October 13, 2025</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/try-apache-polaris-incubating-on-your-laptop-with-minio/" target="_blank" rel="noopener">Try Apache Polaris (incubating) on Your Laptop with Minio</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span><span class="badge">Apache Polaris</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-10-02">October 1, 2025</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/apache-iceberg-table-performance-management-with-dremios-optimize/" target="_blank" rel="noopener">Apache Iceberg Table Performance Management with Dremio’s OPTIMIZE</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span><span class="badge">Apache Polaris</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-10-02">October 1, 2025</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/apache-iceberg-table-storage-management-with-dremios-vacuum-table/" target="_blank" rel="noopener">Apache Iceberg Table Storage Management with Dremio’s VACUUM TABLE</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span><span class="badge">Apache Polaris</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-09-24">September 23, 2025</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://datalakehousehub.com/blog/2025-09-ultimate-guide-to-open-table-formats/" target="_blank" rel="noopener">The Ultimate Guide to Open Table Formats - Iceberg, Delta Lake, Hudi, Paimon, and DuckLake</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span><span class="badge">Delta Lake</span><span class="badge">Apache Paimon</span><span class="badge">Apache Hudi</span><span class="badge">DuckLake</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-09-23">September 22, 2025</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://datalakehousehub.com/blog/2025-09-2026-guide-to-data-lakehouses/" target="_blank" rel="noopener">The 2025 &amp; 2026 Ultimate Guide to the Data Lakehouse and the Data Lakehouse Ecosystem</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span><span class="badge">Delta Lake</span><span class="badge">Apache Hudi</span><span class="badge">Apache Paimon</span><span class="badge">Apache Polaris</span><span class="badge">Apache Gravitino</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-09-15">September 14, 2025</time>
+        · <span>OLake</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://olake.io/blog/apache-iceberg-hive-comparison" target="_blank" rel="noopener">Apache Hive vs Apache Iceberg: Choosing the Right Data Lakehouse Technology</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Akshay Kumar Sharma</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span><span class="badge">Apache Hive</span><span class="badge">Data Lakehouse</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-09-12">September 11, 2025</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/whats-new-in-apache-iceberg-1-10-0-and-what-comes-next/" target="_blank" rel="noopener">What's New in Apache Iceberg 1.10.0, and what comes next!</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-09-09">September 8, 2025</time>
+        · <span>Starburst</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.starburst.io/blog/iceberg-branching-data-management/" target="_blank" rel="noopener">How Apache Iceberg Branching transforms Data Management</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Starburst</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-09-05">September 4, 2025</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/looking-back-the-last-year-in-lakehouse-oss-advances-in-apache-arrow-iceberg-polaris-incubating/" target="_blank" rel="noopener">Looking back the last year in Lakehouse OSS: Advances in Apache Arrow, Iceberg &amp; Polaris (incubating)</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Arrow</span><span class="badge">Apache Iceberg</span><span class="badge">Apache Polaris</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-09-05">September 4, 2025</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/scaling-data-lakes-moving-from-raw-parquet-to-iceberg-lakehouses/" target="_blank" rel="noopener">Scaling Data Lakes: Moving from Raw Parquet to Iceberg Lakehouses</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-09-05">September 4, 2025</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://iceberglakehouse.com/posts/2025-09-agentic-ai-dremio-apache-iceberg/" target="_blank" rel="noopener">Unlocking the Power of Agentic AI with Apache Iceberg and Dremio</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-09-04">September 3, 2025</time>
+        · <span>Starburst</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.starburst.io/blog/iceberg-v3/" target="_blank" rel="noopener">Iceberg v3 + Starburst</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Starburst</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-09-04">September 3, 2025</time>
+        · <span>OLake</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://olake.io/blog/iceberg-delta-lake-delete-methods-comparison" target="_blank" rel="noopener">Comparison of Delete Strategies in Apache Iceberg and Delta Lake</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By OLake Team</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span><span class="badge">Delta Lake</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-08-18">August 17, 2025</time>
+        · <span>Confluent</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://rmoff.net/2025/08/18/kafka-to-iceberg-exploring-the-options/" target="_blank" rel="noopener">Kafka to Iceberg - Exploring the Options</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Robin Moffatt</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-08-08">August 7, 2025</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/optimizing-iceberg-tables/" target="_blank" rel="noopener">Optimizing Apache Iceberg Tables – Manual and Automatic</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-08-07">August 6, 2025</time>
+        · <span>Medium</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://medium.com/@bhagyarana80/the-hidden-power-of-apache-arrow-in-python-etl-19ad052819f1" target="_blank" rel="noopener">The Hidden Power of Apache Arrow in Python ETL</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Bhagya Rana</span>
+        <span class="badges"><span class="badge">Apache Arrow</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-08-01">July 31, 2025</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/optimizing-apache-iceberg-for-agentic-ai/" target="_blank" rel="noopener">Optimizing Apache Iceberg for Agentic AI</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-07-30">July 29, 2025</time>
+        · <span>Medium</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://christianhenrikreich.medium.com/microsoft-fabric-an-introduction-to-apache-arrow-as-the-cornerstone-of-python-data-engineering-f35d009dfc69" target="_blank" rel="noopener">Microsoft Fabric: An introduction to Apache Arrow as the cornerstone of Python data engineering</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Christian Henrik Reich</span>
+        <span class="badges"><span class="badge">Apache Arrow</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-07-29">July 28, 2025</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/5-ways-dremio-makes-apache-iceberg-lakehouses-easy/" target="_blank" rel="noopener">5 Ways Dremio Makes Apache Iceberg Lakehouses Easy</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-07-10">July 9, 2025</time>
+        · <span>BladePipe</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://doc.bladepipe.com/blog/tech_share/mysql_iceberg_sync" target="_blank" rel="noopener">How to Load Data from MySQL to Iceberg in Real Time</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By BladePipe</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-07-09">July 8, 2025</time>
+        · <span>Ryft</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.ryft.io/blog/making-sense-of-apache-iceberg-statistics" target="_blank" rel="noopener">Making Sense of Apache Iceberg Statistics</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Guy Yasoor</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-07-07">July 6, 2025</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/quick-start-with-apache-iceberg-and-apache-polaris-on-your-laptop-quick-setup-notebook-environment/" target="_blank" rel="noopener">Quick Start with Apache Iceberg and Apache Polaris on your Laptop (quick setup notebook environment)</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span><span class="badge">Apache Polaris</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-07-07">July 6, 2025</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/query-results-caching-on-iceberg-tables/" target="_blank" rel="noopener">Query Results Caching on Iceberg Tables</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Benny Chow</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-07-04">July 3, 2025</time>
+        · <span>Confluent</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://rmoff.net/2025/07/04/writing-to-apache-iceberg-on-s3-using-kafka-connect-with-glue-catalog/" target="_blank" rel="noopener">Writing to Apache Iceberg on S3 using Kafka Connect with Glue catalog</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Robin Moffatt</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-07-01">June 30, 2025</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/query-results-caching-on-iceberg-tables/" target="_blank" rel="noopener">Benchmarking Framework for the Apache Iceberg Catalog, Polaris</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Pierre Laporte</span>
+        <span class="badges"><span class="badge">Apache Polaris</span><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-06-24">June 23, 2025</time>
+        · <span>Confluent</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://rmoff.net/2025/06/24/writing-to-apache-iceberg-on-s3-using-flink-sql-with-glue-catalog/" target="_blank" rel="noopener">Writing to Apache Iceberg on S3 using Flink SQL with Glue catalog</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Robin Moffatt</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-06-11">June 10, 2025</time>
+        · <span>Firebolt</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.firebolt.io/blog/querying-apache-iceberg-with-sub-second-performance" target="_blank" rel="noopener">Querying Apache Iceberg with Sub-Second Performance</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Lorenz Hübschle</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-06-09">June 8, 2025</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/extending-apache-iceberg-best-practices-for-storing-and-discovering-custom-metadata/" target="_blank" rel="noopener">Extending Apache Iceberg: Best Practices for Storing and Discovering Custom Metadata</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-05-30">May 29, 2025</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/using-dremio-with-confluents-tableflow-for-real-time-apache-iceberg-analytics/" target="_blank" rel="noopener">Using Dremio with Confluent’s TableFlow for Real-Time Apache Iceberg Analytics</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-05-21">May 20, 2025</time>
+        · <span>Redpanda</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.redpanda.com/blog/apache-iceberg-tables-benefits-challenges" target="_blank" rel="noopener">What Are Apache Iceberg Tables? Benefits and challenges</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Redpanda</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-05-20">May 19, 2025</time>
+        · <span>Tinybird</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.tinybird.co/blog-posts/real-time-analytics-on-apache-iceberg-with-tinybird" target="_blank" rel="noopener">Real-Time Analytics on Apache Iceberg with Tinybird</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alberto Romeu</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-05-13">May 12, 2025</time>
+        · <span>OLake</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://olake.io/iceberg/hive-partitioning-vs-iceberg-partitioning" target="_blank" rel="noopener">Iceberg Partitioning vs. Hive Partitioning</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Sandeep Devarapalli</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span><span class="badge">Hive</span><span class="badge">Partitioning</span><span class="badge">OLake</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-05-01">April 30, 2025</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/introducing-dremio-auth-manager-for-apache-iceberg/" target="_blank" rel="noopener">Introducing Dremio Auth Manager for Apache Iceberg</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Dutra</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-04-30">April 29, 2025</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/apache-iceberg-v3/" target="_blank" rel="noopener">What’s New in Apache Iceberg Format Version 3?</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-04-28">April 27, 2025</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/dremios-apache-iceberg-clustering-technical-blog/" target="_blank" rel="noopener">Dremio’s Apache Iceberg Clustering: Technical Blog</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Gang Xiao</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-04-08">April 7, 2025</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/iceberg-credential-vending/" target="_blank" rel="noopener">Credential Vending with Iceberg REST Catalogs in Dremio</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Adam Szita &amp; Tamas Mate</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span><span class="badge">Apache Polaris</span><span class="badge">Project Nessie</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-03-26">March 25, 2025</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/disaster-recovery-for-apache-iceberg-tables-restoring-from-backup-and-getting-back-online/" target="_blank" rel="noopener">Disaster Recovery for Apache Iceberg Tables – Restoring from Backup and Getting Back Online</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-03-20">March 19, 2025</time>
+        · <span>Estuary</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://estuary.dev/blog/loading-data-into-apache-iceberg/" target="_blank" rel="noopener">How to Load Data into Apache Iceberg: A Step-by-Step Tutorial</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Dani Pálma</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-03-18">March 17, 2025</time>
+        · <span>Medium</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://dipankar-tnt.medium.com/what-is-apache-arrow-flight-flight-sql-adbc-a076511122ac" target="_blank" rel="noopener">What is Apache Arrow Flight, Flight SQL &amp; ADBC</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Dipankar Mazumdar</span>
+        <span class="badges"><span class="badge">Apache Arrow</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-02-21">February 20, 2025</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/apache-polaris-roadmap-2025/" target="_blank" rel="noopener">The Future of Apache Polaris (Incubating)</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-02-04">February 3, 2025</time>
+        · <span>Medium</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://medium.com/@tfmv/redefining-data-engineering-with-go-and-apache-arrow-df9059ddf55c" target="_blank" rel="noopener">Redefining Data Engineering with Go and Apache Arrow</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Thomas F McGeehan V</span>
+        <span class="badges"><span class="badge">Apache Arrow</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-02-01">January 31, 2025</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/ai-agents-with-dremio/" target="_blank" rel="noopener">Building AI Agents with LangChain using Dremio, Iceberg, and Unified Data</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2025-01-10">January 9, 2025</time>
+        · <span>Apache Arrow</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://arrow.apache.org/blog/2025/01/10/arrow-result-transfer/" target="_blank" rel="noopener">How the Apache Arrow Format Accelerates Query Result Transfer</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Ian Cook et al.</span>
+        <span class="badges"><span class="badge">Apache Arrow</span></span>
+      </div>
+    </article>
+      </div>
+    </section>
+
+    <section id="2024" class="year-section">
+      <div class="year-header">
+        <h2 class="year-title">2024</h2>
+        <div class="year-count">49 posts</div>
+      </div>
+      <div class="links-grid">
+        
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-11-27">November 26, 2024</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/dremio-best-sql-engine-for-apache-iceberg/" target="_blank" rel="noopener">3 Reasons Why Dremio Is the Best SQL Query Engine for Apache Iceberg</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-11-15">November 14, 2024</time>
+        · <span>Memiiso Community</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://medium.com/@ismail-simsek/building-a-data-lake-with-debezium-and-apache-iceberg-part-1-25124daf2a95" target="_blank" rel="noopener">Building a Data Lake with Debezium and Apache Iceberg</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Ismail Simsek</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-11-11">November 10, 2024</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/why-dremio-and-apache-iceberg/" target="_blank" rel="noopener">Adopting Apache Iceberg? How Dremio can enhance your Iceberg Journey</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-10-25">October 24, 2024</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/benefits-of-an-iceberg-lakehouse-with-dremio/" target="_blank" rel="noopener">Breaking Down the Benefits of Lakehouses, Apache Iceberg and Dremio</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span><span class="badge">Project Nessie</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-10-22">October 21, 2024</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/intro-to-pyiceberg/" target="_blank" rel="noopener">Hands-on with Apache Iceberg Tables using PyIceberg using Nessie and Minio</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span><span class="badge">Project Nessie</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-10-08">October 7, 2024</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://medium.com/data-engineering-with-dremio/a-brief-guide-to-the-governance-of-apache-iceberg-tables-7c0a50316e22" target="_blank" rel="noopener">A Brief Guide to the Governance of Apache Iceberg Tables</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-10-07">October 6, 2024</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://medium.com/data-engineering-with-dremio/ultimate-directory-of-apache-iceberg-resources-e3e02efac62e" target="_blank" rel="noopener">Ultimate Directory of Apache Iceberg Resources</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-10-03">October 2, 2024</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/cdc-with-apache-iceberg/" target="_blank" rel="noopener">A Guide to Change Data Capture (CDC) with Apache Iceberg</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-10-03">October 2, 2024</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/use-nessie-with-iceberg-rest-catalog/" target="_blank" rel="noopener">Using Nessie’s REST Catalog Support for Working with Apache Iceberg Tables</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Project Nessie</span><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-09-27">September 26, 2024</time>
+        · <span>Nussknacker</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://nussknacker.io/blog/nussknacker-iceberg-example" target="_blank" rel="noopener">Using Nussknacker with Apache Iceberg: Periodical report example</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Arkadiusz Burdach</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-09-20">September 19, 2024</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://medium.com/data-engineering-with-dremio/hands-on-with-apache-iceberg-on-your-laptop-deep-dive-with-apache-spark-nessie-minio-dremio-c5d689b01730" target="_blank" rel="noopener">Hands-on with Apache Iceberg on Your Laptop: Deep Dive with Apache Spark, Nessie, Minio, Dremio, Polars and Seaborn</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span><span class="badge">Project Nessie</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-09-16">September 15, 2024</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/apache-iceberg-metadata-tables/" target="_blank" rel="noopener">Leveraging Apache Iceberg Metadata Tables in Dremio for Effective Data Lakehouse Auditing</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-09-05">September 4, 2024</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/why-thinking-about-apache-iceberg-catalogs-like-nessie-and-apache-polaris-incubating-matters/" target="_blank" rel="noopener">Why Thinking about Apache Iceberg Catalogs Like Nessie and Apache Polaris (incubating) Matters</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span><span class="badge">Project Nessie</span><span class="badge">Apache Polaris</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-08-20">August 19, 2024</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/8-tools-for-ingesting-data-into-apache-iceberg/" target="_blank" rel="noopener">8 Tools For Ingesting Data Into Apache Iceberg</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-08-19">August 18, 2024</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/evolving-the-data-lake-from-csv-json-to-parquet-to-apache-iceberg/" target="_blank" rel="noopener">Evolving the Data Lake: From CSV/JSON to Parquet to Apache Iceberg</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-08-12">August 11, 2024</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/guide-to-maintaining-an-apache-iceberg-lakehouse/" target="_blank" rel="noopener">Guide to Maintaining an Apache Iceberg Lakehouse</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-08-08">August 7, 2024</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/migration-guide-for-apache-iceberg-lakehouses/" target="_blank" rel="noopener">Migration Guide for Apache Iceberg Lakehouses</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-08-01">July 31, 2024</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/getting-hands-on-with-polaris-oss-apache-iceberg-and-apache-spark/" target="_blank" rel="noopener">Getting Hands-on with Polaris OSS, Apache Iceberg and Apache Spark</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Polaris</span><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-07-18">July 17, 2024</time>
+        · <span>Decodable</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.decodable.co/blog/kafka-to-iceberg-with-flink" target="_blank" rel="noopener">Sending Data to Apache Iceberg from Apache Kafka with Apache Flink</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Robin Moffatt</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-07-11">July 10, 2024</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/apache-iceberg-crash-course-what-is-a-data-lakehouse-and-a-table-format/" target="_blank" rel="noopener">What is a Data Lakehouse and a Table Format?</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-06-18">June 17, 2024</time>
+        · <span>Decodable</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.decodable.co/blog/kafka-to-iceberg-with-decodable" target="_blank" rel="noopener">How to get data from Apache Kafka to Apache Iceberg on S3 with Decodable</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Robin Moffatt</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-05-28">May 27, 2024</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/the-nessie-ecosystem-and-the-reach-of-git-for-data-for-apache-iceberg/" target="_blank" rel="noopener">The Nessie Ecosystem and the Reach of Git for Data for Apache Iceberg</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Project Nessie</span><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-05-24">May 23, 2024</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/the-evolution-of-apache-iceberg-catalogs/" target="_blank" rel="noopener">The Evolution of Apache Iceberg Catalogs</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-05-13">May 12, 2024</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/from-json-csv-and-parquet-to-dashboards-with-apache-iceberg-and-dremio/" target="_blank" rel="noopener">From JSON, CSV and Parquet to Dashboards with Apache Iceberg and Dremio</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-05-13">May 12, 2024</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/from-apache-druid-to-dashboards-with-dremio-and-apache-iceberg/" target="_blank" rel="noopener">From Apache Druid to Dashboards with Dremio and Apache Iceberg</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-05-10">May 9, 2024</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/ingesting-data-into-nessie-apache-iceberg-with-kafka-connect-and-querying-it-with-dremio/" target="_blank" rel="noopener">Ingesting Data into Nessie &amp; Apache Iceberg with kafka-connect and querying it with Dremio</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Project Nessie</span><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-05-07">May 6, 2024</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/from-mysql-to-dashboards-with-dremio-and-apache-iceberg/" target="_blank" rel="noopener">From MySQL to Dashboards with Dremio and Apache Iceberg</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-05-07">May 6, 2024</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/from-elasticsearch-to-dashboards-with-dremio-and-apache-iceberg/" target="_blank" rel="noopener">From Elasticsearch to Dashboards with Dremio and Apache Iceberg</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-04-15">April 14, 2024</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/streaming-and-batch-data-lakehouses-with-apache-iceberg-dremio-and-upsolver/" target="_blank" rel="noopener">Streaming and Batch Data Lakehouses with Apache Iceberg, Dremio and Upsolver</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-04-01">March 31, 2024</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://medium.com/data-engineering-with-dremio/end-to-end-basic-data-engineering-tutorial-spark-dremio-superset-c076a56eaa75" target="_blank" rel="noopener">End-to-End Basic Data Engineering Tutorial (Apache Spark, Apache Iceberg, Dremio, Apache Superset, Nessie)</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span><span class="badge">Project Nessie</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-03-29">March 28, 2024</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/from-mongodb-to-dashboards-with-dremio-and-apache-iceberg/" target="_blank" rel="noopener">From MongoDB to Dashboards with Dremio and Apache Iceberg</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-03-29">March 28, 2024</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/from-sqlserver-to-dashboards-with-dremio-and-apache-iceberg/" target="_blank" rel="noopener">From SQLServer to Dashboards with Dremio and Apache Iceberg</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-03-29">March 28, 2024</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/bi-dashboards-with-apache-iceberg-using-aws-glue-and-apache-superset/" target="_blank" rel="noopener">BI Dashboards with Apache Iceberg Using AWS Glue and Apache Superset</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-03-29">March 28, 2024</time>
+        · <span>Medium</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://amanjaiswalofficial.medium.com/apache-arrow-making-spark-even-faster-3ae-8ca8e1a67dc7" target="_blank" rel="noopener">Apache Arrow, making Spark even faster</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Aman Jaiswal</span>
+        <span class="badges"><span class="badge">Apache Arrow</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-03-28">March 27, 2024</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/from-postgres-to-dashboards-with-dremio-and-apache-iceberg/" target="_blank" rel="noopener">From Postgres to Dashboards with Dremio and Apache Iceberg</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-03-27">March 26, 2024</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/run-graph-queries-on-apache-iceberg-tables-with-dremio-puppygraph/" target="_blank" rel="noopener">Run Graph Queries on Apache Iceberg Tables with Dremio &amp; Puppygraph</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-03-06">March 5, 2024</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://amdatalakehouse.substack.com/p/the-apache-iceberg-lakehouse-the" target="_blank" rel="noopener">The Apache Iceberg Lakehouse: The Great Data Equalizer</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-03-05">March 4, 2024</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/data-lakehouse-versioning-comparison-nessie-apache-iceberg-lakefs/" target="_blank" rel="noopener">Data Lakehouse Versioning Comparison: (Nessie, Apache Iceberg, LakeFS)</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Project Nessie</span><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-02-23">February 22, 2024</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/what-is-lakehouse-management-git-for-data-automated-apache-iceberg-table-maintenance-and-more/" target="_blank" rel="noopener">What is Lakehouse Management?: Git-for-Data, Automated Apache Iceberg Table Maintenance and more</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span><span class="badge">Project Nessie</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-02-23">February 22, 2024</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/what-is-dataops-automating-data-management-on-the-apache-iceberg-lakehouse/" target="_blank" rel="noopener">What is DataOps? Automating Data Management on the Apache Iceberg Lakehouse</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-02-21">February 20, 2024</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://amdatalakehouse.substack.com/p/what-is-the-data-lakehouse-and-the" target="_blank" rel="noopener">What is the Data Lakehouse and the Role of Apache Iceberg, Nessie and Dremio?</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span><span class="badge">Project Nessie</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-02-20">February 19, 2024</time>
+        · <span>Meta</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://engineering.fb.com/2024/02/20/developer-tools/velox-apache-arrow-15-composable-data-management/" target="_blank" rel="noopener">Aligning Velox and Apache Arrow: Towards composable data management</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Pedro Pedreira</span>
+        <span class="badges"><span class="badge">Apache Arrow</span><span class="badge">Velox</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-02-14">February 13, 2024</time>
+        · <span>Medium</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://aravindkolli.medium.com/unlocking-high-speed-data-analytics-with-apache-arrow-a-beginners-guide-c5f1cda0927d" target="_blank" rel="noopener">Unlocking High-Speed Data Analytics with Apache Arrow: A Beginner’s Guide</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Aravind Kolli</span>
+        <span class="badges"><span class="badge">Apache Arrow</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-02-01">January 31, 2024</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/ingesting-data-into-apache-iceberg-tables-with-dremio-a-unified-path-to-iceberg/" target="_blank" rel="noopener">Ingesting Data Into Apache Iceberg Tables with Dremio: A Unified Path to Iceberg</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-02-01">January 31, 2024</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/open-source-and-the-data-lakehouse-apache-arrow-apache-iceberg-nessie-and-dremio/" target="_blank" rel="noopener">Open Source and the Data Lakehouse: Apache Arrow, Apache Iceberg, Nessie and Dremio</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Arrow</span><span class="badge">Apache Iceberg</span><span class="badge">Project Nessie</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-02-01">January 31, 2024</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/how-dremio-delivers-fast-queries-on-object-storage-apache-arrow-reflections-and-the-columnar-cloud-cache/" target="_blank" rel="noopener">How Dremio delivers fast queries on object storage: Apache Arrow, Reflections, and the Columnar Cloud Cache</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Arrow</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-02-01">January 31, 2024</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/open-source-and-the-data-lakehouse-apache-arrow-apache-iceberg-nessie-and-dremio/" target="_blank" rel="noopener">Open Source and the Data Lakehouse: Apache Arrow, Apache Iceberg, Nessie and Dremio</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Arrow</span><span class="badge">Apache Iceberg</span><span class="badge">Project Nessie</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-01-23">January 22, 2024</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://medium.com/@ajanthabhat/how-not-to-use-apache-iceberg-046ae7e7c884" target="_blank" rel="noopener">How not to use Apache Iceberg</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Ajantha Bhat</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2024-01-18">January 17, 2024</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/connecting-to-dremio-using-apache-arrow-flight-in-python/" target="_blank" rel="noopener">Connecting to Dremio Using Apache Arrow Flight in Python</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Arrow</span></span>
+      </div>
+    </article>
+      </div>
+    </section>
+
+    <section id="2023" class="year-section">
+      <div class="year-header">
+        <h2 class="year-title">2023</h2>
+        <div class="year-count">29 posts</div>
+      </div>
+      <div class="links-grid">
+        
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2023-10-12">October 11, 2023</time>
+        · <span>Cloudera</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://medium.com/@ayushtkn/apache-hive-4-x-with-iceberg-branches-tags-3d52293ac0bf/" target="_blank" rel="noopener">Apache Hive-4.x with Iceberg Branches &amp; Tags</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Ayush Saxena</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2023-10-12">October 11, 2023</time>
+        · <span>Cloudera</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://medium.com/@ayushtkn/apache-hive-4-x-with-apache-iceberg-part-i-355e7a380725/" target="_blank" rel="noopener">Apache Hive 4.x With Apache Iceberg</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Ayush Saxena</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2023-08-08">August 7, 2023</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/getting-started-with-flink-sql-and-apache-iceberg/" target="_blank" rel="noopener">Getting Started with Flink SQL and Apache Iceberg</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Dipankar Mazumdar &amp; Ajantha Bhat</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2023-07-28">July 27, 2023</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/using-flink-with-apache-iceberg-and-nessie/" target="_blank" rel="noopener">Using Flink with Apache Iceberg and Nessie</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span><span class="badge">Project Nessie</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2023-07-20">July 19, 2023</time>
+        · <span>Voltron Data</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://voltrondata.com/blog/zero-copy-sharing-using-apache-arrow-and-golang" target="_blank" rel="noopener">Zero-Copy Sharing using Apache Arrow and Golang</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Matt Topol</span>
+        <span class="badges"><span class="badge">Apache Arrow</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2023-07-14">July 13, 2023</time>
+        · <span>Cloudera</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://blog.cloudera.com/from-hive-tables-to-iceberg-tables-hassle-free/" target="_blank" rel="noopener">From Hive Tables to Iceberg Tables: Hassle-Free</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Srinivas Rishindra Pothireddi</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2023-07-13">July 12, 2023</time>
+        · <span>Cloudera</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://blog.cloudera.com/12-times-faster-query-planning-with-iceberg-manifest-caching-in-impala/" target="_blank" rel="noopener">12 Times Faster Query Planning With Iceberg Manifest Caching in Impala</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Riza Suminto</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2023-06-26">June 25, 2023</time>
+        · <span>LakeFS</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://lakefs.io/blog/using-lakefs-with-apache-iceberg/" target="_blank" rel="noopener">lakeFS ♥️ Apache Iceberg</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Robin Moffatt</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2023-06-14">June 13, 2023</time>
+        · <span>Bilibili</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://medium.com/@lirui.fudan/how-bilibili-builds-olap-data-lakehouse-with-apache-iceberg-9f3408e53f9" target="_blank" rel="noopener">How Bilibili Builds OLAP Data Lakehouse with Apache Iceberg</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Rui Li</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2023-06-04">June 3, 2023</time>
+        · <span>Medium</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://medium.com/@diehardankush/understanding-apache-arrow-8afc9e9cd7ed" target="_blank" rel="noopener">How To: Understand Apache Arrow</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Ankush Singh</span>
+        <span class="badges"><span class="badge">Apache Arrow</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2023-05-31">May 30, 2023</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/how-to-convert-json-files-into-an-apache-iceberg-table-with-dremio/" target="_blank" rel="noopener">How to Convert JSON Files Into an Apache Iceberg Table with Dremio</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2023-05-31">May 30, 2023</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/deep-dive-into-configuring-your-apache-iceberg-catalog-with-apache-spark/" target="_blank" rel="noopener">Deep Dive Into Configuring Your Apache Iceberg Catalog with Apache Spark</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2023-05-19">May 18, 2023</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/streamlining-data-quality-in-apache-iceberg-with-write-audit-publish-branching/" target="_blank" rel="noopener">Streamlining Data Quality in Apache Iceberg with write-audit-publish &amp; branching</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Dipankar Mazumdar &amp; Ajantha Bhat</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2023-05-12">May 11, 2023</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/introducing-the-apache-iceberg-catalog-migration-tool/" target="_blank" rel="noopener">Introducing the Apache Iceberg Catalog Migration Tool</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Dipankar Mazumdar &amp; Ajantha Bhat</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2023-04-12">April 11, 2023</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/3-ways-to-use-python-with-apache-iceberg/" target="_blank" rel="noopener">3 Ways to Use Python with Apache Iceberg</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2023-04-03">April 2, 2023</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/3-ways-to-convert-a-delta-lake-table-into-an-apache-iceberg-table/" target="_blank" rel="noopener">3 Ways to Convert a Delta Lake Table Into an Apache Iceberg Table</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Delta Lake</span><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2023-04-03">April 2, 2023</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/how-to-convert-csv-files-into-an-apache-iceberg-table-with-dremio/" target="_blank" rel="noopener">How to Convert CSV Files into an Apache Iceberg table with Dremio</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2023-04-03">April 2, 2023</time>
+        · <span>Cloudera</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://blog.cloudera.com/open-data-lakehouse-powered-by-iceberg-for-all-your-data-warehouse-needs/" target="_blank" rel="noopener">Open Data Lakehouse powered by Iceberg for all your Data Warehouse needs</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Zoltan Borok-Nagy, Ayush Saxena, Tamas Mate, Simhadri Govindappa</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2023-03-29">March 28, 2023</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/exploring-branch-tags-in-apache-iceberg-using-spark/" target="_blank" rel="noopener">Exploring Branch &amp; Tags in Apache Iceberg using Spark</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Dipankar Mazumdar</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span><span class="badge">Apache Spark</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2023-03-29">March 28, 2023</time>
+        · <span>Snowflake</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.snowflake.com/blog/iceberg-tables-catalog-support-available-now/" target="_blank" rel="noopener">Iceberg Tables: Catalog Support Now Available</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Ron Ortloff &amp; Dennis Huo</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2023-03-27">March 26, 2023</time>
+        · <span>Voltron Data</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://voltrondata.com/blog/use-apache-arrow-and-go-for-your-data-workflows" target="_blank" rel="noopener">Use Apache Arrow and Go for Your Data Workflows</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Matt Topol</span>
+        <span class="badges"><span class="badge">Apache Arrow</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2023-02-28">February 27, 2023</time>
+        · <span>Cloudera</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://medium.com/engineering-cloudera/open-data-lakehouse-powered-by-apache-iceberg-on-apache-ozone-a225d5dcfe98/" target="_blank" rel="noopener">Open Data Lakehouse powered by Apache Iceberg on Apache Ozone</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Saketa Chalamchala</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2023-02-24">February 23, 2023</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/dealing-with-data-incidents-using-the-rollback-feature-in-apache-iceberg/" target="_blank" rel="noopener">Dealing with Data Incidents Using the Rollback Feature in Apache Iceberg</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Dipankar Mazumdar</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2023-02-08">February 7, 2023</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/partition-and-file-pruning-for-dremios-apache-iceberg-backed-reflections/" target="_blank" rel="noopener">Partition and File Pruning for Dremio’s Apache Iceberg-backed Reflections</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Benny Chow</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2023-01-30">January 29, 2023</time>
+        · <span>Snowflake</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://medium.com/snowflake/understanding-iceberg-table-metadata-b1209fbcc7c3" target="_blank" rel="noopener">Understanding Iceberg Table Metadata</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Phani Raj</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2023-01-27">January 26, 2023</time>
+        · <span>Snowflake</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://medium.com/snowflake/creating-and-managing-apache-iceberg-tables-using-serverless-features-and-without-coding-14d2198cf5b5" target="_blank" rel="noopener">Creating and managing Apache Iceberg tables using serverless features and without coding</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Parag Jain</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2023-01-27">January 26, 2023</time>
+        · <span>Snowflake</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://medium.com/snowflake/getting-started-with-apache-iceberg-80f338921a31" target="_blank" rel="noopener">Getting started with Apache Iceberg</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Jedidiah Rajbhushan</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2023-01-19">January 18, 2023</time>
+        · <span>Voltron Data</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://voltrondata.com/blog/arrow-database-connectivity-apache-arrow-for-every-database-user" target="_blank" rel="noopener">Arrow Database Connectivity</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By David Li</span>
+        <span class="badges"><span class="badge">Apache Arrow</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2023-01-13">January 12, 2023</time>
+        · <span>Snowflake</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://medium.com/snowflake/how-apache-iceberg-enables-acid-compliance-for-data-lakes-9069ae783b60/" target="_blank" rel="noopener">How Apache Iceberg enables ACID compliance for data lakes</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Sumeet Tandure</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+      </div>
+    </section>
+
+    <section id="2022" class="year-section">
+      <div class="year-header">
+        <h2 class="year-title">2022</h2>
+        <div class="year-count">44 posts</div>
+      </div>
+      <div class="links-grid">
+        
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2022-12-15">December 14, 2022</time>
+        · <span>Cloudera</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://blog.cloudera.com/implement-a-multi-cloud-open-lakehouse-with-apache-iceberg-in-cloudera-data-platform/" target="_blank" rel="noopener">Multi-Cloud Open Lakehouse with Apache Iceberg in Cloudera Data Platform</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Bill Zhang, Shaun Ahmadian, Zoltan Borok-Nagy, Vincent Kulandaisamy</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2022-12-15">December 14, 2022</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/connecting-tableau-to-apache-iceberg-tables-with-dremio/" target="_blank" rel="noopener">Connecting Tableau to Apache Iceberg Tables with Dremio</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2022-12-15">December 14, 2022</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/getting-started-with-project-nessie-apache-iceberg-and-apache-spark-using-docker/" target="_blank" rel="noopener">Getting Started with Project Nessie, Apache Iceberg, and Apache Spark Using Docker</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span><span class="badge">Project Nessie</span><span class="badge">Apache Spark</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2022-12-14">December 13, 2022</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/apache-iceberg-faq/" target="_blank" rel="noopener">Apache Iceberg FAQ</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2022-12-05">December 4, 2022</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/a-notebook-for-getting-started-with-project-nessie-apache-iceberg-and-apache-spark/" target="_blank" rel="noopener">A Notebook for getting started with Project Nessie, Apache Iceberg, and Apache Spark</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Dipankar Mazumdar</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span><span class="badge">Project Nessie</span><span class="badge">Apache Spark</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2022-11-29">November 28, 2022</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/time-travel-with-dremio-and-apache-iceberg/" target="_blank" rel="noopener">Time Travel with Dremio and Apache Iceberg</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Michael Flower</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2022-11-14">November 13, 2022</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/apache-arrows-rapid-growth-over-the-years/" target="_blank" rel="noopener">Apache Arrow’s Rapid Growth Over the Years</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Dipankar Mazumdar</span>
+        <span class="badges"><span class="badge">Apache Arrow</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2022-11-13">November 12, 2022</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/hands-on-introduction-to-dremio-cloud-next-gen-self-guided-workshop/" target="_blank" rel="noopener">Hands-on Introduction to Dremio Cloud Agentic Lakehouse (Self-Guided Workshop)</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span><span class="badge">Apache Polaris</span><span class="badge">Apache Arrow</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2022-11-09">November 8, 2022</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/subsurface/compaction-in-apache-iceberg-fine-tuning-your-iceberg-tables-data-files/" target="_blank" rel="noopener">Compaction in Apache Iceberg: Fine-Tuning Your Iceberg Table's Data Files</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2022-11-01">October 31, 2022</time>
+        · <span>Apache Arrow</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://arrow.apache.org/blog/2022/11/01/arrow-flight-sql-jdbc/" target="_blank" rel="noopener">Expanding Arrow’s Reach with a JDBC Driver for Arrow Flight SQL</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Apache Arrow PMC</span>
+        <span class="badges"><span class="badge">Apache Arrow</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2022-10-31">October 30, 2022</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/subsurface/the-life-of-a-read-query-for-apache-iceberg-tables/" target="_blank" rel="noopener">The Life of a Read Query for Apache Iceberg Tables</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2022-10-17">October 16, 2022</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/subsurface/puffins-and-icebergs-additional-stats-for-apache-iceberg-tables/" target="_blank" rel="noopener">Puffins and Icebergs: Additional Stats for Apache Iceberg Tables</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Dipankar Mazumdar</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2022-10-12">October 11, 2022</time>
+        · <span>Tabular</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://tabular.io/blog/flink-sink/" target="_blank" rel="noopener">Iceberg Flink Sink: Stream Directly into your Data Warehouse Tables</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Sam Redai</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span><span class="badge">Apache Flink</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2022-09-30">September 29, 2022</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/subsurface/apache-iceberg-and-the-right-to-be-forgotten/" target="_blank" rel="noopener">Apache Iceberg and the Right to be Forgotten</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2022-09-28">September 27, 2022</time>
+        · <span>Tabular</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://tabular.io/blog/partitioning/" target="_blank" rel="noopener">Partitioning for Correctness (and Performance)</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Jason Reid</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2022-09-26">September 25, 2022</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/subsurface/streaming-data-into-apache-iceberg-tables-using-aws-kinesis-and-aws-glue/" target="_blank" rel="noopener">Streaming Data into Apache Iceberg tables using AWS Kinesis and AWS Glue</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2022-09-20">September 19, 2022</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/subsurface/ensuring-high-performance-at-any-scale-with-apache-icebergs-object-store-file-layout/" target="_blank" rel="noopener">Ensuring High Performance at Any Scale with Apache Iceberg’s Object Store File Layout</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2022-09-15">September 14, 2022</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/subsurface/introduction-to-apache-iceberg-using-spark/" target="_blank" rel="noopener">Introduction to Apache Iceberg Using Spark</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span><span class="badge">Apache Spark</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2022-09-13">September 12, 2022</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/subsurface/how-z-ordering-in-apache-iceberg-helps-improve-performance/" target="_blank" rel="noopener">How Z-Ordering in Apache Iceberg Helps Improve Performance</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Dipankar Mazumdar</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2022-09-12">September 11, 2022</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/subsurface/apache-iceberg-101-your-guide-to-learning-apache-iceberg-concepts-and-practices/" target="_blank" rel="noopener">Apache Iceberg 101 – Your Guide to Learning Apache Iceberg Concepts and Practices</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2022-08-24">August 23, 2022</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/subsurface/a-hands-on-look-at-the-structure-of-an-apache-iceberg-table/" target="_blank" rel="noopener">A Hands-On Look at the Structure of an Apache Iceberg Table</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Dipankar Mazumdar</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2022-08-18">August 17, 2022</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/subsurface/future-proof-partitioning-and-fewer-table-rewrites-with-apache-iceberg/" target="_blank" rel="noopener">Future-Proof Partitioning and Fewer Table Rewrites with Apache Iceberg</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2022-08-08">August 7, 2022</time>
+        · <span>Cloudera</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://blog.cloudera.com/how-to-use-apache-iceberg-in-cdps-open-lakehouse/" target="_blank" rel="noopener">How to use Apache Iceberg in CDP's Open Lakehouse</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Bill Zhang, Peter Ableda, Shaun Ahmadian, Manish Maheshwari</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2022-08-04">August 3, 2022</time>
+        · <span>Starburst</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.starburst.io/blog/near-real-time-ingestion-for-trino/" target="_blank" rel="noopener">Near Real-Time Ingestion For Trino</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Eric Hwang, Monica Miller, Brian Zhan</span>
+        <span class="badges"><span class="badge">Trino</span><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2022-07-28">July 27, 2022</time>
+        · <span>Big Data Demystified</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://big-data-demystified.ninja/2022/07/28/how-to-implement-apache-iceberg-in-aws-athena/" target="_blank" rel="noopener">How to implement Apache Iceberg in AWS Athena</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Shneior Dicastro</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2022-07-07">July 6, 2022</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/the-origins-of-apache-arrow-its-fit-in-todays-data-landscape/" target="_blank" rel="noopener">The Origins of Apache Arrow &amp; Its Fit in Today’s Data Landscape</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Dipankar Mazumdar</span>
+        <span class="badges"><span class="badge">Apache Arrow</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2022-06-30">June 29, 2022</time>
+        · <span>Cloudera</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://blog.cloudera.com/supercharge-your-data-lakehouse-with-apache-iceberg-in-cloudera-data-platform/" target="_blank" rel="noopener">Supercharge your Data Lakehouse with Apache Iceberg in Cloudera Data Platform</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Bill Zhang, Shaun Ahmadian</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2022-06-06">June 5, 2022</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/subsurface/migrating-a-hive-table-to-an-iceberg-table-hands-on-tutorial/" target="_blank" rel="noopener">Migrating a Hive Table to an Iceberg Table Hands-on Tutorial</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span><span class="badge">Apache Hive</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2022-05-21">May 20, 2022</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/subsurface/fewer-accidental-full-table-scans-brought-to-you-by-apache-icebergs-hidden-partitioning/" target="_blank" rel="noopener">Fewer Accidental Full Table Scans Brought to You by Apache Iceberg’s Hidden Partitioning</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2022-05-11">May 10, 2022</time>
+        · <span>Tabular</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://tabular.io/blog/java-api-part-2/" target="_blank" rel="noopener">An Introduction To The Iceberg Java API Part 2 - Table Scans</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Sam Redai</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span><span class="badge">Java</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2022-04-26">April 25, 2022</time>
+        · <span>Tabular</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://tabular.io/blog/iceberg-format-version/" target="_blank" rel="noopener">Iceberg's Guiding Light: The Iceberg Open Table Format Specification</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Sam Redai</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2022-04-15">April 14, 2022</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/subsurface/how-to-migrate-a-hive-table-to-an-iceberg-table/" target="_blank" rel="noopener">How to Migrate a Hive Table to an Iceberg Table</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span><span class="badge">Apache Hive</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2022-04-14">April 13, 2022</time>
+        · <span>Tabular</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://tabular.io/blog/minio/" target="_blank" rel="noopener">Using Iceberg's S3FileIO Implementation To Store Your Data In MinIO</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Sam Redai</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span><span class="badge">MinIO</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2022-04-07">April 6, 2022</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/subsurface/maintaining-iceberg-tables-compaction-expiring-snapshots-and-more/" target="_blank" rel="noopener">Maintaining Iceberg Tables – Compaction, Expiring Snapshots, and More</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2022-04-07">April 6, 2022</time>
+        · <span>Voltron Data</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://voltrondata.com/blog/apache-arrow-new-contributors-guide" target="_blank" rel="noopener">Apache Arrow New Contributor’s Guide</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alenka Frim</span>
+        <span class="badges"><span class="badge">Apache Arrow</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2022-04-01">March 31, 2022</time>
+        · <span>Tabular</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://tabular.io/blog/java-api-part-1/" target="_blank" rel="noopener">An Introduction To The Iceberg Java API - Part 1</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Sam Redai</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span><span class="badge">Java</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2022-03-02">March 1, 2022</time>
+        · <span>Tabular</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://tabular.io/blog/integrated-audits/" target="_blank" rel="noopener">Integrated Audits: Streamlined Data Observability With Apache Iceberg</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Sam Redai</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2022-02-23">February 22, 2022</time>
+        · <span>Cloudera</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://blog.cloudera.com/introducing-apache-iceberg-in-cloudera-data-platform/" target="_blank" rel="noopener">Introducing Apache Iceberg in Cloudera Data Platform</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Bill Zhang, Peter Vary, Marton Bod, Wing Yew Poon</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2022-02-22">February 21, 2022</time>
+        · <span>Tabular</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://tabular.io/blog/whats-new-in-iceberg-0.13/" target="_blank" rel="noopener">What's new in Iceberg 0.13</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Ryan Blue</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2022-02-03">February 2, 2022</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/apache-iceberg-becomes-industry-open-standard-with-ecosystem-adoption/" target="_blank" rel="noopener">Apache Iceberg Becomes Industry Open Standard with Ecosystem Adoption</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Mark Lyons</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2022-02-03">February 2, 2022</time>
+        · <span>Voltron Data</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://voltrondata.com/blog/arrow-columnar-analytics" target="_blank" rel="noopener">Apache Arrow: Driving Columnar Analytics Performance and Connectivity</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Wes McKinney</span>
+        <span class="badges"><span class="badge">Apache Arrow</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2022-02-02">February 1, 2022</time>
+        · <span>Tabular</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://tabular.io/blog/docker-spark-and-iceberg/" target="_blank" rel="noopener">Docker, Spark, and Iceberg: The Fastest Way to Try Iceberg!</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Sam Redai &amp; Kyle Bendickson</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span><span class="badge">Apache Spark</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2022-01-21">January 20, 2022</time>
+        · <span>Snowflake</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.snowflake.com/blog/expanding-the-data-cloud-with-apache-iceberg/" target="_blank" rel="noopener">Expanding the Data Cloud with Apache Iceberg</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By James Malone</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2022-01-18">January 17, 2022</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/blog/an-introduction-to-apache-arrow-flight-sql/" target="_blank" rel="noopener">An Introduction to Apache Arrow Flight SQL</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Alex Merced</span>
+        <span class="badges"><span class="badge">Apache Arrow</span></span>
+      </div>
+    </article>
+      </div>
+    </section>
+
+    <section id="2021" class="year-section">
+      <div class="year-header">
+        <h2 class="year-title">2021</h2>
+        <div class="year-count">15 posts</div>
+      </div>
+      <div class="links-grid">
+        
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2021-12-16">December 15, 2021</time>
+        · <span>Tabular</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://tabular.io/blog/iceberg-fileio/" target="_blank" rel="noopener">Iceberg FileIO: Cloud Native Tables</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Daniel Weeks</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2021-12-10">December 9, 2021</time>
+        · <span>Tabular</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://tabular.io/blog/emr-spark-and-iceberg/" target="_blank" rel="noopener">Using Spark in EMR with Apache Iceberg</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Sam Redai</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span><span class="badge">Apache Spark</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2021-10-20">October 19, 2021</time>
+        · <span>Memiiso Community</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://debezium.io/blog/2021/10/20/using-debezium-create-data-lake-with-apache-iceberg/" target="_blank" rel="noopener">Using Debezium to Create a Data Lake with Apache Iceberg</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Ismail Simsek</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span><span class="badge">Debezium</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2021-10-10">October 9, 2021</time>
+        · <span>Tabular</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://tabular.io/blog/iceberg-metadata-indexing/" target="_blank" rel="noopener">Metadata Indexing in Iceberg</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Ryan Blue</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2021-07-06">July 5, 2021</time>
+        · <span>Dremio</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.dremio.com/apache-iceberg-an-architectural-look-under-the-covers/" target="_blank" rel="noopener">Apache Iceberg: An Architectural Look Under the Covers</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Jason Hughes</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2021-06-17">June 16, 2021</time>
+        · <span>Adobe</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://medium.com/adobetech/migrating-to-apache-iceberg-at-adobe-experience-platform-40fa80f8b8de" target="_blank" rel="noopener">Migrating to Apache Iceberg at Adobe Experience Platform</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Romin Parekh, Miao Wang, Shone Sadler</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2021-06-15">June 14, 2021</time>
+        · <span>Alibaba Cloud Community</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.alibabacloud.com/blog/how-to-analyze-cdc-data-in-iceberg-data-lake-using-flink_597838" target="_blank" rel="noopener">How to Analyze CDC Data in Iceberg Data Lake Using Flink</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Li Jinsong, Hu Zheng, Yang Weihai, Peidan Li</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span><span class="badge">Apache Flink</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2021-06-08">June 7, 2021</time>
+        · <span>Tencent</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://www.alibabacloud.com/blog/flink-%2B-iceberg-how-to-construct-a-whole-scenario-real-time-data-warehouse_597824" target="_blank" rel="noopener">Flink + Iceberg: How to Construct a Whole-scenario Real-time Data Warehouse</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Shu (Simon Su) Su</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span><span class="badge">Apache Flink</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2021-05-25">May 24, 2021</time>
+        · <span>Starburst</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://blog.starburst.io/trino-on-ice-iii-iceberg-concurrency-model-snapshots-and-the-iceberg-spec" target="_blank" rel="noopener">Trino on Ice III: Iceberg Concurrency Model, Snapshots, and the Iceberg Spec</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Brian Olsen</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span><span class="badge">Trino</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2021-05-11">May 10, 2021</time>
+        · <span>Starburst</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://blog.starburst.io/trino-on-ice-ii-in-place-table-evolution-and-cloud-compatibility-with-iceberg" target="_blank" rel="noopener">Trino on Ice II: In-Place Table Evolution and Cloud Compatibility with Iceberg</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Brian Olsen</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span><span class="badge">Trino</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2021-04-27">April 26, 2021</time>
+        · <span>Starburst</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://blog.starburst.io/trino-on-ice-i-a-gentle-introduction-to-iceberg" target="_blank" rel="noopener">Trino On Ice I: A Gentle Introduction To Iceberg</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Brian Olsen</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span><span class="badge">Trino</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2021-02-01">January 31, 2021</time>
+        · <span>The New Stack</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://thenewstack.io/apache-iceberg-a-different-table-design-for-big-data/" target="_blank" rel="noopener">Apache Iceberg: A Different Table Design for Big Data</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Susan Hall</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2021-01-26">January 25, 2021</time>
+        · <span>Expedia</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://medium.com/expedia-group-tech/a-short-introduction-to-apache-iceberg-d34f628b6799" target="_blank" rel="noopener">A Short Introduction to Apache Iceberg</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Christine Mathiesen</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2021-01-14">January 13, 2021</time>
+        · <span>Adobe</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://medium.com/adobetech/taking-query-optimizations-to-the-next-level-with-iceberg-6c968b83cd6f" target="_blank" rel="noopener">Taking Query Optimizations to the Next Level with Iceberg</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Gautam Kowshik, Xabriel J. Collazo Mojica</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2021-01-06">January 5, 2021</time>
+        · <span>LinkedIn</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://engineering.linkedin.com/blog/2021/fastingest-low-latency-gobblin" target="_blank" rel="noopener">FastIngest: Low-latency Gobblin with Apache Iceberg and ORC format</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Zihan Li, Sudarshan Vasudevan, Lei Sun, Shirshanka Das</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span><span class="badge">ORC</span></span>
+      </div>
+    </article>
+      </div>
+    </section>
+
+    <section id="2020" class="year-section">
+      <div class="year-header">
+        <h2 class="year-title">2020</h2>
+        <div class="year-count">4 posts</div>
+      </div>
+      <div class="links-grid">
+        
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2020-12-22">December 21, 2020</time>
+        · <span>Adobe</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://medium.com/adobetech/high-throughput-ingestion-with-iceberg-ccf7877a413f" target="_blank" rel="noopener">High Throughput Ingestion with Iceberg</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Andrei Ionescu, Shone Sadler, Anil Malkani</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2020-12-21">December 20, 2020</time>
+        · <span>Netflix</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://netflixtechblog.com/optimizing-data-warehouse-storage-7b94a48fdcbe" target="_blank" rel="noopener">Optimizing data warehouse storage</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Anupom Syam</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2020-12-03">December 2, 2020</time>
+        · <span>Adobe</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://medium.com/adobetech/iceberg-at-adobe-88cf1950e866" target="_blank" rel="noopener">Iceberg at Adobe</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Shone Sadler, Romin Parekh, Anil Malkani</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+
+    <article class="card reveal is-visible">
+      <div class="card__meta">
+        <time datetime="2020-10-27">October 26, 2020</time>
+        · <span>Netflix</span>
+      </div>
+      <h3 class="card__title">
+        <a href="https://netflixtechblog.com/bulldozer-batch-data-moving-from-data-warehouse-to-online-key-value-stores-41bac13863f8" target="_blank" rel="noopener">Bulldozer: Batch Data Moving from Data Warehouse to Online Key-Value Stores</a>
+      </h3>
+      <div class="card__footer">
+        <span class="source">By Tianlong Chen, Ioannis Papapanagiotou</span>
+        <span class="badges"><span class="badge">Apache Iceberg</span></span>
+      </div>
+    </article>
+      </div>
+    </section></div>
+            <button class="toggle-year" aria-expanded="true">Toggle</button>
+          </div>
+          <div class="links-grid"></div>
+        </section>
+      -->
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>LakehouseBlogs.com is an open-source project. Contribute your blog via pull request.</p>
+      <a class="repo-link" href="https://github.com/AlexMercedCoder/lakehouseblogs_com" target="_blank" rel="noopener">GitHub Repository</a>
+
+      <p class="muted" style="margin-top: 1rem;">Explore the projects:</p>
+      <nav aria-label="Open source projects" class="project-links" style="margin-top:.5rem;">
+        <ul style="list-style:none; padding:0; margin:0; display:flex; flex-wrap:wrap; gap:.5rem;">
+          <li><a href="https://iceberg.apache.org/" target="_blank" rel="noopener">Apache Iceberg</a></li>
+          <li><a href="https://delta.io/" target="_blank" rel="noopener">Delta Lake</a></li>
+          <li><a href="https://hudi.apache.org/" target="_blank" rel="noopener">Apache Hudi</a></li>
+          <li><a href="https://paimon.apache.org/" target="_blank" rel="noopener">Apache Paimon</a></li>
+          <li><a href="https://polaris.apache.org/" target="_blank" rel="noopener">Apache Polaris (incubating)</a></li>
+          <li><a href="https://gravitino.apache.org/" target="_blank" rel="noopener">Apache Gravitino</a></li>
+          <li><a href="https://projectnessie.org/" target="_blank" rel="noopener">Project Nessie</a></li>
+          <li><a href="https://arrow.apache.org/" target="_blank" rel="noopener">Apache Gravitino</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- Templates (optional but handy if you prefer cloning nodes in JS) -->
+  <template id="cardTemplate">
+    <article class="card reveal">
+      <div class="card__meta">
+        <time></time> · <span class="company"></span>
+      </div>
+      <h3 class="card__title">
+        <a class="title" target="_blank" rel="noopener"></a>
+      </h3>
+      <p class="card__desc hidden"></p>
+      <div class="card__footer">
+        <span class="source">By <a class="author" target="_blank" rel="noopener"></a></span>
+        <span class="badges"></span>
+      </div>
+    </article>
+  </template>
+
+  <template id="yearTemplate">
+    <section class="year-section">
+      <div class="year-header">
+        <h2 class="year-title"></h2>
+        <div style="display:flex; align-items:center; gap:.5rem; margin-left:auto;">
+          <div class="year-count"></div>
+          <button class="toggle-year" aria-expanded="true" title="Collapse/Expand">Toggle</button>
+        </div>
+      </div>
+      <div class="links-grid"></div>
+    </section>
+  </template>
+
+  <noscript>
+    <div class="container" style="padding:1rem; color:#b91c1c;">
+      JavaScript is disabled. Enable it to load blog data dynamically.
+    </div>
+  </noscript>
+
+  
+<!-- Static build: 2025-12-31T12:54:26.677Z -->
+</body>
+</html>
+

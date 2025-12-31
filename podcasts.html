@@ -19,28 +19,40 @@
   <meta name="twitter:title" content="Apache Iceberg Podcasts" />
   <meta name="twitter:description" content="Listen to podcast episodes dedicated to Apache Iceberg and data lakehouse architecture." />
 
-  <link rel="stylesheet" href="podcasts.css" />
-  <script src="podcasts.js" defer></script>
+  <link rel="stylesheet" href="index.css" />
 </head>
 <body>
+  <!-- Header -->
   <header class="site-header">
-    <h1>Apache Iceberg Podcasts</h1>
-    <p class="subtitle">Episodes focused on Apache Iceberg (last 4 years)</p>
-    <div class="controls">
-      <input type="search" id="search" placeholder="Search by episode, podcast, etc." autocomplete="off" />
-      <select id="yearFilter" aria-label="Filter by year">
-        <option value="">All Years</option>
-      </select>
+    <div class="container header-inner">
+      <div class="brand">
+        <span class="brand__dot"></span>
+        <a href="index.html" style="text-decoration:none;">LakehouseBlogs</a>
+      </div>
+      <div class="header-actions">
+        <a href="index.html" class="btn">Back to Home</a>
+      </div>
     </div>
   </header>
 
-  <main id="podcasts-root" class="container" role="region" aria-live="polite">
-    <!-- JS will inject sections grouped by year -->
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <h1>Apache Iceberg Podcasts</h1>
+      <p>Episodes focused on Apache Iceberg (last 4 years).</p>
+    </div>
+  </section>
+
+  <!-- Main -->
+  <main class="container layout" style="margin-top:2rem;">
+     <!-- We will inject content here via staticgen.js -->
+     <div id="podcasts-root"></div>
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <a href="index.html" class="back-link">← Back to LakehouseBlogs</a>
+      <p>LakehouseBlogs.com is an open-source project. Contribute via pull request.</p>
+      <a class="repo-link" href="https://github.com/AlexMercedCoder/lakehouseblogs_com" target="_blank" rel="noopener">GitHub Repository</a>
     </div>
   </footer>
 </body>

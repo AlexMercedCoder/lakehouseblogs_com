@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+  <title>LakehouseBlogs.com</title>
+  <link>https://lakehouseblogs.com</link>
+  <description>Latest open source data lakehouse blogs and tutorials.</description>
+  <lastBuildDate>Wed, 31 Dec 2025 12:54:26 GMT</lastBuildDate>
+  
+  <item>
+    <title>3 Surprising Truths About the Free Apache Polaris-Based Dremio Open Catalog</title>
+    <link>https://www.dremio.com/blog/3-surprising-truths-about-the-free-apache-polaris-based-dremio-open-catalog/</link>
+    <description>3 Surprising Truths About the Free Apache Polaris-Based Dremio Open Catalog - By Alex Merced at Dremio</description>
+    <pubDate>Mon, 22 Dec 2025 00:00:00 GMT</pubDate>
+    <guid>https://www.dremio.com/blog/3-surprising-truths-about-the-free-apache-polaris-based-dremio-open-catalog/</guid>
+  </item>
+  <item>
+    <title>5 Counter-Intuitive Dremio Performance Tips for Lightning-Fast Iceberg Queries</title>
+    <link>https://www.dremio.com/blog/5-counter-intuitive-dremio-performance-tips-for-lightning-fast-iceberg-queries/</link>
+    <description>5 Counter-Intuitive Dremio Performance Tips for Lightning-Fast Iceberg Queries - By Alex Merced at Dremio</description>
+    <pubDate>Mon, 22 Dec 2025 00:00:00 GMT</pubDate>
+    <guid>https://www.dremio.com/blog/5-counter-intuitive-dremio-performance-tips-for-lightning-fast-iceberg-queries/</guid>
+  </item>
+  <item>
+    <title>Data Ingestion Patterns Using Dremio: From Raw Data to Apache Iceberg</title>
+    <link>https://www.dremio.com/blog/data-ingestion-patterns-using-dremio-from-raw-data-to-apache-iceberg/</link>
+    <description>Data Ingestion Patterns Using Dremio: From Raw Data to Apache Iceberg - By Alex Merced at Dremio</description>
+    <pubDate>Fri, 19 Dec 2025 00:00:00 GMT</pubDate>
+    <guid>https://www.dremio.com/blog/data-ingestion-patterns-using-dremio-from-raw-data-to-apache-iceberg/</guid>
+  </item>
+  <item>
+    <title>5 Steps to Supercharge Your Analytics with Dremio’s AI Agent and Apache Iceberg</title>
+    <link>https://www.dremio.com/blog/5-steps-to-supercharge-your-analytics-with-dremios-ai-agent-and-apache-iceberg/</link>
+    <description>5 Steps to Supercharge Your Analytics with Dremio’s AI Agent and Apache Iceberg - By Alex Merced at Dremio</description>
+    <pubDate>Thu, 18 Dec 2025 00:00:00 GMT</pubDate>
+    <guid>https://www.dremio.com/blog/5-steps-to-supercharge-your-analytics-with-dremios-ai-agent-and-apache-iceberg/</guid>
+  </item>
+  <item>
+    <title>5 Dremio Features That Will Change How You Think About The Apache Iceberg Lakehouse</title>
+    <link>https://www.dremio.com/blog/5-dremio-features-that-will-change-how-you-think-about-the-apache-iceberg-lakehouse/</link>
+    <description>5 Dremio Features That Will Change How You Think About The Apache Iceberg Lakehouse - By Alex Merced at Dremio</description>
+    <pubDate>Wed, 10 Dec 2025 00:00:00 GMT</pubDate>
+    <guid>https://www.dremio.com/blog/5-dremio-features-that-will-change-how-you-think-about-the-apache-iceberg-lakehouse/</guid>
+  </item>
+  <item>
+    <title>Ingesting Data into Apache Iceberg Using Python Tools with Dremio Catalog</title>
+    <link>https://www.dremio.com/blog/ingesting-data-into-apache-iceberg-using-python-tools-with-a-dremio-catalog/</link>
+    <description>Ingesting Data into Apache Iceberg Using Python Tools with Dremio Catalog - By Alex Merced at Dremio</description>
+    <pubDate>Mon, 24 Nov 2025 00:00:00 GMT</pubDate>
+    <guid>https://www.dremio.com/blog/ingesting-data-into-apache-iceberg-using-python-tools-with-a-dremio-catalog/</guid>
+  </item>
+  <item>
+    <title>TPC-H Databricks vs Apache Iceberg - (OLake + AWS Glue + EMR)</title>
+    <link>https://olake.io/iceberg/databricks-vs-iceberg/</link>
+    <description>TPC-H Databricks vs Apache Iceberg - (OLake + AWS Glue + EMR) - By Nayan Joshi at OLake</description>
+    <pubDate>Tue, 28 Oct 2025 00:00:00 GMT</pubDate>
+    <guid>https://olake.io/iceberg/databricks-vs-iceberg/</guid>
+  </item>
+  <item>
+    <title>Try Apache Polaris (incubating) on Your Laptop with Minio</title>
+    <link>https://www.dremio.com/blog/try-apache-polaris-incubating-on-your-laptop-with-minio/</link>
+    <description>Try Apache Polaris (incubating) on Your Laptop with Minio - By Alex Merced at Dremio</description>
+    <pubDate>Tue, 14 Oct 2025 00:00:00 GMT</pubDate>
+    <guid>https://www.dremio.com/blog/try-apache-polaris-incubating-on-your-laptop-with-minio/</guid>
+  </item>
+  <item>
+    <title>Apache Iceberg Table Performance Management with Dremio’s OPTIMIZE</title>
+    <link>https://www.dremio.com/blog/apache-iceberg-table-performance-management-with-dremios-optimize/</link>
+    <description>Apache Iceberg Table Performance Management with Dremio’s OPTIMIZE - By Alex Merced at Dremio</description>
+    <pubDate>Thu, 02 Oct 2025 00:00:00 GMT</pubDate>
+    <guid>https://www.dremio.com/blog/apache-iceberg-table-performance-management-with-dremios-optimize/</guid>
+  </item>
+  <item>
+    <title>Apache Iceberg Table Storage Management with Dremio’s VACUUM TABLE</title>
+    <link>https://www.dremio.com/blog/apache-iceberg-table-storage-management-with-dremios-vacuum-table/</link>
+    <description>Apache Iceberg Table Storage Management with Dremio’s VACUUM TABLE - By Alex Merced at Dremio</description>
+    <pubDate>Thu, 02 Oct 2025 00:00:00 GMT</pubDate>
+    <guid>https://www.dremio.com/blog/apache-iceberg-table-storage-management-with-dremios-vacuum-table/</guid>
+  </item>
+  <item>
+    <title>The Ultimate Guide to Open Table Formats - Iceberg, Delta Lake, Hudi, Paimon, and DuckLake</title>
+    <link>https://datalakehousehub.com/blog/2025-09-ultimate-guide-to-open-table-formats/</link>
+    <description>The Ultimate Guide to Open Table Formats - Iceberg, Delta Lake, Hudi, Paimon, and DuckLake - By Alex Merced at Dremio</description>
+    <pubDate>Wed, 24 Sep 2025 00:00:00 GMT</pubDate>
+    <guid>https://datalakehousehub.com/blog/2025-09-ultimate-guide-to-open-table-formats/</guid>
+  </item>
+  <item>
+    <title>The 2025 &amp; 2026 Ultimate Guide to the Data Lakehouse and the Data Lakehouse Ecosystem</title>
+    <link>https://datalakehousehub.com/blog/2025-09-2026-guide-to-data-lakehouses/</link>
+    <description>The 2025 &amp; 2026 Ultimate Guide to the Data Lakehouse and the Data Lakehouse Ecosystem - By Alex Merced at Dremio</description>
+    <pubDate>Tue, 23 Sep 2025 00:00:00 GMT</pubDate>
+    <guid>https://datalakehousehub.com/blog/2025-09-2026-guide-to-data-lakehouses/</guid>
+  </item>
+  <item>
+    <title>Apache Hive vs Apache Iceberg: Choosing the Right Data Lakehouse Technology</title>
+    <link>https://olake.io/blog/apache-iceberg-hive-comparison</link>
+    <description>Apache Hive vs Apache Iceberg: Choosing the Right Data Lakehouse Technology - By Akshay Kumar Sharma at OLake</description>
+    <pubDate>Mon, 15 Sep 2025 00:00:00 GMT</pubDate>
+    <guid>https://olake.io/blog/apache-iceberg-hive-comparison</guid>
+  </item>
+  <item>
+    <title>What's New in Apache Iceberg 1.10.0, and what comes next!</title>
+    <link>https://www.dremio.com/blog/whats-new-in-apache-iceberg-1-10-0-and-what-comes-next/</link>
+    <description>What's New in Apache Iceberg 1.10.0, and what comes next! - By Alex Merced at Dremio</description>
+    <pubDate>Fri, 12 Sep 2025 00:00:00 GMT</pubDate>
+    <guid>https://www.dremio.com/blog/whats-new-in-apache-iceberg-1-10-0-and-what-comes-next/</guid>
+  </item>
+  <item>
+    <title>How Apache Iceberg Branching transforms Data Management</title>
+    <link>https://www.starburst.io/blog/iceberg-branching-data-management/</link>
+    <description>How Apache Iceberg Branching transforms Data Management - By Starburst at Starburst</description>
+    <pubDate>Tue, 09 Sep 2025 00:00:00 GMT</pubDate>
+    <guid>https://www.starburst.io/blog/iceberg-branching-data-management/</guid>
+  </item>
+  <item>
+    <title>Looking back the last year in Lakehouse OSS: Advances in Apache Arrow, Iceberg &amp; Polaris (incubating)</title>
+    <link>https://www.dremio.com/blog/looking-back-the-last-year-in-lakehouse-oss-advances-in-apache-arrow-iceberg-polaris-incubating/</link>
+    <description>Looking back the last year in Lakehouse OSS: Advances in Apache Arrow, Iceberg &amp; Polaris (incubating) - By Alex Merced at Dremio</description>
+    <pubDate>Fri, 05 Sep 2025 00:00:00 GMT</pubDate>
+    <guid>https://www.dremio.com/blog/looking-back-the-last-year-in-lakehouse-oss-advances-in-apache-arrow-iceberg-polaris-incubating/</guid>
+  </item>
+  <item>
+    <title>Scaling Data Lakes: Moving from Raw Parquet to Iceberg Lakehouses</title>
+    <link>https://www.dremio.com/blog/scaling-data-lakes-moving-from-raw-parquet-to-iceberg-lakehouses/</link>
+    <description>Scaling Data Lakes: Moving from Raw Parquet to Iceberg Lakehouses - By Alex Merced at Dremio</description>
+    <pubDate>Fri, 05 Sep 2025 00:00:00 GMT</pubDate>
+    <guid>https://www.dremio.com/blog/scaling-data-lakes-moving-from-raw-parquet-to-iceberg-lakehouses/</guid>
+  </item>
+  <item>
+    <title>Unlocking the Power of Agentic AI with Apache Iceberg and Dremio</title>
+    <link>https://iceberglakehouse.com/posts/2025-09-agentic-ai-dremio-apache-iceberg/</link>
+    <description>Unlocking the Power of Agentic AI with Apache Iceberg and Dremio - By Alex Merced at Dremio</description>
+    <pubDate>Fri, 05 Sep 2025 00:00:00 GMT</pubDate>
+    <guid>https://iceberglakehouse.com/posts/2025-09-agentic-ai-dremio-apache-iceberg/</guid>
+  </item>
+  <item>
+    <title>Iceberg v3 + Starburst</title>
+    <link>https://www.starburst.io/blog/iceberg-v3/</link>
+    <description>Iceberg v3 + Starburst - By Starburst at Starburst</description>
+    <pubDate>Thu, 04 Sep 2025 00:00:00 GMT</pubDate>
+    <guid>https://www.starburst.io/blog/iceberg-v3/</guid>
+  </item>
+  <item>
+    <title>Comparison of Delete Strategies in Apache Iceberg and Delta Lake</title>
+    <link>https://olake.io/blog/iceberg-delta-lake-delete-methods-comparison</link>
+    <description>Comparison of Delete Strategies in Apache Iceberg and Delta Lake - By OLake Team at OLake</description>
+    <pubDate>Thu, 04 Sep 2025 00:00:00 GMT</pubDate>
+    <guid>https://olake.io/blog/iceberg-delta-lake-delete-methods-comparison</guid>
+  </item>
+  <item>
+    <title>Kafka to Iceberg - Exploring the Options</title>
+    <link>https://rmoff.net/2025/08/18/kafka-to-iceberg-exploring-the-options/</link>
+    <description>Kafka to Iceberg - Exploring the Options - By Robin Moffatt at Confluent</description>
+    <pubDate>Mon, 18 Aug 2025 00:00:00 GMT</pubDate>
+    <guid>https://rmoff.net/2025/08/18/kafka-to-iceberg-exploring-the-options/</guid>
+  </item>
+  <item>
+    <title>Optimizing Apache Iceberg Tables – Manual and Automatic</title>
+    <link>https://www.dremio.com/blog/optimizing-iceberg-tables/</link>
+    <description>Optimizing Apache Iceberg Tables – Manual and Automatic - By Alex Merced at Dremio</description>
+    <pubDate>Fri, 08 Aug 2025 00:00:00 GMT</pubDate>
+    <guid>https://www.dremio.com/blog/optimizing-iceberg-tables/</guid>
+  </item>
+  <item>
+    <title>The Hidden Power of Apache Arrow in Python ETL</title>
+    <link>https://medium.com/@bhagyarana80/the-hidden-power-of-apache-arrow-in-python-etl-19ad052819f1</link>
+    <description>The Hidden Power of Apache Arrow in Python ETL - By Bhagya Rana at Medium</description>
+    <pubDate>Thu, 07 Aug 2025 00:00:00 GMT</pubDate>
+    <guid>https://medium.com/@bhagyarana80/the-hidden-power-of-apache-arrow-in-python-etl-19ad052819f1</guid>
+  </item>
+  <item>
+    <title>Optimizing Apache Iceberg for Agentic AI</title>
+    <link>https://www.dremio.com/blog/optimizing-apache-iceberg-for-agentic-ai/</link>
+    <description>Optimizing Apache Iceberg for Agentic AI - By Alex Merced at Dremio</description>
+    <pubDate>Fri, 01 Aug 2025 00:00:00 GMT</pubDate>
+    <guid>https://www.dremio.com/blog/optimizing-apache-iceberg-for-agentic-ai/</guid>
+  </item>
+  <item>
+    <title>Microsoft Fabric: An introduction to Apache Arrow as the cornerstone of Python data engineering</title>
+    <link>https://christianhenrikreich.medium.com/microsoft-fabric-an-introduction-to-apache-arrow-as-the-cornerstone-of-python-data-engineering-f35d009dfc69</link>
+    <description>Microsoft Fabric: An introduction to Apache Arrow as the cornerstone of Python data engineering - By Christian Henrik Reich at Medium</description>
+    <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
+    <guid>https://christianhenrikreich.medium.com/microsoft-fabric-an-introduction-to-apache-arrow-as-the-cornerstone-of-python-data-engineering-f35d009dfc69</guid>
+  </item>
+  <item>
+    <title>5 Ways Dremio Makes Apache Iceberg Lakehouses Easy</title>
+    <link>https://www.dremio.com/blog/5-ways-dremio-makes-apache-iceberg-lakehouses-easy/</link>
+    <description>5 Ways Dremio Makes Apache Iceberg Lakehouses Easy - By Alex Merced at Dremio</description>
+    <pubDate>Tue, 29 Jul 2025 00:00:00 GMT</pubDate>
+    <guid>https://www.dremio.com/blog/5-ways-dremio-makes-apache-iceberg-lakehouses-easy/</guid>
+  </item>
+  <item>
+    <title>How to Load Data from MySQL to Iceberg in Real Time</title>
+    <link>https://doc.bladepipe.com/blog/tech_share/mysql_iceberg_sync</link>
+    <description>How to Load Data from MySQL to Iceberg in Real Time - By BladePipe at BladePipe</description>
+    <pubDate>Thu, 10 Jul 2025 00:00:00 GMT</pubDate>
+    <guid>https://doc.bladepipe.com/blog/tech_share/mysql_iceberg_sync</guid>
+  </item>
+  <item>
+    <title>Making Sense of Apache Iceberg Statistics</title>
+    <link>https://www.ryft.io/blog/making-sense-of-apache-iceberg-statistics</link>
+    <description>Making Sense of Apache Iceberg Statistics - By Guy Yasoor at Ryft</description>
+    <pubDate>Wed, 09 Jul 2025 00:00:00 GMT</pubDate>
+    <guid>https://www.ryft.io/blog/making-sense-of-apache-iceberg-statistics</guid>
+  </item>
+  <item>
+    <title>Quick Start with Apache Iceberg and Apache Polaris on your Laptop (quick setup notebook environment)</title>
+    <link>https://www.dremio.com/blog/quick-start-with-apache-iceberg-and-apache-polaris-on-your-laptop-quick-setup-notebook-environment/</link>
+    <description>Quick Start with Apache Iceberg and Apache Polaris on your Laptop (quick setup notebook environment) - By Alex Merced at Dremio</description>
+    <pubDate>Mon, 07 Jul 2025 00:00:00 GMT</pubDate>
+    <guid>https://www.dremio.com/blog/quick-start-with-apache-iceberg-and-apache-polaris-on-your-laptop-quick-setup-notebook-environment/</guid>
+  </item>
+  <item>
+    <title>Query Results Caching on Iceberg Tables</title>
+    <link>https://www.dremio.com/blog/query-results-caching-on-iceberg-tables/</link>
+    <description>Query Results Caching on Iceberg Tables - By Benny Chow at Dremio</description>
+    <pubDate>Mon, 07 Jul 2025 00:00:00 GMT</pubDate>
+    <guid>https://www.dremio.com/blog/query-results-caching-on-iceberg-tables/</guid>
+  </item>
+  <item>
+    <title>Writing to Apache Iceberg on S3 using Kafka Connect with Glue catalog</title>
+    <link>https://rmoff.net/2025/07/04/writing-to-apache-iceberg-on-s3-using-kafka-connect-with-glue-catalog/</link>
+    <description>Writing to Apache Iceberg on S3 using Kafka Connect with Glue catalog - By Robin Moffatt at Confluent</description>
+    <pubDate>Fri, 04 Jul 2025 00:00:00 GMT</pubDate>
+    <guid>https://rmoff.net/2025/07/04/writing-to-apache-iceberg-on-s3-using-kafka-connect-with-glue-catalog/</guid>
+  </item>
+  <item>
+    <title>Benchmarking Framework for the Apache Iceberg Catalog, Polaris</title>
+    <link>https://www.dremio.com/blog/query-results-caching-on-iceberg-tables/</link>
+    <description>Benchmarking Framework for the Apache Iceberg Catalog, Polaris - By Pierre Laporte at Dremio</description>
+    <pubDate>Tue, 01 Jul 2025 00:00:00 GMT</pubDate>
+    <guid>https://www.dremio.com/blog/query-results-caching-on-iceberg-tables/</guid>
+  </item>
+  <item>
+    <title>Writing to Apache Iceberg on S3 using Flink SQL with Glue catalog</title>
+    <link>https://rmoff.net/2025/06/24/writing-to-apache-iceberg-on-s3-using-flink-sql-with-glue-catalog/</link>
+    <description>Writing to Apache Iceberg on S3 using Flink SQL with Glue catalog - By Robin Moffatt at Confluent</description>
+    <pubDate>Tue, 24 Jun 2025 00:00:00 GMT</pubDate>
+    <guid>https://rmoff.net/2025/06/24/writing-to-apache-iceberg-on-s3-using-flink-sql-with-glue-catalog/</guid>
+  </item>
+  <item>
+    <title>Querying Apache Iceberg with Sub-Second Performance</title>
+    <link>https://www.firebolt.io/blog/querying-apache-iceberg-with-sub-second-performance</link>
+    <description>Querying Apache Iceberg with Sub-Second Performance - By Lorenz Hübschle at Firebolt</description>
+    <pubDate>Wed, 11 Jun 2025 00:00:00 GMT</pubDate>
+    <guid>https://www.firebolt.io/blog/querying-apache-iceberg-with-sub-second-performance</guid>
+  </item>
+  <item>
+    <title>Extending Apache Iceberg: Best Practices for Storing and Discovering Custom Metadata</title>
+    <link>https://www.dremio.com/blog/extending-apache-iceberg-best-practices-for-storing-and-discovering-custom-metadata/</link>
+    <description>Extending Apache Iceberg: Best Practices for Storing and Discovering Custom Metadata - By Alex Merced at Dremio</description>
+    <pubDate>Mon, 09 Jun 2025 00:00:00 GMT</pubDate>
+    <guid>https://www.dremio.com/blog/extending-apache-iceberg-best-practices-for-storing-and-discovering-custom-metadata/</guid>
+  </item>
+  <item>
+    <title>Using Dremio with Confluent’s TableFlow for Real-Time Apache Iceberg Analytics</title>
+    <link>https://www.dremio.com/blog/using-dremio-with-confluents-tableflow-for-real-time-apache-iceberg-analytics/</link>
+    <description>Using Dremio with Confluent’s TableFlow for Real-Time Apache Iceberg Analytics - By Alex Merced at Dremio</description>
+    <pubDate>Fri, 30 May 2025 00:00:00 GMT</pubDate>
+    <guid>https://www.dremio.com/blog/using-dremio-with-confluents-tableflow-for-real-time-apache-iceberg-analytics/</guid>
+  </item>
+  <item>
+    <title>What Are Apache Iceberg Tables? Benefits and challenges</title>
+    <link>https://www.redpanda.com/blog/apache-iceberg-tables-benefits-challenges</link>
+    <description>What Are Apache Iceberg Tables? Benefits and challenges - By Redpanda at Redpanda</description>
+    <pubDate>Wed, 21 May 2025 00:00:00 GMT</pubDate>
+    <guid>https://www.redpanda.com/blog/apache-iceberg-tables-benefits-challenges</guid>
+  </item>
+  <item>
+    <title>Real-Time Analytics on Apache Iceberg with Tinybird</title>
+    <link>https://www.tinybird.co/blog-posts/real-time-analytics-on-apache-iceberg-with-tinybird</link>
+    <description>Real-Time Analytics on Apache Iceberg with Tinybird - By Alberto Romeu at Tinybird</description>
+    <pubDate>Tue, 20 May 2025 00:00:00 GMT</pubDate>
+    <guid>https://www.tinybird.co/blog-posts/real-time-analytics-on-apache-iceberg-with-tinybird</guid>
+  </item>
+  <item>
+    <title>Iceberg Partitioning vs. Hive Partitioning</title>
+    <link>https://olake.io/iceberg/hive-partitioning-vs-iceberg-partitioning</link>
+    <description>Iceberg Partitioning vs. Hive Partitioning - By Sandeep Devarapalli at OLake</description>
+    <pubDate>Tue, 13 May 2025 00:00:00 GMT</pubDate>
+    <guid>https://olake.io/iceberg/hive-partitioning-vs-iceberg-partitioning</guid>
+  </item>
+  <item>
+    <title>Introducing Dremio Auth Manager for Apache Iceberg</title>
+    <link>https://www.dremio.com/blog/introducing-dremio-auth-manager-for-apache-iceberg/</link>
+    <description>Introducing Dremio Auth Manager for Apache Iceberg - By Alex Dutra at Dremio</description>
+    <pubDate>Thu, 01 May 2025 00:00:00 GMT</pubDate>
+    <guid>https://www.dremio.com/blog/introducing-dremio-auth-manager-for-apache-iceberg/</guid>
+  </item>
+  <item>
+    <title>What’s New in Apache Iceberg Format Version 3?</title>
+    <link>https://www.dremio.com/blog/apache-iceberg-v3/</link>
+    <description>What’s New in Apache Iceberg Format Version 3? - By Alex Merced at Dremio</description>
+    <pubDate>Wed, 30 Apr 2025 00:00:00 GMT</pubDate>
+    <guid>https://www.dremio.com/blog/apache-iceberg-v3/</guid>
+  </item>
+  <item>
+    <title>Dremio’s Apache Iceberg Clustering: Technical Blog</title>
+    <link>https://www.dremio.com/blog/dremios-apache-iceberg-clustering-technical-blog/</link>
+    <description>Dremio’s Apache Iceberg Clustering: Technical Blog - By Gang Xiao at Dremio</description>
+    <pubDate>Mon, 28 Apr 2025 00:00:00 GMT</pubDate>
+    <guid>https://www.dremio.com/blog/dremios-apache-iceberg-clustering-technical-blog/</guid>
+  </item>
+  <item>
+    <title>Credential Vending with Iceberg REST Catalogs in Dremio</title>
+    <link>https://www.dremio.com/blog/iceberg-credential-vending/</link>
+    <description>Credential Vending with Iceberg REST Catalogs in Dremio - By Adam Szita &amp; Tamas Mate at Dremio</description>
+    <pubDate>Tue, 08 Apr 2025 00:00:00 GMT</pubDate>
+    <guid>https://www.dremio.com/blog/iceberg-credential-vending/</guid>
+  </item>
+  <item>
+    <title>Disaster Recovery for Apache Iceberg Tables – Restoring from Backup and Getting Back Online</title>
+    <link>https://www.dremio.com/blog/disaster-recovery-for-apache-iceberg-tables-restoring-from-backup-and-getting-back-online/</link>
+    <description>Disaster Recovery for Apache Iceberg Tables – Restoring from Backup and Getting Back Online - By Alex Merced at Dremio</description>
+    <pubDate>Wed, 26 Mar 2025 00:00:00 GMT</pubDate>
+    <guid>https://www.dremio.com/blog/disaster-recovery-for-apache-iceberg-tables-restoring-from-backup-and-getting-back-online/</guid>
+  </item>
+  <item>
+    <title>How to Load Data into Apache Iceberg: A Step-by-Step Tutorial</title>
+    <link>https://estuary.dev/blog/loading-data-into-apache-iceberg/</link>
+    <description>How to Load Data into Apache Iceberg: A Step-by-Step Tutorial - By Dani Pálma at Estuary</description>
+    <pubDate>Thu, 20 Mar 2025 00:00:00 GMT</pubDate>
+    <guid>https://estuary.dev/blog/loading-data-into-apache-iceberg/</guid>
+  </item>
+  <item>
+    <title>What is Apache Arrow Flight, Flight SQL &amp; ADBC</title>
+    <link>https://dipankar-tnt.medium.com/what-is-apache-arrow-flight-flight-sql-adbc-a076511122ac</link>
+    <description>What is Apache Arrow Flight, Flight SQL &amp; ADBC - By Dipankar Mazumdar at Medium</description>
+    <pubDate>Tue, 18 Mar 2025 00:00:00 GMT</pubDate>
+    <guid>https://dipankar-tnt.medium.com/what-is-apache-arrow-flight-flight-sql-adbc-a076511122ac</guid>
+  </item>
+  <item>
+    <title>The Future of Apache Polaris (Incubating)</title>
+    <link>https://www.dremio.com/blog/apache-polaris-roadmap-2025/</link>
+    <description>The Future of Apache Polaris (Incubating) - By Alex Merced at Dremio</description>
+    <pubDate>Fri, 21 Feb 2025 00:00:00 GMT</pubDate>
+    <guid>https://www.dremio.com/blog/apache-polaris-roadmap-2025/</guid>
+  </item>
+  <item>
+    <title>Redefining Data Engineering with Go and Apache Arrow</title>
+    <link>https://medium.com/@tfmv/redefining-data-engineering-with-go-and-apache-arrow-df9059ddf55c</link>
+    <description>Redefining Data Engineering with Go and Apache Arrow - By Thomas F McGeehan V at Medium</description>
+    <pubDate>Tue, 04 Feb 2025 00:00:00 GMT</pubDate>
+    <guid>https://medium.com/@tfmv/redefining-data-engineering-with-go-and-apache-arrow-df9059ddf55c</guid>
+  </item>
+  <item>
+    <title>Building AI Agents with LangChain using Dremio, Iceberg, and Unified Data</title>
+    <link>https://www.dremio.com/blog/ai-agents-with-dremio/</link>
+    <description>Building AI Agents with LangChain using Dremio, Iceberg, and Unified Data - By Alex Merced at Dremio</description>
+    <pubDate>Sat, 01 Feb 2025 00:00:00 GMT</pubDate>
+    <guid>https://www.dremio.com/blog/ai-agents-with-dremio/</guid>
+  </item>
+  <item>
+    <title>How the Apache Arrow Format Accelerates Query Result Transfer</title>
+    <link>https://arrow.apache.org/blog/2025/01/10/arrow-result-transfer/</link>
+    <description>How the Apache Arrow Format Accelerates Query Result Transfer - By Ian Cook et al. at Apache Arrow</description>
+    <pubDate>Fri, 10 Jan 2025 00:00:00 GMT</pubDate>
+    <guid>https://arrow.apache.org/blog/2025/01/10/arrow-result-transfer/</guid>
+  </item>
+</channel>
+</rss>
