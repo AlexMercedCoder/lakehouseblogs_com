@@ -2962,6 +2962,16 @@
         "Apache Iceberg",
         "DuckDB"
       ]
+    },
+    {
+      "title": "Why your Iceberg Table Path Looks Like a Cat Walked Across the Keyboard",
+      "date": "2025-05-19",
+      "url": "https://medium.com/snowflake/why-your-iceberg-table-path-looks-like-a-cat-walked-across-the-keyboard-33e40cebbaa0",
+      "company": "Snowflake",
+      "author": "Sahil Walia",
+      "author_url": "https://www.linkedin.com/in/sahilwaliasyracuse/",
+      "project_slugs": ["iceberg"],
+      "tags": ["Apache Iceberg"]
     }
   ]
 }
