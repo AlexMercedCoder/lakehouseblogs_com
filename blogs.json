@@ -1,6 +1,414 @@
 {
   "blogs": [
     {
+      "title": "What Is Agentic Analytics? How It Differs from BI and AI Assistants",
+      "date": "2026-05-28",
+      "url": "https://www.dremio.com/blog/what-is-agentic-analytics-how-it-differs-from-bi-and-ai-assistants/",
+      "company": "Dremio",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [
+        "dremio"
+      ],
+      "tags": [
+        "Dremio",
+        "Agentic Analytics"
+      ]
+    },
+    {
+      "title": "Agentic Lakehouse vs Data Lakehouse: What Actually Changes",
+      "date": "2026-05-28",
+      "url": "https://www.dremio.com/blog/agentic-lakehouse-vs-data-lakehouse-what-actually-changes/",
+      "company": "Dremio",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [
+        "dremio"
+      ],
+      "tags": [
+        "Dremio",
+        "Agentic Analytics"
+      ]
+    },
+    {
+      "title": "Apache Polaris 1.5.0: Deep-Dive Into the Future of Open Data Catalogs",
+      "date": "2026-05-28",
+      "url": "https://www.dremio.com/blog/apache-polaris-1-5-0-deep-dive-into-the-future-of-open-data-catalogs/",
+      "company": "Dremio",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [
+        "dremio",
+        "polaris"
+      ],
+      "tags": [
+        "Dremio",
+        "Apache Polaris"
+      ]
+    },
+    {
+      "title": "Agentic Lakehouse Architecture: The Four Technical Layers",
+      "date": "2026-05-27",
+      "url": "https://www.dremio.com/blog/agentic-lakehouse-architecture-the-four-technical-layers/",
+      "company": "Dremio",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [
+        "dremio"
+      ],
+      "tags": [
+        "Dremio",
+        "Agentic Analytics"
+      ]
+    },
+    {
+      "title": "Performance and Apache Iceberg&#8217;s Metadata",
+      "date": "2026-05-26",
+      "url": "https://www.dremio.com/blog/performance-and-apache-icebergs-metadata/",
+      "company": "Dremio",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [
+        "dremio",
+        "iceberg"
+      ],
+      "tags": [
+        "Dremio",
+        "Apache Iceberg"
+      ]
+    },
+    {
+      "title": "Choosing Vector Stores for Retrieval Workloads",
+      "date": "2026-05-24",
+      "url": "https://datalakehousehub.com/blog/2026-05-vector-stores-retrieval/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Why Semantic Layers Make Enterprise Text-to-SQL Safer",
+      "date": "2026-05-24",
+      "url": "https://datalakehousehub.com/blog/2026-05-semantic-layers-text-to-sql/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Real-Time Lakehouse Patterns with Apache Flink and Iceberg",
+      "date": "2026-05-24",
+      "url": "https://datalakehousehub.com/blog/2026-05-real-time-lakehouse-flink/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [
+        "iceberg"
+      ],
+      "tags": [
+        "Apache Iceberg"
+      ]
+    },
+    {
+      "title": "Policy as Code for Lakehouse Governance",
+      "date": "2026-05-24",
+      "url": "https://datalakehousehub.com/blog/2026-05-policy-as-code-governance/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "When Paimon Beats Iceberg for Mutable Streams",
+      "date": "2026-05-24",
+      "url": "https://datalakehousehub.com/blog/2026-05-paimon-vs-iceberg-mutable-streams/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [
+        "iceberg",
+        "paimon"
+      ],
+      "tags": [
+        "Apache Iceberg",
+        "Apache Paimon"
+      ]
+    },
+    {
+      "title": "OpenLineage as the Spine of Data Observability",
+      "date": "2026-05-24",
+      "url": "https://datalakehousehub.com/blog/2026-05-openlineage-observability/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Modern Feature Stores Beyond Batch Pipelines",
+      "date": "2026-05-24",
+      "url": "https://datalakehousehub.com/blog/2026-05-modern-feature-stores/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Bringing MLflow and Data Pipelines Closer Together",
+      "date": "2026-05-24",
+      "url": "https://datalakehousehub.com/blog/2026-05-mlflow-data-pipelines/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Lance and Iceberg for Multimodal AI Data",
+      "date": "2026-05-24",
+      "url": "https://datalakehousehub.com/blog/2026-05-lance-iceberg-multimodal/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [
+        "iceberg"
+      ],
+      "tags": [
+        "Apache Iceberg"
+      ]
+    },
+    {
+      "title": "Kafka 4.0 Changes Streaming Platform Operations",
+      "date": "2026-05-24",
+      "url": "https://datalakehousehub.com/blog/2026-05-kafka-streaming-operations/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "What Iceberg V3 Advances Mean for CDC Pipelines",
+      "date": "2026-05-24",
+      "url": "https://datalakehousehub.com/blog/2026-05-iceberg-cdc-pipelines/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [
+        "iceberg"
+      ],
+      "tags": [
+        "Apache Iceberg"
+      ]
+    },
+    {
+      "title": "Designing Governed RAG on Data Products",
+      "date": "2026-05-24",
+      "url": "https://datalakehousehub.com/blog/2026-05-governed-rag-data-products/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "FinOps for Data Warehouses with Open Billing Data",
+      "date": "2026-05-24",
+      "url": "https://datalakehousehub.com/blog/2026-05-finops-warehouse-cost/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Using DuckDB and Polars to Query Iceberg Tables",
+      "date": "2026-05-24",
+      "url": "https://datalakehousehub.com/blog/2026-05-duckdb-polars-iceberg/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [
+        "iceberg"
+      ],
+      "tags": [
+        "Apache Iceberg"
+      ]
+    },
+    {
+      "title": "How dbt Fusion Reshapes Analytics Engineering",
+      "date": "2026-05-24",
+      "url": "https://datalakehousehub.com/blog/2026-05-dbt-fusion-analytics-engineering/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Data Mesh After the Hype: What Actually Works",
+      "date": "2026-05-24",
+      "url": "https://datalakehousehub.com/blog/2026-05-data-mesh-after-hype/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Building Composable Query Engines with Rust Runtimes",
+      "date": "2026-05-24",
+      "url": "https://datalakehousehub.com/blog/2026-05-composable-query-engines/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Clean Rooms for Privacy-Preserving Analytics",
+      "date": "2026-05-24",
+      "url": "https://datalakehousehub.com/blog/2026-05-clean-rooms-privacy/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Choosing the Right Iceberg Control Plane: Polaris vs. Unity Catalog vs. Cloud REST",
+      "date": "2026-05-24",
+      "url": "https://datalakehousehub.com/blog/2026-05-choosing-iceberg-control-plane/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [
+        "iceberg",
+        "polaris"
+      ],
+      "tags": [
+        "Apache Iceberg",
+        "Apache Polaris"
+      ]
+    },
+    {
+      "title": "Automating Table Maintenance Before Small Files Accumulate",
+      "date": "2026-05-24",
+      "url": "https://datalakehousehub.com/blog/2026-05-automating-table-maintenance/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Single-Node Data Engineering: DuckDB, DataFusion, Polars, and LakeSail",
+      "date": "2026-05-24",
+      "url": "https://datalakehousehub.com/blog/2026-05-single-node-data-engineering/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "An In-Depth Overview of the Apache Iceberg 1.11.0 Release",
+      "date": "2026-05-23",
+      "url": "https://datalakehousehub.com/blog/2026-05-apache-iceberg-1-11-0-deep-dive/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [
+        "iceberg"
+      ],
+      "tags": [
+        "Apache Iceberg"
+      ]
+    },
+    {
+      "title": "Apache Iceberg V2 vs V3: What Changed and What It Means for Your Tables",
+      "date": "2026-05-23",
+      "url": "https://www.dremio.com/blog/apache-iceberg-v2-vs-v3-what-changed-and-what-it-means-for-your-tables/",
+      "company": "Dremio",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [
+        "dremio",
+        "iceberg"
+      ],
+      "tags": [
+        "Dremio",
+        "Apache Iceberg"
+      ]
+    },
+    {
+      "title": "Apache Iceberg Machine Learning: Solving Data Versioning for AI",
+      "date": "2026-05-22",
+      "url": "https://www.dremio.com/blog/apache-iceberg-machine-learning-solving-data-versioning-for-ai/",
+      "company": "Dremio",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [
+        "dremio",
+        "iceberg"
+      ],
+      "tags": [
+        "Dremio",
+        "Apache Iceberg"
+      ]
+    },
+    {
+      "title": "Build an Agentic Lakehouse on Dremio: Getting Started",
+      "date": "2026-05-22",
+      "url": "https://www.dremio.com/blog/build-an-agentic-lakehouse-on-dremio-getting-started/",
+      "company": "Dremio",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [
+        "dremio"
+      ],
+      "tags": [
+        "Dremio",
+        "Agentic Analytics"
+      ]
+    },
+    {
+      "title": "Migrate Delta Lake to Apache Iceberg: Step-by-Step Guide",
+      "date": "2026-05-22",
+      "url": "https://www.dremio.com/blog/migrate-delta-lake-to-apache-iceberg-step-by-step-guide/",
+      "company": "Dremio",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [
+        "dremio",
+        "iceberg",
+        "delta"
+      ],
+      "tags": [
+        "Dremio",
+        "Apache Iceberg",
+        "Delta Lake"
+      ]
+    },
+    {
+      "title": "Dremio Semantic Layer: A Practical Step-by-Step Guide",
+      "date": "2026-05-22",
+      "url": "https://www.dremio.com/blog/dremio-semantic-layer-a-practical-step-by-step-guide/",
+      "company": "Dremio",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [
+        "dremio"
+      ],
+      "tags": [
+        "Dremio"
+      ]
+    },
+    {
       "title": "What is Agentic Analytics?",
       "date": "2026-05-17",
       "url": "https://www.dremio.com/blog/what-is-agentic-analytics/",
@@ -112,6 +520,1314 @@
       ]
     },
     {
+      "title": "Migrating to Apache Iceberg: Strategies for Every Source System",
+      "date": "2026-04-29",
+      "url": "https://datalakehousehub.com/blog/2026-04-29-apache-iceberg-masterclass-15-migrating-to-iceberg/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [
+        "iceberg"
+      ],
+      "tags": [
+        "Apache Iceberg"
+      ]
+    },
+    {
+      "title": "Hands-On with Apache Iceberg Using Dremio Cloud",
+      "date": "2026-04-29",
+      "url": "https://datalakehousehub.com/blog/2026-04-29-apache-iceberg-masterclass-14-hands-on-dremio-cloud/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [
+        "iceberg"
+      ],
+      "tags": [
+        "Apache Iceberg"
+      ]
+    },
+    {
+      "title": "Approaches to Streaming Data into Apache Iceberg Tables",
+      "date": "2026-04-29",
+      "url": "https://datalakehousehub.com/blog/2026-04-29-apache-iceberg-masterclass-13-streaming-to-iceberg/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [
+        "iceberg"
+      ],
+      "tags": [
+        "Apache Iceberg"
+      ]
+    },
+    {
+      "title": "Using Apache Iceberg with Python and MPP Query Engines",
+      "date": "2026-04-29",
+      "url": "https://datalakehousehub.com/blog/2026-04-29-apache-iceberg-masterclass-12-python-and-mpp/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [
+        "iceberg"
+      ],
+      "tags": [
+        "Apache Iceberg"
+      ]
+    },
+    {
+      "title": "Apache Iceberg Metadata Tables: Querying the Internals",
+      "date": "2026-04-29",
+      "url": "https://datalakehousehub.com/blog/2026-04-29-apache-iceberg-masterclass-11-metadata-tables/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [
+        "iceberg"
+      ],
+      "tags": [
+        "Apache Iceberg"
+      ]
+    },
+    {
+      "title": "Maintaining Apache Iceberg Tables: Compaction, Expiry, and Cleanup",
+      "date": "2026-04-29",
+      "url": "https://datalakehousehub.com/blog/2026-04-29-apache-iceberg-masterclass-10-maintaining-iceberg/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [
+        "iceberg"
+      ],
+      "tags": [
+        "Apache Iceberg"
+      ]
+    },
+    {
+      "title": "Concurrency, Isolation, and MVCC: How Engines Handle Contention",
+      "date": "2026-04-29",
+      "url": "https://datalakehousehub.com/blog/2026-04-29-query-engine-optimization-10-concurrency-control/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "How Data Lake Table Storage Degrades Over Time",
+      "date": "2026-04-29",
+      "url": "https://datalakehousehub.com/blog/2026-04-29-apache-iceberg-masterclass-09-storage-degradation/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Hash, Sort-Merge, Broadcast: How Distributed Joins Work",
+      "date": "2026-04-29",
+      "url": "https://datalakehousehub.com/blog/2026-04-29-query-engine-optimization-09-distributed-joins/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "When Catalogs Are Embedded in Storage",
+      "date": "2026-04-29",
+      "url": "https://datalakehousehub.com/blog/2026-04-29-apache-iceberg-masterclass-08-embedded-catalogs/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Partitioning, Sharding, and Data Distribution Strategies",
+      "date": "2026-04-29",
+      "url": "https://datalakehousehub.com/blog/2026-04-29-query-engine-optimization-08-partitioning/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "What Are Lakehouse Catalogs? The Role of Catalogs in Apache Iceberg",
+      "date": "2026-04-29",
+      "url": "https://datalakehousehub.com/blog/2026-04-29-apache-iceberg-masterclass-07-lakehouse-catalogs/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [
+        "iceberg"
+      ],
+      "tags": [
+        "Apache Iceberg"
+      ]
+    },
+    {
+      "title": "Buffer Pools, Caches, and the Memory Hierarchy",
+      "date": "2026-04-29",
+      "url": "https://datalakehousehub.com/blog/2026-04-29-query-engine-optimization-07-memory-and-caching/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Writing to an Apache Iceberg Table: How Commits and ACID Actually Work",
+      "date": "2026-04-29",
+      "url": "https://datalakehousehub.com/blog/2026-04-29-apache-iceberg-masterclass-06-writing-to-iceberg/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [
+        "iceberg"
+      ],
+      "tags": [
+        "Apache Iceberg"
+      ]
+    },
+    {
+      "title": "Volcano, Vectorized, Compiled: How Engines Execute Your Query",
+      "date": "2026-04-29",
+      "url": "https://datalakehousehub.com/blog/2026-04-29-query-engine-optimization-06-execution-models/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Hidden Partitioning: How Iceberg Eliminates Accidental Full Table Scans",
+      "date": "2026-04-29",
+      "url": "https://datalakehousehub.com/blog/2026-04-29-apache-iceberg-masterclass-05-hidden-partitioning/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [
+        "iceberg"
+      ],
+      "tags": [
+        "Apache Iceberg"
+      ]
+    },
+    {
+      "title": "Inside the Query Optimizer: How Engines Pick a Plan",
+      "date": "2026-04-29",
+      "url": "https://datalakehousehub.com/blog/2026-04-29-query-engine-optimization-05-query-optimizer/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Partition Evolution: Change Your Partitioning Without Rewriting Data",
+      "date": "2026-04-29",
+      "url": "https://datalakehousehub.com/blog/2026-04-29-apache-iceberg-masterclass-04-partition-evolution/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "B-Trees, LSM Trees, and the Indexing Tradeoff Spectrum",
+      "date": "2026-04-29",
+      "url": "https://datalakehousehub.com/blog/2026-04-29-query-engine-optimization-04-indexing-strategies/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Performance and Apache Iceberg&apos;s Metadata",
+      "date": "2026-04-29",
+      "url": "https://datalakehousehub.com/blog/2026-04-29-apache-iceberg-masterclass-03-iceberg-metadata-performance/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [
+        "iceberg"
+      ],
+      "tags": [
+        "Apache Iceberg"
+      ]
+    },
+    {
+      "title": "How Databases Organize Data on Disk: Pages, Blocks, and File Formats",
+      "date": "2026-04-29",
+      "url": "https://datalakehousehub.com/blog/2026-04-29-query-engine-optimization-03-data-organization-on-disk/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "The Metadata Structure of Modern Table Formats",
+      "date": "2026-04-29",
+      "url": "https://datalakehousehub.com/blog/2026-04-29-apache-iceberg-masterclass-02-metadata-structures/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Row vs. Column: How Storage Layout Shapes Everything",
+      "date": "2026-04-29",
+      "url": "https://datalakehousehub.com/blog/2026-04-29-query-engine-optimization-02-row-vs-column-storage/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "What Are Table Formats and Why Were They Needed?",
+      "date": "2026-04-29",
+      "url": "https://datalakehousehub.com/blog/2026-04-29-apache-iceberg-masterclass-01-table-formats/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "How Query Engines Think: The Tradeoffs Behind Every Data System",
+      "date": "2026-04-29",
+      "url": "https://datalakehousehub.com/blog/2026-04-29-query-engine-optimization-01-overview/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Agentic Analytics on the Apache Lakehouse",
+      "date": "2026-04-13",
+      "url": "https://datalakehousehub.com/blog/2026-04-agentic-analytics/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "What is Apache Iceberg? The Table Format Revolution",
+      "date": "2026-04-13",
+      "url": "https://datalakehousehub.com/blog/2026-04-apache-iceberg/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [
+        "iceberg"
+      ],
+      "tags": [
+        "Apache Iceberg"
+      ]
+    },
+    {
+      "title": "What is Apache Arrow? Erasing the Serialization Tax",
+      "date": "2026-04-13",
+      "url": "https://datalakehousehub.com/blog/2026-04-apache-arrow/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "What is Apache Parquet? Columns, Encoding, and Performance",
+      "date": "2026-04-13",
+      "url": "https://datalakehousehub.com/blog/2026-04-apache-parquet/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "What is Apache Polaris? Unifying the Iceberg Ecosystem",
+      "date": "2026-04-13",
+      "url": "https://datalakehousehub.com/blog/2026-04-apache-polaris/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [
+        "iceberg",
+        "polaris"
+      ],
+      "tags": [
+        "Apache Iceberg",
+        "Apache Polaris"
+      ]
+    },
+    {
+      "title": "Assembling the Apache Lakehouse: The Modular Architecture",
+      "date": "2026-04-13",
+      "url": "https://datalakehousehub.com/blog/2026-04-assembling-apache-lakehouse/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Apache Software Foundation: History, Purpose, and Process",
+      "date": "2026-04-13",
+      "url": "https://datalakehousehub.com/blog/2026-04-apache-software-foundation/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "The Model Context Protocol (MCP) Explained: A Complete Guide to How Every Major AI Tool Connects to External Data",
+      "date": "2026-03-07",
+      "url": "https://datalakehousehub.com/blog/2026-03-context-management-mcp-deep-dive/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Context Management Strategies for VS Code with LLM Plugins: A Complete Guide to Building Your Own AI-Powered IDE",
+      "date": "2026-03-07",
+      "url": "https://datalakehousehub.com/blog/2026-03-context-management-vscode-llm-plugins/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Context Management Strategies for T3 Chat: A Complete Guide to the Unified Multi-Model AI Interface",
+      "date": "2026-03-07",
+      "url": "https://datalakehousehub.com/blog/2026-03-context-management-t3-chat/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Context Management Strategies for Zed: A Complete Guide to the High-Performance AI Code Editor",
+      "date": "2026-03-07",
+      "url": "https://datalakehousehub.com/blog/2026-03-context-management-zed/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Context Management Strategies for Windsurf: A Complete Guide to the AI Flow IDE",
+      "date": "2026-03-07",
+      "url": "https://datalakehousehub.com/blog/2026-03-context-management-windsurf/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Context Management Strategies for Perplexity AI: A Complete Guide to Research-First AI Conversations",
+      "date": "2026-03-07",
+      "url": "https://datalakehousehub.com/blog/2026-03-context-management-perplexity/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Context Management Strategies for Cursor: A Complete Guide to the AI-Native Code Editor",
+      "date": "2026-03-07",
+      "url": "https://datalakehousehub.com/blog/2026-03-context-management-cursor/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Context Management Strategies for OpenWork: A Complete Guide to the Desktop AI Agent Framework",
+      "date": "2026-03-07",
+      "url": "https://datalakehousehub.com/blog/2026-03-context-management-openwork/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Context Management Strategies for OpenCode: A Complete Guide to the Open-Source Terminal AI Agent",
+      "date": "2026-03-07",
+      "url": "https://datalakehousehub.com/blog/2026-03-context-management-opencode/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Context Management Strategies for Google Antigravity: A Complete Guide to the Agent-First IDE",
+      "date": "2026-03-07",
+      "url": "https://datalakehousehub.com/blog/2026-03-context-management-google-antigravity/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Context Management Strategies for Gemini CLI: A Complete Guide to Terminal-Native AI Development",
+      "date": "2026-03-07",
+      "url": "https://datalakehousehub.com/blog/2026-03-context-management-gemini-cli/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Context Management Strategies for Gemini Web and NotebookLM: A Complete Guide to Google&apos;s AI Knowledge Ecosystem",
+      "date": "2026-03-07",
+      "url": "https://datalakehousehub.com/blog/2026-03-context-management-gemini-notebooklm/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Context Management Strategies for Claude Code: A Complete Guide for Developers",
+      "date": "2026-03-07",
+      "url": "https://datalakehousehub.com/blog/2026-03-context-management-claude-code/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Context Management Strategies for Claude CoWork: A Complete Guide for Knowledge Workers",
+      "date": "2026-03-07",
+      "url": "https://datalakehousehub.com/blog/2026-03-context-management-claude-cowork/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Context Management Strategies for Claude Desktop: A Complete Guide to MCP, Computer Use, and Local File Access",
+      "date": "2026-03-07",
+      "url": "https://datalakehousehub.com/blog/2026-03-context-management-claude-desktop/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Context Management Strategies for Claude Web: A Complete Guide to Projects, Artifacts, and Intelligent Context",
+      "date": "2026-03-07",
+      "url": "https://datalakehousehub.com/blog/2026-03-context-management-claude-web/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Context Management Strategies for OpenAI Codex: A Complete Guide Across Browser, CLI, and App",
+      "date": "2026-03-07",
+      "url": "https://datalakehousehub.com/blog/2026-03-context-management-openai-codex/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Context Management Strategies for ChatGPT: A Complete Guide to Getting Better Results",
+      "date": "2026-03-07",
+      "url": "https://datalakehousehub.com/blog/2026-03-context-management-chatgpt/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "How to Use Dremio with OpenWork: Connect, Query, and Build Data Apps",
+      "date": "2026-03-05",
+      "url": "https://datalakehousehub.com/blog/2026-03-dremio-with-openwork/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "How to Use Dremio with OpenCode: Connect, Query, and Build Data Apps",
+      "date": "2026-03-05",
+      "url": "https://datalakehousehub.com/blog/2026-03-dremio-with-opencode/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "How to Use Dremio with Zed: Connect, Query, and Build Data Apps",
+      "date": "2026-03-05",
+      "url": "https://datalakehousehub.com/blog/2026-03-dremio-with-zed/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "How to Use Dremio with OpenAI Codex CLI: Connect, Query, and Build Data Apps",
+      "date": "2026-03-05",
+      "url": "https://datalakehousehub.com/blog/2026-03-dremio-with-openai-codex/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "How to Use Dremio with Amazon Kiro: Connect, Query, and Build Data Apps",
+      "date": "2026-03-05",
+      "url": "https://datalakehousehub.com/blog/2026-03-dremio-with-amazon-kiro/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "How to Use Dremio with JetBrains AI Assistant: Connect, Query, and Build Data Apps",
+      "date": "2026-03-05",
+      "url": "https://datalakehousehub.com/blog/2026-03-dremio-with-jetbrains-ai/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "How to Use Dremio with Gemini CLI: Connect, Query, and Build Data Apps",
+      "date": "2026-03-05",
+      "url": "https://datalakehousehub.com/blog/2026-03-dremio-with-gemini-cli/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "How to Use Dremio with Google Antigravity: Connect, Query, and Build Data Apps",
+      "date": "2026-03-05",
+      "url": "https://datalakehousehub.com/blog/2026-03-dremio-with-google-antigravity/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "How to Use Dremio with Windsurf: Connect, Query, and Build Data Apps",
+      "date": "2026-03-05",
+      "url": "https://datalakehousehub.com/blog/2026-03-dremio-with-windsurf/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "How to Use Dremio with GitHub Copilot: Connect, Query, and Build Data Apps",
+      "date": "2026-03-05",
+      "url": "https://datalakehousehub.com/blog/2026-03-dremio-with-github-copilot/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "How to Use Dremio with Claude CoWork: Connect, Query, and Build Data Apps",
+      "date": "2026-03-05",
+      "url": "https://datalakehousehub.com/blog/2026-03-dremio-with-claude-cowork/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "How to Use Dremio with Claude Code: Connect, Query, and Build Data Apps",
+      "date": "2026-03-05",
+      "url": "https://datalakehousehub.com/blog/2026-03-dremio-with-claude-code/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "How to Use Dremio with Cursor: Connect, Query, and Build Data Apps",
+      "date": "2026-03-05",
+      "url": "https://datalakehousehub.com/blog/2026-03-dremio-with-cursor/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "The 2025 State of the Apache Iceberg Ecosystem Results",
+      "date": "2026-03-01",
+      "url": "https://datalakehousehub.com/blog/2026-02-state-of-the-apache-iceberg-ecosystem/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [
+        "iceberg"
+      ],
+      "tags": [
+        "Apache Iceberg"
+      ]
+    },
+    {
+      "title": "Connect Dremio Software to Dremio Cloud: Hybrid Federation Across Deployments",
+      "date": "2026-03-01",
+      "url": "https://datalakehousehub.com/blog/2026-03-connect-dremio-to-dremio/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Dremio&apos;s Built-in Open Catalog: Your Zero-Configuration Apache Iceberg Lakehouse",
+      "date": "2026-03-01",
+      "url": "https://datalakehousehub.com/blog/2026-03-dremio-open-catalog/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [
+        "iceberg"
+      ],
+      "tags": [
+        "Apache Iceberg"
+      ]
+    },
+    {
+      "title": "Connect Any Iceberg REST Catalog to Dremio Cloud: Universal Lakehouse Access",
+      "date": "2026-03-01",
+      "url": "https://datalakehousehub.com/blog/2026-03-connect-iceberg-rest-catalog-dremio/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [
+        "iceberg"
+      ],
+      "tags": [
+        "Apache Iceberg"
+      ]
+    },
+    {
+      "title": "Connect Databricks Unity Catalog to Dremio Cloud: Query Delta Lake Tables with Federation and AI",
+      "date": "2026-03-01",
+      "url": "https://datalakehousehub.com/blog/2026-03-connect-unity-catalog-dremio/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [
+        "delta"
+      ],
+      "tags": [
+        "Delta Lake"
+      ]
+    },
+    {
+      "title": "Connect Snowflake Open Catalog to Dremio Cloud: Multi-Engine Iceberg Analytics",
+      "date": "2026-03-01",
+      "url": "https://datalakehousehub.com/blog/2026-03-connect-snowflake-open-catalog-dremio/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [
+        "iceberg"
+      ],
+      "tags": [
+        "Apache Iceberg"
+      ]
+    },
+    {
+      "title": "Connect AWS Glue Data Catalog to Dremio Cloud: Query and Manage Your AWS Iceberg Tables",
+      "date": "2026-03-01",
+      "url": "https://datalakehousehub.com/blog/2026-03-connect-aws-glue-dremio/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [
+        "iceberg"
+      ],
+      "tags": [
+        "Apache Iceberg"
+      ]
+    },
+    {
+      "title": "Connect Apache Druid to Dremio Cloud: Add SQL Joins, AI, and Governance to Your Real-Time Analytics",
+      "date": "2026-03-01",
+      "url": "https://datalakehousehub.com/blog/2026-03-connect-apache-druid-dremio/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Connect MongoDB to Dremio Cloud: SQL Analytics on Document Data",
+      "date": "2026-03-01",
+      "url": "https://datalakehousehub.com/blog/2026-03-connect-mongodb-dremio/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Connect Vertica to Dremio Cloud: Federation for Analytics-Optimized Data",
+      "date": "2026-03-01",
+      "url": "https://datalakehousehub.com/blog/2026-03-connect-vertica-dremio/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Connect Azure Synapse Analytics to Dremio Cloud: Multi-Cloud Data Warehouse Federation",
+      "date": "2026-03-01",
+      "url": "https://datalakehousehub.com/blog/2026-03-connect-azure-synapse-dremio/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Connect Snowflake to Dremio Cloud: Federate, Govern, and Accelerate Beyond Snowflake",
+      "date": "2026-03-01",
+      "url": "https://datalakehousehub.com/blog/2026-03-connect-snowflake-dremio/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Connect Google BigQuery to Dremio Cloud: Cross-Cloud Analytics Without Data Movement",
+      "date": "2026-03-01",
+      "url": "https://datalakehousehub.com/blog/2026-03-connect-google-bigquery-dremio/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Connect Amazon Redshift to Dremio Cloud: Extend Your Warehouse with Federation and AI Analytics",
+      "date": "2026-03-01",
+      "url": "https://datalakehousehub.com/blog/2026-03-connect-amazon-redshift-dremio/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Connect Azure Storage to Dremio Cloud: Query Your Microsoft Data Lake with SQL and AI",
+      "date": "2026-03-01",
+      "url": "https://datalakehousehub.com/blog/2026-03-connect-azure-storage-dremio/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Connect Amazon S3 to Dremio Cloud: Query Your Data Lake with SQL, Federation, and AI",
+      "date": "2026-03-01",
+      "url": "https://datalakehousehub.com/blog/2026-03-connect-amazon-s3-dremio/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Connect SAP HANA to Dremio Cloud: Unlock Analytics Beyond the SAP Ecosystem",
+      "date": "2026-03-01",
+      "url": "https://datalakehousehub.com/blog/2026-03-connect-sap-hana-dremio/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Connect IBM Db2 to Dremio Cloud: Modernize Mainframe Analytics with Federation and AI",
+      "date": "2026-03-01",
+      "url": "https://datalakehousehub.com/blog/2026-03-connect-ibm-db2-dremio/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Connect Microsoft SQL Server to Dremio Cloud: Federate Enterprise Data Without ETL",
+      "date": "2026-03-01",
+      "url": "https://datalakehousehub.com/blog/2026-03-connect-sql-server-dremio/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Connect Oracle Database to Dremio Cloud: Enterprise Analytics Without Data Movement",
+      "date": "2026-03-01",
+      "url": "https://datalakehousehub.com/blog/2026-03-connect-oracle-dremio/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Connect MySQL to Dremio Cloud: Federated Analytics Without ETL",
+      "date": "2026-03-01",
+      "url": "https://datalakehousehub.com/blog/2026-03-connect-mysql-dremio/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Connect PostgreSQL to Dremio Cloud: Query, Federate, and Accelerate Your Data",
+      "date": "2026-03-01",
+      "url": "https://datalakehousehub.com/blog/2026-03-connect-postgresql-dremio/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Extract Structured Data from Text with Dremio&apos;s AI_GENERATE Function",
+      "date": "2026-03-01",
+      "url": "https://datalakehousehub.com/blog/2026-03-ai-generate-dremio/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Generate Summaries and Insights with Dremio&apos;s AI_COMPLETE Function",
+      "date": "2026-03-01",
+      "url": "https://datalakehousehub.com/blog/2026-03-ai-complete-dremio/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Classify Your Data with SQL: A Hands-On Guide to Dremio&apos;s AI_CLASSIFY Function",
+      "date": "2026-03-01",
+      "url": "https://datalakehousehub.com/blog/2026-03-ai-classify-dremio/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Semantic Layer Best Practices: 7 Mistakes to Avoid",
+      "date": "2026-02-18",
+      "url": "https://datalakehousehub.com/blog/2026-02-semantic-layer-10-best-practices/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "How a Self-Documenting Semantic Layer Reduces Data Team Toil",
+      "date": "2026-02-18",
+      "url": "https://datalakehousehub.com/blog/2026-02-semantic-layer-09-self-documenting/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Headless BI: How a Universal Semantic Layer Replaces Tool-Specific Models",
+      "date": "2026-02-18",
+      "url": "https://datalakehousehub.com/blog/2026-02-semantic-layer-08-headless-bi/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Data Virtualization and the Semantic Layer: Query Without Copying",
+      "date": "2026-02-18",
+      "url": "https://datalakehousehub.com/blog/2026-02-semantic-layer-07-data-virtualization/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "The Role of the Semantic Layer in Data Governance",
+      "date": "2026-02-18",
+      "url": "https://datalakehousehub.com/blog/2026-02-semantic-layer-06-data-governance/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Why Your AI Initiatives Fail Without a Semantic Layer",
+      "date": "2026-02-18",
+      "url": "https://datalakehousehub.com/blog/2026-02-semantic-layer-05-why-ai-fails-without/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Semantic Layer vs. Data Catalog: Complementary, Not Competing",
+      "date": "2026-02-18",
+      "url": "https://datalakehousehub.com/blog/2026-02-semantic-layer-04-vs-data-catalog/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Semantic Layer vs. Metrics Layer: What&apos;s the Difference?",
+      "date": "2026-02-18",
+      "url": "https://datalakehousehub.com/blog/2026-02-semantic-layer-03-vs-metrics-layer/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "How to Build a Semantic Layer: A Step-by-Step Guide",
+      "date": "2026-02-18",
+      "url": "https://datalakehousehub.com/blog/2026-02-semantic-layer-02-how-to-build/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "What Is a Semantic Layer? A Complete Guide",
+      "date": "2026-02-18",
+      "url": "https://datalakehousehub.com/blog/2026-02-semantic-layer-01-what-is-a-semantic-layer/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Data Engineering Best Practices: The Complete Checklist",
+      "date": "2026-02-18",
+      "url": "https://datalakehousehub.com/blog/2026-02-de-best-practices-10-checklist/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Pipeline Observability: Know When Things Break",
+      "date": "2026-02-18",
+      "url": "https://datalakehousehub.com/blog/2026-02-de-best-practices-09-observability-monitoring/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Testing Data Pipelines: What to Validate and When",
+      "date": "2026-02-18",
+      "url": "https://datalakehousehub.com/blog/2026-02-de-best-practices-08-testing-data-pipelines/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Partition and Organize Data for Performance",
+      "date": "2026-02-18",
+      "url": "https://datalakehousehub.com/blog/2026-02-de-best-practices-07-partition-and-organize/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Batch vs. Streaming: Choose the Right Processing Model",
+      "date": "2026-02-18",
+      "url": "https://datalakehousehub.com/blog/2026-02-de-best-practices-06-batch-vs-streaming/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Schema Evolution Without Breaking Consumers",
+      "date": "2026-02-18",
+      "url": "https://datalakehousehub.com/blog/2026-02-de-best-practices-05-schema-evolution/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Idempotent Pipelines: Build Once, Run Safely Forever",
+      "date": "2026-02-18",
+      "url": "https://datalakehousehub.com/blog/2026-02-de-best-practices-04-idempotent-pipelines/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Data Quality Is a Pipeline Problem, Not a Dashboard Problem",
+      "date": "2026-02-18",
+      "url": "https://datalakehousehub.com/blog/2026-02-de-best-practices-03-data-quality-first/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "How to Design Reliable Data Pipelines",
+      "date": "2026-02-18",
+      "url": "https://datalakehousehub.com/blog/2026-02-de-best-practices-02-design-data-pipelines/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "How to Think Like a Data Engineer",
+      "date": "2026-02-18",
+      "url": "https://datalakehousehub.com/blog/2026-02-de-best-practices-01-think-like-data-engineer/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Data Modeling Best Practices: 7 Mistakes to Avoid",
+      "date": "2026-02-18",
+      "url": "https://datalakehousehub.com/blog/2026-02-data-modeling-10-best-practices/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Data Vault Modeling: Hubs, Links, and Satellites",
+      "date": "2026-02-18",
+      "url": "https://datalakehousehub.com/blog/2026-02-data-modeling-09-data-vault-modeling/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Denormalization: When and Why to Flatten Your Data",
+      "date": "2026-02-18",
+      "url": "https://datalakehousehub.com/blog/2026-02-data-modeling-08-denormalization-when-why/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Data Modeling for Analytics: Optimize for Queries, Not Transactions",
+      "date": "2026-02-18",
+      "url": "https://datalakehousehub.com/blog/2026-02-data-modeling-07-data-modeling-for-analytics/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Slowly Changing Dimensions: Types 1-3 with Examples",
+      "date": "2026-02-18",
+      "url": "https://datalakehousehub.com/blog/2026-02-data-modeling-06-slowly-changing-dimensions/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Dimensional Modeling: Facts, Dimensions, and Grains",
+      "date": "2026-02-18",
+      "url": "https://datalakehousehub.com/blog/2026-02-data-modeling-05-dimensional-modeling/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Data Modeling for the Lakehouse: What Changes",
+      "date": "2026-02-18",
+      "url": "https://datalakehousehub.com/blog/2026-02-data-modeling-04-data-modeling-lakehouse/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Star Schema vs. Snowflake Schema: When to Use Each",
+      "date": "2026-02-18",
+      "url": "https://datalakehousehub.com/blog/2026-02-data-modeling-03-star-schema-vs-snowflake/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Conceptual, Logical, and Physical Data Models Explained",
+      "date": "2026-02-18",
+      "url": "https://datalakehousehub.com/blog/2026-02-data-modeling-02-types-of-data-models/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "What Is Data Modeling? A Complete Guide",
+      "date": "2026-02-18",
+      "url": "https://datalakehousehub.com/blog/2026-02-data-modeling-01-what-is-data-modeling/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "A 2026 Introduction to Apache Iceberg",
+      "date": "2026-02-13",
+      "url": "https://datalakehousehub.com/blog/2026-02-intro-to-Apache-Iceberg/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [
+        "iceberg"
+      ],
+      "tags": [
+        "Apache Iceberg"
+      ]
+    },
+    {
+      "title": "A Practical Guide to AI-Assisted Coding Tools",
+      "date": "2026-01-15",
+      "url": "https://datalakehousehub.com/blog/2026-01-a-practical-guide-to-ai-assisted-coding-tools/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "What Are Recursive Language Models?",
+      "date": "2026-01-10",
+      "url": "https://datalakehousehub.com/blog/2026-01-recursive-langauge-models/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "RAG Isn\u2019t a Modeling Problem. It\u2019s a Data Engineering Problem.",
+      "date": "2026-01-06",
+      "url": "https://datalakehousehub.com/blog/2026-01-rag-isnt-the-problem/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
+      "title": "Building Pangolin - My Holiday Break, an AI IDE, and a Lakehouse Catalog for the Curious",
+      "date": "2026-01-02",
+      "url": "https://datalakehousehub.com/blog/2026-01-the-story-of-pangolin-catalog/",
+      "company": "Data Lakehouse Hub",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [],
+      "tags": []
+    },
+    {
       "title": "3 Surprising Truths About the Free Apache Polaris-Based Dremio Open Catalog",
       "date": "2025-12-22",
       "url": "https://www.dremio.com/blog/3-surprising-truths-about-the-free-apache-polaris-based-dremio-open-catalog/",
@@ -208,14 +1924,39 @@
       ]
     },
     {
+      "title": "TPC-H Databricks vs Apache Iceberg - (OLake + AWS Glue + EMR)",
+      "date": "2025-10-28",
+      "url": "https://olake.io/iceberg/databricks-vs-iceberg/",
+      "company": "OLake",
+      "author": "Nayan Joshi",
+      "author_url": "https://olake.io",
+      "project_slugs": [
+        "iceberg",
+        "hive"
+      ],
+      "tags": [
+        "Apache Iceberg",
+        "Apache Hive",
+        "Data Lakehouse"
+      ]
+    },
+    {
       "title": "Metadata at Scale: Tackling Apache Iceberg Tables with Tens of Millions of Files",
       "date": "2025-10-16",
       "url": "https://www.e6data.com/blog/apache-iceberg-million-files-metadata",
       "company": "e6data",
       "author": "Arnav Borkar",
       "author_url": "https://www.linkedin.com/in/arnavborkar/",
-      "project_slugs": ["iceberg", "spark", "trino"],
-      "tags": ["Apache Iceberg", "Apache Spark", "Trino"]
+      "project_slugs": [
+        "iceberg",
+        "spark",
+        "trino"
+      ],
+      "tags": [
+        "Apache Iceberg",
+        "Apache Spark",
+        "Trino"
+      ]
     },
     {
       "title": "Try Apache Polaris (incubating) on Your Laptop with Minio",
@@ -266,102 +2007,6 @@
       ]
     },
     {
-      "title": "How Apache Iceberg Branching transforms Data Management",
-      "date": "2025-09-09",
-      "url": "https://www.starburst.io/blog/iceberg-branching-data-management/",
-      "company": "Starburst",
-      "author": "Starburst",
-      "author_url": "https://starburst.io",
-      "project_slugs": [
-        "iceberg"
-      ],
-      "tags": [
-        "Apache Iceberg"
-      ]
-    },
-    {
-      "title": "Iceberg v3 + Starburst",
-      "date": "2025-09-04",
-      "url": "https://www.starburst.io/blog/iceberg-v3/",
-      "company": "Starburst",
-      "author": "Starburst",
-      "author_url": "https://starburst.io",
-      "project_slugs": [
-        "iceberg"
-      ],
-      "tags": [
-        "Apache Iceberg"
-      ]
-    },
-    {
-      "title": "Iceberg Partitioning vs. Hive Partitioning",
-      "date": "2025-05-13",
-      "url": "https://olake.io/iceberg/hive-partitioning-vs-iceberg-partitioning",
-      "company": "OLake",
-      "author": "Sandeep Devarapalli",
-      "author_url": "https://olake.io",
-      "project_slugs": [
-        "iceberg",
-        "hive"
-      ],
-      "tags": [
-        "Apache Iceberg",
-        "Hive",
-        "Partitioning",
-        "OLake"
-      ]
-    },
-    {
-      "title": "Apache Hive vs Apache Iceberg: Choosing the Right Data Lakehouse Technology",
-      "date": "2025-09-15",
-      "url": "https://olake.io/blog/apache-iceberg-hive-comparison",
-      "company": "OLake",
-      "author": "Akshay Kumar Sharma",
-      "author_url": "https://olake.io",
-      "project_slugs": [
-        "iceberg",
-        "hive"
-      ],
-      "tags": [
-        "Apache Iceberg",
-        "Apache Hive",
-        "Data Lakehouse"
-      ]
-    },
-    {
-      "title": "TPC-H Databricks vs Apache Iceberg - (OLake + AWS Glue + EMR)",
-      "date": "2025-10-28",
-      "url": "https://olake.io/iceberg/databricks-vs-iceberg/",
-      "company": "OLake",
-      "author": "Nayan Joshi",
-      "author_url": "https://olake.io",
-      "project_slugs": [
-        "iceberg",
-        "hive"
-      ],
-      "tags": [
-        "Apache Iceberg",
-        "Apache Hive",
-        "Data Lakehouse"
-      ]
-    },
-    {
-      "title": "Comparison of Delete Strategies in Apache Iceberg and Delta Lake",
-      "date": "2025-09-04",
-      "url": "https://olake.io/blog/iceberg-delta-lake-delete-methods-comparison",
-      "company": "OLake",
-      "author": "OLake Team",
-      "author_url": "https://olake.io",
-      "project_slugs": [
-        "iceberg",
-        "delta"
-      ],
-      "tags": [
-        "Apache Iceberg",
-        "Delta Lake"
-      ]
-    },
-    {
       "title": "The Ultimate Guide to Open Table Formats - Iceberg, Delta Lake, Hudi, Paimon, and DuckLake",
       "date": "2025-09-24",
       "url": "https://datalakehousehub.com/blog/2025-09-ultimate-guide-to-open-table-formats/",
@@ -407,12 +2052,43 @@
       ]
     },
     {
+      "title": "Apache Hive vs Apache Iceberg: Choosing the Right Data Lakehouse Technology",
+      "date": "2025-09-15",
+      "url": "https://olake.io/blog/apache-iceberg-hive-comparison",
+      "company": "OLake",
+      "author": "Akshay Kumar Sharma",
+      "author_url": "https://olake.io",
+      "project_slugs": [
+        "iceberg",
+        "hive"
+      ],
+      "tags": [
+        "Apache Iceberg",
+        "Apache Hive",
+        "Data Lakehouse"
+      ]
+    },
+    {
       "title": "What's New in Apache Iceberg 1.10.0, and what comes next!",
       "date": "2025-09-12",
       "url": "https://www.dremio.com/blog/whats-new-in-apache-iceberg-1-10-0-and-what-comes-next/",
       "company": "Dremio",
       "author": "Alex Merced",
       "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [
+        "iceberg"
+      ],
+      "tags": [
+        "Apache Iceberg"
+      ]
+    },
+    {
+      "title": "How Apache Iceberg Branching transforms Data Management",
+      "date": "2025-09-09",
+      "url": "https://www.starburst.io/blog/iceberg-branching-data-management/",
+      "company": "Starburst",
+      "author": "Starburst",
+      "author_url": "https://starburst.io",
       "project_slugs": [
         "iceberg"
       ],
@@ -467,6 +2143,36 @@
       ]
     },
     {
+      "title": "Iceberg v3 + Starburst",
+      "date": "2025-09-04",
+      "url": "https://www.starburst.io/blog/iceberg-v3/",
+      "company": "Starburst",
+      "author": "Starburst",
+      "author_url": "https://starburst.io",
+      "project_slugs": [
+        "iceberg"
+      ],
+      "tags": [
+        "Apache Iceberg"
+      ]
+    },
+    {
+      "title": "Comparison of Delete Strategies in Apache Iceberg and Delta Lake",
+      "date": "2025-09-04",
+      "url": "https://olake.io/blog/iceberg-delta-lake-delete-methods-comparison",
+      "company": "OLake",
+      "author": "OLake Team",
+      "author_url": "https://olake.io",
+      "project_slugs": [
+        "iceberg",
+        "delta"
+      ],
+      "tags": [
+        "Apache Iceberg",
+        "Delta Lake"
+      ]
+    },
+    {
       "title": "Kafka to Iceberg - Exploring the Options",
       "date": "2025-08-18",
       "url": "https://rmoff.net/2025/08/18/kafka-to-iceberg-exploring-the-options/",
@@ -478,6 +2184,21 @@
       ],
       "tags": [
         "Apache Iceberg"
+      ]
+    },
+    {
+      "title": "Your Data Just Got Swifter \u2014 Meet SwiftLake",
+      "date": "2025-08-12",
+      "url": "https://medium.com/arcesium-engineering-blog/your-data-just-got-swifter-meet-swiftlake-7568cc85ee57",
+      "company": "Arcesium",
+      "author": "Ramakrishna Mothukuri",
+      "author_url": "https://www.linkedin.com/in/ramakrishna-mothukuri/",
+      "project_slugs": [
+        "iceberg"
+      ],
+      "tags": [
+        "Apache Iceberg",
+        "DuckDB"
       ]
     },
     {
@@ -495,6 +2216,20 @@
       ]
     },
     {
+      "title": "The Hidden Power of Apache Arrow in Python ETL",
+      "date": "2025-08-07",
+      "url": "https://medium.com/@bhagyarana80/the-hidden-power-of-apache-arrow-in-python-etl-19ad052819f1",
+      "company": "Medium",
+      "author": "Bhagya Rana",
+      "author_url": "https://medium.com/@bhagyarana80",
+      "project_slugs": [
+        "arrow"
+      ],
+      "tags": [
+        "Apache Arrow"
+      ]
+    },
+    {
       "title": "Optimizing Apache Iceberg for Agentic AI",
       "date": "2025-08-01",
       "url": "https://www.dremio.com/blog/optimizing-apache-iceberg-for-agentic-ai/",
@@ -506,6 +2241,20 @@
       ],
       "tags": [
         "Apache Iceberg"
+      ]
+    },
+    {
+      "title": "Microsoft Fabric: An introduction to Apache Arrow as the cornerstone of Python data engineering",
+      "date": "2025-07-30",
+      "url": "https://christianhenrikreich.medium.com/microsoft-fabric-an-introduction-to-apache-arrow-as-the-cornerstone-of-python-data-engineering-f35d009dfc69",
+      "company": "Medium",
+      "author": "Christian Henrik Reich",
+      "author_url": "https://christianhenrikreich.medium.com/",
+      "project_slugs": [
+        "arrow"
+      ],
+      "tags": [
+        "Apache Arrow"
       ]
     },
     {
@@ -695,6 +2444,38 @@
       ]
     },
     {
+      "title": "Why your Iceberg Table Path Looks Like a Cat Walked Across the Keyboard",
+      "date": "2025-05-19",
+      "url": "https://medium.com/snowflake/why-your-iceberg-table-path-looks-like-a-cat-walked-across-the-keyboard-33e40cebbaa0",
+      "company": "Snowflake",
+      "author": "Sahil Walia",
+      "author_url": "https://www.linkedin.com/in/sahilwaliasyracuse/",
+      "project_slugs": [
+        "iceberg"
+      ],
+      "tags": [
+        "Apache Iceberg"
+      ]
+    },
+    {
+      "title": "Iceberg Partitioning vs. Hive Partitioning",
+      "date": "2025-05-13",
+      "url": "https://olake.io/iceberg/hive-partitioning-vs-iceberg-partitioning",
+      "company": "OLake",
+      "author": "Sandeep Devarapalli",
+      "author_url": "https://olake.io",
+      "project_slugs": [
+        "iceberg",
+        "hive"
+      ],
+      "tags": [
+        "Apache Iceberg",
+        "Hive",
+        "Partitioning",
+        "OLake"
+      ]
+    },
+    {
       "title": "Introducing Dremio Auth Manager for Apache Iceberg",
       "date": "2025-05-01",
       "url": "https://www.dremio.com/blog/introducing-dremio-auth-manager-for-apache-iceberg/",
@@ -783,6 +2564,22 @@
       ]
     },
     {
+      "title": "What is Apache Arrow Flight, Flight SQL & ADBC",
+      "date": "2025-03-18",
+      "url": "https://dipankar-tnt.medium.com/what-is-apache-arrow-flight-flight-sql-adbc-a076511122ac",
+      "company": "Medium",
+      "author": "Dipankar Mazumdar",
+      "author_url": "https://dipankar-tnt.medium.com/",
+      "project_slugs": [
+        "arrow",
+        "flight",
+        "adbc"
+      ],
+      "tags": [
+        "Apache Arrow"
+      ]
+    },
+    {
       "title": "The Future of Apache Polaris (Incubating)",
       "date": "2025-02-21",
       "url": "https://www.dremio.com/blog/apache-polaris-roadmap-2025/",
@@ -797,6 +2594,21 @@
       ]
     },
     {
+      "title": "Redefining Data Engineering with Go and Apache Arrow",
+      "date": "2025-02-04",
+      "url": "https://medium.com/@tfmv/redefining-data-engineering-with-go-and-apache-arrow-df9059ddf55c",
+      "company": "Medium",
+      "author": "Thomas F McGeehan V",
+      "author_url": "https://medium.com/@tfmv",
+      "project_slugs": [
+        "arrow",
+        "go"
+      ],
+      "tags": [
+        "Apache Arrow"
+      ]
+    },
+    {
       "title": "Building AI Agents with LangChain using Dremio, Iceberg, and Unified Data",
       "date": "2025-02-01",
       "url": "https://www.dremio.com/blog/ai-agents-with-dremio/",
@@ -808,6 +2620,20 @@
       ],
       "tags": [
         "Apache Iceberg"
+      ]
+    },
+    {
+      "title": "How the Apache Arrow Format Accelerates Query Result Transfer",
+      "date": "2025-01-10",
+      "url": "https://arrow.apache.org/blog/2025/01/10/arrow-result-transfer/",
+      "company": "Apache Arrow",
+      "author": "Ian Cook et al.",
+      "author_url": "",
+      "project_slugs": [
+        "arrow"
+      ],
+      "tags": [
+        "Apache Arrow"
       ]
     },
     {
@@ -1293,6 +3119,21 @@
       ]
     },
     {
+      "title": "Apache Arrow, making Spark even faster",
+      "date": "2024-03-29",
+      "url": "https://amanjaiswalofficial.medium.com/apache-arrow-making-spark-even-faster-3ae-8ca8e1a67dc7",
+      "company": "Medium",
+      "author": "Aman Jaiswal",
+      "author_url": "https://amanjaiswalofficial.medium.com/",
+      "project_slugs": [
+        "arrow",
+        "spark"
+      ],
+      "tags": [
+        "Apache Arrow"
+      ]
+    },
+    {
       "title": "From Postgres to Dashboards with Dremio and Apache Iceberg",
       "date": "2024-03-28",
       "url": "https://www.dremio.com/blog/from-postgres-to-dashboards-with-dremio-and-apache-iceberg/",
@@ -1397,6 +3238,36 @@
       ]
     },
     {
+      "title": "Aligning Velox and Apache Arrow: Towards composable data management",
+      "date": "2024-02-20",
+      "url": "https://engineering.fb.com/2024/02/20/developer-tools/velox-apache-arrow-15-composable-data-management/",
+      "company": "Meta",
+      "author": "Pedro Pedreira",
+      "author_url": "https://engineering.fb.com/author/pedro-pedreira/",
+      "project_slugs": [
+        "arrow",
+        "velox"
+      ],
+      "tags": [
+        "Apache Arrow",
+        "Velox"
+      ]
+    },
+    {
+      "title": "Unlocking High-Speed Data Analytics with Apache Arrow: A Beginner\u2019s Guide",
+      "date": "2024-02-14",
+      "url": "https://aravindkolli.medium.com/unlocking-high-speed-data-analytics-with-apache-arrow-a-beginners-guide-c5f1cda0927d",
+      "company": "Medium",
+      "author": "Aravind Kolli",
+      "author_url": "https://aravindkolli.medium.com/",
+      "project_slugs": [
+        "arrow"
+      ],
+      "tags": [
+        "Apache Arrow"
+      ]
+    },
+    {
       "title": "Ingesting Data Into Apache Iceberg Tables with Dremio: A Unified Path to Iceberg",
       "date": "2024-02-01",
       "url": "https://www.dremio.com/blog/ingesting-data-into-apache-iceberg-tables-with-dremio-a-unified-path-to-iceberg/",
@@ -1429,6 +3300,38 @@
       ]
     },
     {
+      "title": "How Dremio delivers fast queries on object storage: Apache Arrow, Reflections, and the Columnar Cloud Cache",
+      "date": "2024-02-01",
+      "url": "https://www.dremio.com/blog/how-dremio-delivers-fast-queries-on-object-storage-apache-arrow-reflections-and-the-columnar-cloud-cache/",
+      "company": "Dremio",
+      "author": "Alex Merced",
+      "author_url": "https://www.dremio.com/authors/alex-merced/",
+      "project_slugs": [
+        "arrow"
+      ],
+      "tags": [
+        "Apache Arrow"
+      ]
+    },
+    {
+      "title": "Open Source and the Data Lakehouse: Apache Arrow, Apache Iceberg, Nessie and Dremio",
+      "date": "2024-02-01",
+      "url": "https://www.dremio.com/blog/open-source-and-the-data-lakehouse-apache-arrow-apache-iceberg-nessie-and-dremio/",
+      "company": "Dremio",
+      "author": "Alex Merced",
+      "author_url": "https://www.dremio.com/authors/alex-merced/",
+      "project_slugs": [
+        "arrow",
+        "iceberg",
+        "nessie"
+      ],
+      "tags": [
+        "Apache Arrow",
+        "Apache Iceberg",
+        "Project Nessie"
+      ]
+    },
+    {
       "title": "How not to use Apache Iceberg",
       "date": "2024-01-23",
       "url": "https://medium.com/@ajanthabhat/how-not-to-use-apache-iceberg-046ae7e7c884",
@@ -1440,6 +3343,20 @@
       ],
       "tags": [
         "Apache Iceberg"
+      ]
+    },
+    {
+      "title": "Connecting to Dremio Using Apache Arrow Flight in Python",
+      "date": "2024-01-18",
+      "url": "https://www.dremio.com/blog/connecting-to-dremio-using-apache-arrow-flight-in-python/",
+      "company": "Dremio",
+      "author": "Alex Merced",
+      "author_url": "https://www.dremio.com/authors/alex-merced/",
+      "project_slugs": [
+        "arrow"
+      ],
+      "tags": [
+        "Apache Arrow"
       ]
     },
     {
@@ -1501,6 +3418,20 @@
       ]
     },
     {
+      "title": "Zero-Copy Sharing using Apache Arrow and Golang",
+      "date": "2023-07-20",
+      "url": "https://voltrondata.com/blog/zero-copy-sharing-using-apache-arrow-and-golang",
+      "company": "Voltron Data",
+      "author": "Matt Topol",
+      "author_url": "",
+      "project_slugs": [
+        "arrow"
+      ],
+      "tags": [
+        "Apache Arrow"
+      ]
+    },
+    {
       "title": "From Hive Tables to Iceberg Tables: Hassle-Free",
       "date": "2023-07-14",
       "url": "https://blog.cloudera.com/from-hive-tables-to-iceberg-tables-hassle-free/",
@@ -1554,6 +3485,20 @@
       ],
       "tags": [
         "Apache Iceberg"
+      ]
+    },
+    {
+      "title": "How To: Understand Apache Arrow",
+      "date": "2023-06-04",
+      "url": "https://medium.com/@diehardankush/understanding-apache-arrow-8afc9e9cd7ed",
+      "company": "Medium",
+      "author": "Ankush Singh",
+      "author_url": "https://medium.com/@diehardankush",
+      "project_slugs": [
+        "arrow"
+      ],
+      "tags": [
+        "Apache Arrow"
       ]
     },
     {
@@ -1701,6 +3646,20 @@
       ]
     },
     {
+      "title": "Use Apache Arrow and Go for Your Data Workflows",
+      "date": "2023-03-27",
+      "url": "https://voltrondata.com/blog/use-apache-arrow-and-go-for-your-data-workflows",
+      "company": "Voltron Data",
+      "author": "Matt Topol",
+      "author_url": "",
+      "project_slugs": [
+        "arrow"
+      ],
+      "tags": [
+        "Apache Arrow"
+      ]
+    },
+    {
       "title": "Open Data Lakehouse powered by Apache Iceberg on Apache Ozone",
       "date": "2023-02-28",
       "url": "https://medium.com/engineering-cloudera/open-data-lakehouse-powered-by-apache-iceberg-on-apache-ozone-a225d5dcfe98/",
@@ -1782,6 +3741,21 @@
       ],
       "tags": [
         "Apache Iceberg"
+      ]
+    },
+    {
+      "title": "Arrow Database Connectivity",
+      "date": "2023-01-19",
+      "url": "https://voltrondata.com/blog/arrow-database-connectivity-apache-arrow-for-every-database-user",
+      "company": "Voltron Data",
+      "author": "David Li",
+      "author_url": "",
+      "project_slugs": [
+        "arrow",
+        "adbc"
+      ],
+      "tags": [
+        "Apache Arrow"
       ]
     },
     {
@@ -1891,6 +3865,38 @@
       ]
     },
     {
+      "title": "Apache Arrow\u2019s Rapid Growth Over the Years",
+      "date": "2022-11-14",
+      "url": "https://www.dremio.com/blog/apache-arrows-rapid-growth-over-the-years/",
+      "company": "Dremio",
+      "author": "Dipankar Mazumdar",
+      "author_url": "https://www.dremio.com/authors/dipankar-mazumdar/",
+      "project_slugs": [
+        "arrow"
+      ],
+      "tags": [
+        "Apache Arrow"
+      ]
+    },
+    {
+      "title": "Hands-on Introduction to Dremio Cloud Agentic Lakehouse (Self-Guided Workshop)",
+      "date": "2022-11-13",
+      "url": "https://www.dremio.com/blog/hands-on-introduction-to-dremio-cloud-next-gen-self-guided-workshop/",
+      "company": "Dremio",
+      "author": "Alex Merced",
+      "author_url": "https://www.alexmerced.com/data",
+      "project_slugs": [
+        "iceberg",
+        "polaris",
+        "arrow"
+      ],
+      "tags": [
+        "Apache Iceberg",
+        "Apache Polaris",
+        "Apache Arrow"
+      ]
+    },
+    {
       "title": "Compaction in Apache Iceberg: Fine-Tuning Your Iceberg Table's Data Files",
       "date": "2022-11-09",
       "url": "https://www.dremio.com/subsurface/compaction-in-apache-iceberg-fine-tuning-your-iceberg-tables-data-files/",
@@ -1902,6 +3908,21 @@
       ],
       "tags": [
         "Apache Iceberg"
+      ]
+    },
+    {
+      "title": "Expanding Arrow\u2019s Reach with a JDBC Driver for Arrow Flight SQL",
+      "date": "2022-11-01",
+      "url": "https://arrow.apache.org/blog/2022/11/01/arrow-flight-sql-jdbc/",
+      "company": "Apache Arrow",
+      "author": "Apache Arrow PMC",
+      "author_url": "",
+      "project_slugs": [
+        "arrow",
+        "flight-sql"
+      ],
+      "tags": [
+        "Apache Arrow"
       ]
     },
     {
@@ -1933,34 +3954,6 @@
       ]
     },
     {
-      "title": "Apache Iceberg and the Right to be Forgotten",
-      "date": "2022-09-30",
-      "url": "https://www.dremio.com/subsurface/apache-iceberg-and-the-right-to-be-forgotten/",
-      "company": "Dremio",
-      "author": "Alex Merced",
-      "author_url": "https://www.linkedin.com/in/alexmerced/",
-      "project_slugs": [
-        "iceberg"
-      ],
-      "tags": [
-        "Apache Iceberg"
-      ]
-    },
-    {
-      "title": "Streaming Data into Apache Iceberg tables using AWS Kinesis and AWS Glue",
-      "date": "2022-09-26",
-      "url": "https://www.dremio.com/subsurface/streaming-data-into-apache-iceberg-tables-using-aws-kinesis-and-aws-glue/",
-      "company": "Dremio",
-      "author": "Alex Merced",
-      "author_url": "https://www.linkedin.com/in/alexmerced/",
-      "project_slugs": [
-        "iceberg"
-      ],
-      "tags": [
-        "Apache Iceberg"
-      ]
-    },
-    {
       "title": "Iceberg Flink Sink: Stream Directly into your Data Warehouse Tables",
       "date": "2022-10-12",
       "url": "https://tabular.io/blog/flink-sink/",
@@ -1977,12 +3970,40 @@
       ]
     },
     {
+      "title": "Apache Iceberg and the Right to be Forgotten",
+      "date": "2022-09-30",
+      "url": "https://www.dremio.com/subsurface/apache-iceberg-and-the-right-to-be-forgotten/",
+      "company": "Dremio",
+      "author": "Alex Merced",
+      "author_url": "https://www.linkedin.com/in/alexmerced/",
+      "project_slugs": [
+        "iceberg"
+      ],
+      "tags": [
+        "Apache Iceberg"
+      ]
+    },
+    {
       "title": "Partitioning for Correctness (and Performance)",
       "date": "2022-09-28",
       "url": "https://tabular.io/blog/partitioning/",
       "company": "Tabular",
       "author": "Jason Reid",
       "author_url": "https://www.linkedin.com/in/jasonreid/",
+      "project_slugs": [
+        "iceberg"
+      ],
+      "tags": [
+        "Apache Iceberg"
+      ]
+    },
+    {
+      "title": "Streaming Data into Apache Iceberg tables using AWS Kinesis and AWS Glue",
+      "date": "2022-09-26",
+      "url": "https://www.dremio.com/subsurface/streaming-data-into-apache-iceberg-tables-using-aws-kinesis-and-aws-glue/",
+      "company": "Dremio",
+      "author": "Alex Merced",
+      "author_url": "https://www.linkedin.com/in/alexmerced/",
       "project_slugs": [
         "iceberg"
       ],
@@ -2121,6 +4142,20 @@
       ]
     },
     {
+      "title": "The Origins of Apache Arrow & Its Fit in Today\u2019s Data Landscape",
+      "date": "2022-07-07",
+      "url": "https://www.dremio.com/blog/the-origins-of-apache-arrow-its-fit-in-todays-data-landscape/",
+      "company": "Dremio",
+      "author": "Dipankar Mazumdar",
+      "author_url": "https://www.dremio.com/authors/dipankar-mazumdar/",
+      "project_slugs": [
+        "arrow"
+      ],
+      "tags": [
+        "Apache Arrow"
+      ]
+    },
+    {
       "title": "Supercharge your Data Lakehouse with Apache Iceberg in Cloudera Data Platform",
       "date": "2022-06-30",
       "url": "https://blog.cloudera.com/supercharge-your-data-lakehouse-with-apache-iceberg-in-cloudera-data-platform/",
@@ -2241,6 +4276,20 @@
       ]
     },
     {
+      "title": "Apache Arrow New Contributor\u2019s Guide",
+      "date": "2022-04-07",
+      "url": "https://voltrondata.com/blog/apache-arrow-new-contributors-guide",
+      "company": "Voltron Data",
+      "author": "Alenka Frim",
+      "author_url": "",
+      "project_slugs": [
+        "arrow"
+      ],
+      "tags": [
+        "Apache Arrow"
+      ]
+    },
+    {
       "title": "An Introduction To The Iceberg Java API - Part 1",
       "date": "2022-04-01",
       "url": "https://tabular.io/blog/java-api-part-1/",
@@ -2313,6 +4362,20 @@
       ]
     },
     {
+      "title": "Apache Arrow: Driving Columnar Analytics Performance and Connectivity",
+      "date": "2022-02-03",
+      "url": "https://voltrondata.com/blog/arrow-columnar-analytics",
+      "company": "Voltron Data",
+      "author": "Wes McKinney",
+      "author_url": "",
+      "project_slugs": [
+        "arrow"
+      ],
+      "tags": [
+        "Apache Arrow"
+      ]
+    },
+    {
       "title": "Docker, Spark, and Iceberg: The Fastest Way to Try Iceberg!",
       "date": "2022-02-02",
       "url": "https://tabular.io/blog/docker-spark-and-iceberg/",
@@ -2340,6 +4403,20 @@
       ],
       "tags": [
         "Apache Iceberg"
+      ]
+    },
+    {
+      "title": "An Introduction to Apache Arrow Flight SQL",
+      "date": "2022-01-18",
+      "url": "https://www.dremio.com/blog/an-introduction-to-apache-arrow-flight-sql/",
+      "company": "Dremio",
+      "author": "Alex Merced",
+      "author_url": "https://www.dremio.com/authors/alex-merced/",
+      "project_slugs": [
+        "arrow"
+      ],
+      "tags": [
+        "Apache Arrow"
       ]
     },
     {
@@ -2373,20 +4450,6 @@
       ]
     },
     {
-      "title": "Metadata Indexing in Iceberg",
-      "date": "2021-10-10",
-      "url": "https://tabular.io/blog/iceberg-metadata-indexing/",
-      "company": "Tabular",
-      "author": "Ryan Blue",
-      "author_url": "https://www.linkedin.com/in/rdblue/",
-      "project_slugs": [
-        "iceberg"
-      ],
-      "tags": [
-        "Apache Iceberg"
-      ]
-    },
-    {
       "title": "Using Debezium to Create a Data Lake with Apache Iceberg",
       "date": "2021-10-20",
       "url": "https://debezium.io/blog/2021/10/20/using-debezium-create-data-lake-with-apache-iceberg/",
@@ -2403,19 +4466,17 @@
       ]
     },
     {
-      "title": "How to Analyze CDC Data in Iceberg Data Lake Using Flink",
-      "date": "2021-06-15",
-      "url": "https://www.alibabacloud.com/blog/how-to-analyze-cdc-data-in-iceberg-data-lake-using-flink_597838",
-      "company": "Alibaba Cloud Community",
-      "author": "Li Jinsong, Hu Zheng, Yang Weihai, Peidan Li",
-      "author_url": "https://www.linkedin.com/in/%E5%8A%B2%E6%9D%BE-%E6%9D%8E-48b54b101/",
+      "title": "Metadata Indexing in Iceberg",
+      "date": "2021-10-10",
+      "url": "https://tabular.io/blog/iceberg-metadata-indexing/",
+      "company": "Tabular",
+      "author": "Ryan Blue",
+      "author_url": "https://www.linkedin.com/in/rdblue/",
       "project_slugs": [
-        "iceberg",
-        "flink"
+        "iceberg"
       ],
       "tags": [
-        "Apache Iceberg",
-        "Apache Flink"
+        "Apache Iceberg"
       ]
     },
     {
@@ -2444,6 +4505,22 @@
       ],
       "tags": [
         "Apache Iceberg"
+      ]
+    },
+    {
+      "title": "How to Analyze CDC Data in Iceberg Data Lake Using Flink",
+      "date": "2021-06-15",
+      "url": "https://www.alibabacloud.com/blog/how-to-analyze-cdc-data-in-iceberg-data-lake-using-flink_597838",
+      "company": "Alibaba Cloud Community",
+      "author": "Li Jinsong, Hu Zheng, Yang Weihai, Peidan Li",
+      "author_url": "https://www.linkedin.com/in/%E5%8A%B2%E6%9D%BE-%E6%9D%8E-48b54b101/",
+      "project_slugs": [
+        "iceberg",
+        "flink"
+      ],
+      "tags": [
+        "Apache Iceberg",
+        "Apache Flink"
       ]
     },
     {
@@ -2623,355 +4700,6 @@
       "tags": [
         "Apache Iceberg"
       ]
-    },
-    {
-      "title": "The Origins of Apache Arrow & Its Fit in Today\u2019s Data Landscape",
-      "date": "2022-07-07",
-      "url": "https://www.dremio.com/blog/the-origins-of-apache-arrow-its-fit-in-todays-data-landscape/",
-      "company": "Dremio",
-      "author": "Dipankar Mazumdar",
-      "author_url": "https://www.dremio.com/authors/dipankar-mazumdar/",
-      "project_slugs": [
-        "arrow"
-      ],
-      "tags": [
-        "Apache Arrow"
-      ]
-    },
-    {
-      "title": "Apache Arrow\u2019s Rapid Growth Over the Years",
-      "date": "2022-11-14",
-      "url": "https://www.dremio.com/blog/apache-arrows-rapid-growth-over-the-years/",
-      "company": "Dremio",
-      "author": "Dipankar Mazumdar",
-      "author_url": "https://www.dremio.com/authors/dipankar-mazumdar/",
-      "project_slugs": [
-        "arrow"
-      ],
-      "tags": [
-        "Apache Arrow"
-      ]
-    },
-    {
-      "title": "An Introduction to Apache Arrow Flight SQL",
-      "date": "2022-01-18",
-      "url": "https://www.dremio.com/blog/an-introduction-to-apache-arrow-flight-sql/",
-      "company": "Dremio",
-      "author": "Alex Merced",
-      "author_url": "https://www.dremio.com/authors/alex-merced/",
-      "project_slugs": [
-        "arrow"
-      ],
-      "tags": [
-        "Apache Arrow"
-      ]
-    },
-    {
-      "title": "Connecting to Dremio Using Apache Arrow Flight in Python",
-      "date": "2024-01-18",
-      "url": "https://www.dremio.com/blog/connecting-to-dremio-using-apache-arrow-flight-in-python/",
-      "company": "Dremio",
-      "author": "Alex Merced",
-      "author_url": "https://www.dremio.com/authors/alex-merced/",
-      "project_slugs": [
-        "arrow"
-      ],
-      "tags": [
-        "Apache Arrow"
-      ]
-    },
-    {
-      "title": "How Dremio delivers fast queries on object storage: Apache Arrow, Reflections, and the Columnar Cloud Cache",
-      "date": "2024-02-01",
-      "url": "https://www.dremio.com/blog/how-dremio-delivers-fast-queries-on-object-storage-apache-arrow-reflections-and-the-columnar-cloud-cache/",
-      "company": "Dremio",
-      "author": "Alex Merced",
-      "author_url": "https://www.dremio.com/authors/alex-merced/",
-      "project_slugs": [
-        "arrow"
-      ],
-      "tags": [
-        "Apache Arrow"
-      ]
-    },
-    {
-      "title": "Open Source and the Data Lakehouse: Apache Arrow, Apache Iceberg, Nessie and Dremio",
-      "date": "2024-02-01",
-      "url": "https://www.dremio.com/blog/open-source-and-the-data-lakehouse-apache-arrow-apache-iceberg-nessie-and-dremio/",
-      "company": "Dremio",
-      "author": "Alex Merced",
-      "author_url": "https://www.dremio.com/authors/alex-merced/",
-      "project_slugs": [
-        "arrow",
-        "iceberg",
-        "nessie"
-      ],
-      "tags": [
-        "Apache Arrow",
-        "Apache Iceberg",
-        "Project Nessie"
-      ]
-    },
-    {
-      "title": "Use Apache Arrow and Go for Your Data Workflows",
-      "date": "2023-03-27",
-      "url": "https://voltrondata.com/blog/use-apache-arrow-and-go-for-your-data-workflows",
-      "company": "Voltron Data",
-      "author": "Matt Topol",
-      "author_url": "",
-      "project_slugs": [
-        "arrow"
-      ],
-      "tags": [
-        "Apache Arrow"
-      ]
-    },
-    {
-      "title": "Apache Arrow: Driving Columnar Analytics Performance and Connectivity",
-      "date": "2022-02-03",
-      "url": "https://voltrondata.com/blog/arrow-columnar-analytics",
-      "company": "Voltron Data",
-      "author": "Wes McKinney",
-      "author_url": "",
-      "project_slugs": [
-        "arrow"
-      ],
-      "tags": [
-        "Apache Arrow"
-      ]
-    },
-    {
-      "title": "Arrow Database Connectivity",
-      "date": "2023-01-19",
-      "url": "https://voltrondata.com/blog/arrow-database-connectivity-apache-arrow-for-every-database-user",
-      "company": "Voltron Data",
-      "author": "David Li",
-      "author_url": "",
-      "project_slugs": [
-        "arrow",
-        "adbc"
-      ],
-      "tags": [
-        "Apache Arrow"
-      ]
-    },
-    {
-      "title": "Apache Arrow New Contributor\u2019s Guide",
-      "date": "2022-04-07",
-      "url": "https://voltrondata.com/blog/apache-arrow-new-contributors-guide",
-      "company": "Voltron Data",
-      "author": "Alenka Frim",
-      "author_url": "",
-      "project_slugs": [
-        "arrow"
-      ],
-      "tags": [
-        "Apache Arrow"
-      ]
-    },
-    {
-      "title": "Zero-Copy Sharing using Apache Arrow and Golang",
-      "date": "2023-07-20",
-      "url": "https://voltrondata.com/blog/zero-copy-sharing-using-apache-arrow-and-golang",
-      "company": "Voltron Data",
-      "author": "Matt Topol",
-      "author_url": "",
-      "project_slugs": [
-        "arrow"
-      ],
-      "tags": [
-        "Apache Arrow"
-      ]
-    },
-    {
-      "title": "How To: Understand Apache Arrow",
-      "date": "2023-06-04",
-      "url": "https://medium.com/@diehardankush/understanding-apache-arrow-8afc9e9cd7ed",
-      "company": "Medium",
-      "author": "Ankush Singh",
-      "author_url": "https://medium.com/@diehardankush",
-      "project_slugs": [
-        "arrow"
-      ],
-      "tags": [
-        "Apache Arrow"
-      ]
-    },
-    {
-      "title": "Unlocking High-Speed Data Analytics with Apache Arrow: A Beginner\u2019s Guide",
-      "date": "2024-02-14",
-      "url": "https://aravindkolli.medium.com/unlocking-high-speed-data-analytics-with-apache-arrow-a-beginners-guide-c5f1cda0927d",
-      "company": "Medium",
-      "author": "Aravind Kolli",
-      "author_url": "https://aravindkolli.medium.com/",
-      "project_slugs": [
-        "arrow"
-      ],
-      "tags": [
-        "Apache Arrow"
-      ]
-    },
-    {
-      "title": "Microsoft Fabric: An introduction to Apache Arrow as the cornerstone of Python data engineering",
-      "date": "2025-07-30",
-      "url": "https://christianhenrikreich.medium.com/microsoft-fabric-an-introduction-to-apache-arrow-as-the-cornerstone-of-python-data-engineering-f35d009dfc69",
-      "company": "Medium",
-      "author": "Christian Henrik Reich",
-      "author_url": "https://christianhenrikreich.medium.com/",
-      "project_slugs": [
-        "arrow"
-      ],
-      "tags": [
-        "Apache Arrow"
-      ]
-    },
-    {
-      "title": "Apache Arrow, making Spark even faster",
-      "date": "2024-03-29",
-      "url": "https://amanjaiswalofficial.medium.com/apache-arrow-making-spark-even-faster-3ae-8ca8e1a67dc7",
-      "company": "Medium",
-      "author": "Aman Jaiswal",
-      "author_url": "https://amanjaiswalofficial.medium.com/",
-      "project_slugs": [
-        "arrow",
-        "spark"
-      ],
-      "tags": [
-        "Apache Arrow"
-      ]
-    },
-    {
-      "title": "What is Apache Arrow Flight, Flight SQL & ADBC",
-      "date": "2025-03-18",
-      "url": "https://dipankar-tnt.medium.com/what-is-apache-arrow-flight-flight-sql-adbc-a076511122ac",
-      "company": "Medium",
-      "author": "Dipankar Mazumdar",
-      "author_url": "https://dipankar-tnt.medium.com/",
-      "project_slugs": [
-        "arrow",
-        "flight",
-        "adbc"
-      ],
-      "tags": [
-        "Apache Arrow"
-      ]
-    },
-    {
-      "title": "The Hidden Power of Apache Arrow in Python ETL",
-      "date": "2025-08-07",
-      "url": "https://medium.com/@bhagyarana80/the-hidden-power-of-apache-arrow-in-python-etl-19ad052819f1",
-      "company": "Medium",
-      "author": "Bhagya Rana",
-      "author_url": "https://medium.com/@bhagyarana80",
-      "project_slugs": [
-        "arrow"
-      ],
-      "tags": [
-        "Apache Arrow"
-      ]
-    },
-    {
-      "title": "Redefining Data Engineering with Go and Apache Arrow",
-      "date": "2025-02-04",
-      "url": "https://medium.com/@tfmv/redefining-data-engineering-with-go-and-apache-arrow-df9059ddf55c",
-      "company": "Medium",
-      "author": "Thomas F McGeehan V",
-      "author_url": "https://medium.com/@tfmv",
-      "project_slugs": [
-        "arrow",
-        "go"
-      ],
-      "tags": [
-        "Apache Arrow"
-      ]
-    },
-    {
-      "title": "Aligning Velox and Apache Arrow: Towards composable data management",
-      "date": "2024-02-20",
-      "url": "https://engineering.fb.com/2024/02/20/developer-tools/velox-apache-arrow-15-composable-data-management/",
-      "company": "Meta",
-      "author": "Pedro Pedreira",
-      "author_url": "https://engineering.fb.com/author/pedro-pedreira/",
-      "project_slugs": [
-        "arrow",
-        "velox"
-      ],
-      "tags": [
-        "Apache Arrow",
-        "Velox"
-      ]
-    },
-    {
-      "title": "Expanding Arrow\u2019s Reach with a JDBC Driver for Arrow Flight SQL",
-      "date": "2022-11-01",
-      "url": "https://arrow.apache.org/blog/2022/11/01/arrow-flight-sql-jdbc/",
-      "company": "Apache Arrow",
-      "author": "Apache Arrow PMC",
-      "author_url": "",
-      "project_slugs": [
-        "arrow",
-        "flight-sql"
-      ],
-      "tags": [
-        "Apache Arrow"
-      ]
-    },
-    {
-      "title": "Hands-on Introduction to Dremio Cloud Agentic Lakehouse (Self-Guided Workshop)",
-      "date": "2022-11-13",
-      "url": "https://www.dremio.com/blog/hands-on-introduction-to-dremio-cloud-next-gen-self-guided-workshop/",
-      "company": "Dremio",
-      "author": "Alex Merced",
-      "author_url": "https://www.alexmerced.com/data",
-      "project_slugs": [
-        "iceberg",
-        "polaris",
-        "arrow"
-      ],
-      "tags": [
-        "Apache Iceberg",
-        "Apache Polaris",
-        "Apache Arrow"
-      ]
-    },
-    {
-      "title": "How the Apache Arrow Format Accelerates Query Result Transfer",
-      "date": "2025-01-10",
-      "url": "https://arrow.apache.org/blog/2025/01/10/arrow-result-transfer/",
-      "company": "Apache Arrow",
-      "author": "Ian Cook et al.",
-      "author_url": "",
-      "project_slugs": [
-        "arrow"
-      ],
-      "tags": [
-        "Apache Arrow"
-      ]
-    },
-    {
-      "title": "Your Data Just Got Swifter — Meet SwiftLake",
-      "date": "2025-08-12",
-      "url": "https://medium.com/arcesium-engineering-blog/your-data-just-got-swifter-meet-swiftlake-7568cc85ee57",
-      "company": "Arcesium",
-      "author": "Ramakrishna Mothukuri",
-      "author_url": "https://www.linkedin.com/in/ramakrishna-mothukuri/",
-      "project_slugs": [
-        "iceberg"
-      ],
-      "tags": [
-        "Apache Iceberg",
-        "DuckDB"
-      ]
-    },
-    {
-      "title": "Why your Iceberg Table Path Looks Like a Cat Walked Across the Keyboard",
-      "date": "2025-05-19",
-      "url": "https://medium.com/snowflake/why-your-iceberg-table-path-looks-like-a-cat-walked-across-the-keyboard-33e40cebbaa0",
-      "company": "Snowflake",
-      "author": "Sahil Walia",
-      "author_url": "https://www.linkedin.com/in/sahilwaliasyracuse/",
-      "project_slugs": ["iceberg"],
-      "tags": ["Apache Iceberg"]
     }
   ]
 }
