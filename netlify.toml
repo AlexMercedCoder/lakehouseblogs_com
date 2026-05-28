@@ -1,0 +1,3 @@
+[build]
+  command = "node staticgen.js"
+  publish = "dist"
