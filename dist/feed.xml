@@ -4,7 +4,7 @@
   <title>LakehouseBlogs.com</title>
   <link>https://lakehouseblogs.com</link>
   <description>Latest open source data lakehouse blogs and tutorials.</description>
-  <lastBuildDate>Thu, 28 May 2026 17:24:21 GMT</lastBuildDate>
+  <lastBuildDate>Thu, 28 May 2026 17:50:53 GMT</lastBuildDate>
   
   <item>
     <title>What Is Agentic Analytics? How It Differs from BI and AI Assistants</title>
@@ -42,32 +42,11 @@
     <guid>https://www.dremio.com/blog/performance-and-apache-icebergs-metadata/</guid>
   </item>
   <item>
-    <title>Choosing Vector Stores for Retrieval Workloads</title>
-    <link>https://datalakehousehub.com/blog/2026-05-vector-stores-retrieval/</link>
-    <description>Choosing Vector Stores for Retrieval Workloads - By Alex Merced at Data Lakehouse Hub</description>
-    <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://datalakehousehub.com/blog/2026-05-vector-stores-retrieval/</guid>
-  </item>
-  <item>
-    <title>Why Semantic Layers Make Enterprise Text-to-SQL Safer</title>
-    <link>https://datalakehousehub.com/blog/2026-05-semantic-layers-text-to-sql/</link>
-    <description>Why Semantic Layers Make Enterprise Text-to-SQL Safer - By Alex Merced at Data Lakehouse Hub</description>
-    <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://datalakehousehub.com/blog/2026-05-semantic-layers-text-to-sql/</guid>
-  </item>
-  <item>
     <title>Real-Time Lakehouse Patterns with Apache Flink and Iceberg</title>
     <link>https://datalakehousehub.com/blog/2026-05-real-time-lakehouse-flink/</link>
     <description>Real-Time Lakehouse Patterns with Apache Flink and Iceberg - By Alex Merced at Data Lakehouse Hub</description>
     <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
     <guid>https://datalakehousehub.com/blog/2026-05-real-time-lakehouse-flink/</guid>
-  </item>
-  <item>
-    <title>Policy as Code for Lakehouse Governance</title>
-    <link>https://datalakehousehub.com/blog/2026-05-policy-as-code-governance/</link>
-    <description>Policy as Code for Lakehouse Governance - By Alex Merced at Data Lakehouse Hub</description>
-    <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://datalakehousehub.com/blog/2026-05-policy-as-code-governance/</guid>
   </item>
   <item>
     <title>When Paimon Beats Iceberg for Mutable Streams</title>
@@ -77,39 +56,11 @@
     <guid>https://datalakehousehub.com/blog/2026-05-paimon-vs-iceberg-mutable-streams/</guid>
   </item>
   <item>
-    <title>OpenLineage as the Spine of Data Observability</title>
-    <link>https://datalakehousehub.com/blog/2026-05-openlineage-observability/</link>
-    <description>OpenLineage as the Spine of Data Observability - By Alex Merced at Data Lakehouse Hub</description>
-    <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://datalakehousehub.com/blog/2026-05-openlineage-observability/</guid>
-  </item>
-  <item>
-    <title>Modern Feature Stores Beyond Batch Pipelines</title>
-    <link>https://datalakehousehub.com/blog/2026-05-modern-feature-stores/</link>
-    <description>Modern Feature Stores Beyond Batch Pipelines - By Alex Merced at Data Lakehouse Hub</description>
-    <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://datalakehousehub.com/blog/2026-05-modern-feature-stores/</guid>
-  </item>
-  <item>
-    <title>Bringing MLflow and Data Pipelines Closer Together</title>
-    <link>https://datalakehousehub.com/blog/2026-05-mlflow-data-pipelines/</link>
-    <description>Bringing MLflow and Data Pipelines Closer Together - By Alex Merced at Data Lakehouse Hub</description>
-    <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://datalakehousehub.com/blog/2026-05-mlflow-data-pipelines/</guid>
-  </item>
-  <item>
     <title>Lance and Iceberg for Multimodal AI Data</title>
     <link>https://datalakehousehub.com/blog/2026-05-lance-iceberg-multimodal/</link>
     <description>Lance and Iceberg for Multimodal AI Data - By Alex Merced at Data Lakehouse Hub</description>
     <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
     <guid>https://datalakehousehub.com/blog/2026-05-lance-iceberg-multimodal/</guid>
-  </item>
-  <item>
-    <title>Kafka 4.0 Changes Streaming Platform Operations</title>
-    <link>https://datalakehousehub.com/blog/2026-05-kafka-streaming-operations/</link>
-    <description>Kafka 4.0 Changes Streaming Platform Operations - By Alex Merced at Data Lakehouse Hub</description>
-    <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://datalakehousehub.com/blog/2026-05-kafka-streaming-operations/</guid>
   </item>
   <item>
     <title>What Iceberg V3 Advances Mean for CDC Pipelines</title>
@@ -119,20 +70,6 @@
     <guid>https://datalakehousehub.com/blog/2026-05-iceberg-cdc-pipelines/</guid>
   </item>
   <item>
-    <title>Designing Governed RAG on Data Products</title>
-    <link>https://datalakehousehub.com/blog/2026-05-governed-rag-data-products/</link>
-    <description>Designing Governed RAG on Data Products - By Alex Merced at Data Lakehouse Hub</description>
-    <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://datalakehousehub.com/blog/2026-05-governed-rag-data-products/</guid>
-  </item>
-  <item>
-    <title>FinOps for Data Warehouses with Open Billing Data</title>
-    <link>https://datalakehousehub.com/blog/2026-05-finops-warehouse-cost/</link>
-    <description>FinOps for Data Warehouses with Open Billing Data - By Alex Merced at Data Lakehouse Hub</description>
-    <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://datalakehousehub.com/blog/2026-05-finops-warehouse-cost/</guid>
-  </item>
-  <item>
     <title>Using DuckDB and Polars to Query Iceberg Tables</title>
     <link>https://datalakehousehub.com/blog/2026-05-duckdb-polars-iceberg/</link>
     <description>Using DuckDB and Polars to Query Iceberg Tables - By Alex Merced at Data Lakehouse Hub</description>
@@ -140,53 +77,11 @@
     <guid>https://datalakehousehub.com/blog/2026-05-duckdb-polars-iceberg/</guid>
   </item>
   <item>
-    <title>How dbt Fusion Reshapes Analytics Engineering</title>
-    <link>https://datalakehousehub.com/blog/2026-05-dbt-fusion-analytics-engineering/</link>
-    <description>How dbt Fusion Reshapes Analytics Engineering - By Alex Merced at Data Lakehouse Hub</description>
-    <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://datalakehousehub.com/blog/2026-05-dbt-fusion-analytics-engineering/</guid>
-  </item>
-  <item>
-    <title>Data Mesh After the Hype: What Actually Works</title>
-    <link>https://datalakehousehub.com/blog/2026-05-data-mesh-after-hype/</link>
-    <description>Data Mesh After the Hype: What Actually Works - By Alex Merced at Data Lakehouse Hub</description>
-    <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://datalakehousehub.com/blog/2026-05-data-mesh-after-hype/</guid>
-  </item>
-  <item>
-    <title>Building Composable Query Engines with Rust Runtimes</title>
-    <link>https://datalakehousehub.com/blog/2026-05-composable-query-engines/</link>
-    <description>Building Composable Query Engines with Rust Runtimes - By Alex Merced at Data Lakehouse Hub</description>
-    <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://datalakehousehub.com/blog/2026-05-composable-query-engines/</guid>
-  </item>
-  <item>
-    <title>Clean Rooms for Privacy-Preserving Analytics</title>
-    <link>https://datalakehousehub.com/blog/2026-05-clean-rooms-privacy/</link>
-    <description>Clean Rooms for Privacy-Preserving Analytics - By Alex Merced at Data Lakehouse Hub</description>
-    <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://datalakehousehub.com/blog/2026-05-clean-rooms-privacy/</guid>
-  </item>
-  <item>
     <title>Choosing the Right Iceberg Control Plane: Polaris vs. Unity Catalog vs. Cloud REST</title>
     <link>https://datalakehousehub.com/blog/2026-05-choosing-iceberg-control-plane/</link>
     <description>Choosing the Right Iceberg Control Plane: Polaris vs. Unity Catalog vs. Cloud REST - By Alex Merced at Data Lakehouse Hub</description>
     <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
     <guid>https://datalakehousehub.com/blog/2026-05-choosing-iceberg-control-plane/</guid>
-  </item>
-  <item>
-    <title>Automating Table Maintenance Before Small Files Accumulate</title>
-    <link>https://datalakehousehub.com/blog/2026-05-automating-table-maintenance/</link>
-    <description>Automating Table Maintenance Before Small Files Accumulate - By Alex Merced at Data Lakehouse Hub</description>
-    <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://datalakehousehub.com/blog/2026-05-automating-table-maintenance/</guid>
-  </item>
-  <item>
-    <title>Single-Node Data Engineering: DuckDB, DataFusion, Polars, and LakeSail</title>
-    <link>https://datalakehousehub.com/blog/2026-05-single-node-data-engineering/</link>
-    <description>Single-Node Data Engineering: DuckDB, DataFusion, Polars, and LakeSail - By Alex Merced at Data Lakehouse Hub</description>
-    <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://datalakehousehub.com/blog/2026-05-single-node-data-engineering/</guid>
   </item>
   <item>
     <title>An In-Depth Overview of the Apache Iceberg 1.11.0 Release</title>
@@ -322,39 +217,144 @@
     <guid>https://datalakehousehub.com/blog/2026-04-29-apache-iceberg-masterclass-10-maintaining-iceberg/</guid>
   </item>
   <item>
-    <title>Concurrency, Isolation, and MVCC: How Engines Handle Contention</title>
-    <link>https://datalakehousehub.com/blog/2026-04-29-query-engine-optimization-10-concurrency-control/</link>
-    <description>Concurrency, Isolation, and MVCC: How Engines Handle Contention - By Alex Merced at Data Lakehouse Hub</description>
+    <title>What Are Lakehouse Catalogs? The Role of Catalogs in Apache Iceberg</title>
+    <link>https://datalakehousehub.com/blog/2026-04-29-apache-iceberg-masterclass-07-lakehouse-catalogs/</link>
+    <description>What Are Lakehouse Catalogs? The Role of Catalogs in Apache Iceberg - By Alex Merced at Data Lakehouse Hub</description>
     <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://datalakehousehub.com/blog/2026-04-29-query-engine-optimization-10-concurrency-control/</guid>
+    <guid>https://datalakehousehub.com/blog/2026-04-29-apache-iceberg-masterclass-07-lakehouse-catalogs/</guid>
   </item>
   <item>
-    <title>How Data Lake Table Storage Degrades Over Time</title>
-    <link>https://datalakehousehub.com/blog/2026-04-29-apache-iceberg-masterclass-09-storage-degradation/</link>
-    <description>How Data Lake Table Storage Degrades Over Time - By Alex Merced at Data Lakehouse Hub</description>
+    <title>Writing to an Apache Iceberg Table: How Commits and ACID Actually Work</title>
+    <link>https://datalakehousehub.com/blog/2026-04-29-apache-iceberg-masterclass-06-writing-to-iceberg/</link>
+    <description>Writing to an Apache Iceberg Table: How Commits and ACID Actually Work - By Alex Merced at Data Lakehouse Hub</description>
     <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://datalakehousehub.com/blog/2026-04-29-apache-iceberg-masterclass-09-storage-degradation/</guid>
+    <guid>https://datalakehousehub.com/blog/2026-04-29-apache-iceberg-masterclass-06-writing-to-iceberg/</guid>
   </item>
   <item>
-    <title>Hash, Sort-Merge, Broadcast: How Distributed Joins Work</title>
-    <link>https://datalakehousehub.com/blog/2026-04-29-query-engine-optimization-09-distributed-joins/</link>
-    <description>Hash, Sort-Merge, Broadcast: How Distributed Joins Work - By Alex Merced at Data Lakehouse Hub</description>
+    <title>Hidden Partitioning: How Iceberg Eliminates Accidental Full Table Scans</title>
+    <link>https://datalakehousehub.com/blog/2026-04-29-apache-iceberg-masterclass-05-hidden-partitioning/</link>
+    <description>Hidden Partitioning: How Iceberg Eliminates Accidental Full Table Scans - By Alex Merced at Data Lakehouse Hub</description>
     <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://datalakehousehub.com/blog/2026-04-29-query-engine-optimization-09-distributed-joins/</guid>
+    <guid>https://datalakehousehub.com/blog/2026-04-29-apache-iceberg-masterclass-05-hidden-partitioning/</guid>
   </item>
   <item>
-    <title>When Catalogs Are Embedded in Storage</title>
-    <link>https://datalakehousehub.com/blog/2026-04-29-apache-iceberg-masterclass-08-embedded-catalogs/</link>
-    <description>When Catalogs Are Embedded in Storage - By Alex Merced at Data Lakehouse Hub</description>
+    <title>Performance and Apache Iceberg&amp;apos;s Metadata</title>
+    <link>https://datalakehousehub.com/blog/2026-04-29-apache-iceberg-masterclass-03-iceberg-metadata-performance/</link>
+    <description>Performance and Apache Iceberg&amp;apos;s Metadata - By Alex Merced at Data Lakehouse Hub</description>
     <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://datalakehousehub.com/blog/2026-04-29-apache-iceberg-masterclass-08-embedded-catalogs/</guid>
+    <guid>https://datalakehousehub.com/blog/2026-04-29-apache-iceberg-masterclass-03-iceberg-metadata-performance/</guid>
   </item>
   <item>
-    <title>Partitioning, Sharding, and Data Distribution Strategies</title>
-    <link>https://datalakehousehub.com/blog/2026-04-29-query-engine-optimization-08-partitioning/</link>
-    <description>Partitioning, Sharding, and Data Distribution Strategies - By Alex Merced at Data Lakehouse Hub</description>
-    <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://datalakehousehub.com/blog/2026-04-29-query-engine-optimization-08-partitioning/</guid>
+    <title>What is Apache Iceberg? The Table Format Revolution</title>
+    <link>https://datalakehousehub.com/blog/2026-04-apache-iceberg/</link>
+    <description>What is Apache Iceberg? The Table Format Revolution - By Alex Merced at Data Lakehouse Hub</description>
+    <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://datalakehousehub.com/blog/2026-04-apache-iceberg/</guid>
+  </item>
+  <item>
+    <title>What is Apache Polaris? Unifying the Iceberg Ecosystem</title>
+    <link>https://datalakehousehub.com/blog/2026-04-apache-polaris/</link>
+    <description>What is Apache Polaris? Unifying the Iceberg Ecosystem - By Alex Merced at Data Lakehouse Hub</description>
+    <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://datalakehousehub.com/blog/2026-04-apache-polaris/</guid>
+  </item>
+  <item>
+    <title>The 2025 State of the Apache Iceberg Ecosystem Results</title>
+    <link>https://datalakehousehub.com/blog/2026-02-state-of-the-apache-iceberg-ecosystem/</link>
+    <description>The 2025 State of the Apache Iceberg Ecosystem Results - By Alex Merced at Data Lakehouse Hub</description>
+    <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://datalakehousehub.com/blog/2026-02-state-of-the-apache-iceberg-ecosystem/</guid>
+  </item>
+  <item>
+    <title>Dremio&amp;apos;s Built-in Open Catalog: Your Zero-Configuration Apache Iceberg Lakehouse</title>
+    <link>https://datalakehousehub.com/blog/2026-03-dremio-open-catalog/</link>
+    <description>Dremio&amp;apos;s Built-in Open Catalog: Your Zero-Configuration Apache Iceberg Lakehouse - By Alex Merced at Data Lakehouse Hub</description>
+    <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://datalakehousehub.com/blog/2026-03-dremio-open-catalog/</guid>
+  </item>
+  <item>
+    <title>Connect Any Iceberg REST Catalog to Dremio Cloud: Universal Lakehouse Access</title>
+    <link>https://datalakehousehub.com/blog/2026-03-connect-iceberg-rest-catalog-dremio/</link>
+    <description>Connect Any Iceberg REST Catalog to Dremio Cloud: Universal Lakehouse Access - By Alex Merced at Data Lakehouse Hub</description>
+    <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://datalakehousehub.com/blog/2026-03-connect-iceberg-rest-catalog-dremio/</guid>
+  </item>
+  <item>
+    <title>Connect Databricks Unity Catalog to Dremio Cloud: Query Delta Lake Tables with Federation and AI</title>
+    <link>https://datalakehousehub.com/blog/2026-03-connect-unity-catalog-dremio/</link>
+    <description>Connect Databricks Unity Catalog to Dremio Cloud: Query Delta Lake Tables with Federation and AI - By Alex Merced at Data Lakehouse Hub</description>
+    <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://datalakehousehub.com/blog/2026-03-connect-unity-catalog-dremio/</guid>
+  </item>
+  <item>
+    <title>Connect Snowflake Open Catalog to Dremio Cloud: Multi-Engine Iceberg Analytics</title>
+    <link>https://datalakehousehub.com/blog/2026-03-connect-snowflake-open-catalog-dremio/</link>
+    <description>Connect Snowflake Open Catalog to Dremio Cloud: Multi-Engine Iceberg Analytics - By Alex Merced at Data Lakehouse Hub</description>
+    <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://datalakehousehub.com/blog/2026-03-connect-snowflake-open-catalog-dremio/</guid>
+  </item>
+  <item>
+    <title>Connect AWS Glue Data Catalog to Dremio Cloud: Query and Manage Your AWS Iceberg Tables</title>
+    <link>https://datalakehousehub.com/blog/2026-03-connect-aws-glue-dremio/</link>
+    <description>Connect AWS Glue Data Catalog to Dremio Cloud: Query and Manage Your AWS Iceberg Tables - By Alex Merced at Data Lakehouse Hub</description>
+    <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://datalakehousehub.com/blog/2026-03-connect-aws-glue-dremio/</guid>
+  </item>
+  <item>
+    <title>A 2026 Introduction to Apache Iceberg</title>
+    <link>https://datalakehousehub.com/blog/2026-02-intro-to-Apache-Iceberg/</link>
+    <description>A 2026 Introduction to Apache Iceberg - By Alex Merced at Data Lakehouse Hub</description>
+    <pubDate>Fri, 13 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://datalakehousehub.com/blog/2026-02-intro-to-Apache-Iceberg/</guid>
+  </item>
+  <item>
+    <title>3 Surprising Truths About the Free Apache Polaris-Based Dremio Open Catalog</title>
+    <link>https://www.dremio.com/blog/3-surprising-truths-about-the-free-apache-polaris-based-dremio-open-catalog/</link>
+    <description>3 Surprising Truths About the Free Apache Polaris-Based Dremio Open Catalog - By Alex Merced at Dremio</description>
+    <pubDate>Mon, 22 Dec 2025 00:00:00 GMT</pubDate>
+    <guid>https://www.dremio.com/blog/3-surprising-truths-about-the-free-apache-polaris-based-dremio-open-catalog/</guid>
+  </item>
+  <item>
+    <title>5 Counter-Intuitive Dremio Performance Tips for Lightning-Fast Iceberg Queries</title>
+    <link>https://www.dremio.com/blog/5-counter-intuitive-dremio-performance-tips-for-lightning-fast-iceberg-queries/</link>
+    <description>5 Counter-Intuitive Dremio Performance Tips for Lightning-Fast Iceberg Queries - By Alex Merced at Dremio</description>
+    <pubDate>Mon, 22 Dec 2025 00:00:00 GMT</pubDate>
+    <guid>https://www.dremio.com/blog/5-counter-intuitive-dremio-performance-tips-for-lightning-fast-iceberg-queries/</guid>
+  </item>
+  <item>
+    <title>Data Ingestion Patterns Using Dremio: From Raw Data to Apache Iceberg</title>
+    <link>https://www.dremio.com/blog/data-ingestion-patterns-using-dremio-from-raw-data-to-apache-iceberg/</link>
+    <description>Data Ingestion Patterns Using Dremio: From Raw Data to Apache Iceberg - By Alex Merced at Dremio</description>
+    <pubDate>Fri, 19 Dec 2025 00:00:00 GMT</pubDate>
+    <guid>https://www.dremio.com/blog/data-ingestion-patterns-using-dremio-from-raw-data-to-apache-iceberg/</guid>
+  </item>
+  <item>
+    <title>5 Steps to Supercharge Your Analytics with Dremio’s AI Agent and Apache Iceberg</title>
+    <link>https://www.dremio.com/blog/5-steps-to-supercharge-your-analytics-with-dremios-ai-agent-and-apache-iceberg/</link>
+    <description>5 Steps to Supercharge Your Analytics with Dremio’s AI Agent and Apache Iceberg - By Alex Merced at Dremio</description>
+    <pubDate>Thu, 18 Dec 2025 00:00:00 GMT</pubDate>
+    <guid>https://www.dremio.com/blog/5-steps-to-supercharge-your-analytics-with-dremios-ai-agent-and-apache-iceberg/</guid>
+  </item>
+  <item>
+    <title>5 Dremio Features That Will Change How You Think About The Apache Iceberg Lakehouse</title>
+    <link>https://www.dremio.com/blog/5-dremio-features-that-will-change-how-you-think-about-the-apache-iceberg-lakehouse/</link>
+    <description>5 Dremio Features That Will Change How You Think About The Apache Iceberg Lakehouse - By Alex Merced at Dremio</description>
+    <pubDate>Wed, 10 Dec 2025 00:00:00 GMT</pubDate>
+    <guid>https://www.dremio.com/blog/5-dremio-features-that-will-change-how-you-think-about-the-apache-iceberg-lakehouse/</guid>
+  </item>
+  <item>
+    <title>Ingesting Data into Apache Iceberg Using Python Tools with Dremio Catalog</title>
+    <link>https://www.dremio.com/blog/ingesting-data-into-apache-iceberg-using-python-tools-with-a-dremio-catalog/</link>
+    <description>Ingesting Data into Apache Iceberg Using Python Tools with Dremio Catalog - By Alex Merced at Dremio</description>
+    <pubDate>Mon, 24 Nov 2025 00:00:00 GMT</pubDate>
+    <guid>https://www.dremio.com/blog/ingesting-data-into-apache-iceberg-using-python-tools-with-a-dremio-catalog/</guid>
+  </item>
+  <item>
+    <title>TPC-H Databricks vs Apache Iceberg - (OLake + AWS Glue + EMR)</title>
+    <link>https://olake.io/iceberg/databricks-vs-iceberg/</link>
+    <description>TPC-H Databricks vs Apache Iceberg - (OLake + AWS Glue + EMR) - By Nayan Joshi at OLake</description>
+    <pubDate>Tue, 28 Oct 2025 00:00:00 GMT</pubDate>
+    <guid>https://olake.io/iceberg/databricks-vs-iceberg/</guid>
   </item>
 </channel>
 </rss>
